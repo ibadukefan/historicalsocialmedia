@@ -1,0 +1,45 @@
+[
+  {
+    "id": "american-revolution",
+    "name": "American Revolution",
+    "shortName": "Revolution",
+    "description": "The American Revolutionary War (1775-1783) was a conflict in which the Thirteen Colonies gained independence from Great Britain, forming the United States of America.",
+    "startDate": "1775-04-19",
+    "endDate": "1783-09-03",
+    "color": "#1a365d",
+    "postCount": 50,
+    "profileCount": 15,
+    "metaTitle": "American Revolution (1775-1783) | Tempus",
+    "metaDescription": "Experience the American Revolution as if social media existed. Follow the Founding Fathers, British officials, and ordinary colonists through this pivotal moment in history."
+  },
+  {
+    "id": "ancient-rome",
+    "name": "Ancient Rome",
+    "shortName": "Rome",
+    "description": "The Roman Empire at its height, including the Republic and Imperial periods.",
+    "startDate": "-0509-01-01",
+    "endDate": "0476-09-04",
+    "color": "#742a2a",
+    "postCount": 0,
+    "profileCount": 0,
+    "previousEra": null,
+    "nextEra": "american-revolution",
+    "metaTitle": "Ancient Rome | Tempus",
+    "metaDescription": "Coming soon: Experience Ancient Rome through the eyes of emperors, senators, gladiators, and citizens."
+  },
+  {
+    "id": "world-war-2",
+    "name": "World War II",
+    "shortName": "WWII",
+    "description": "The global conflict from 1939 to 1945 that reshaped the modern world.",
+    "startDate": "1939-09-01",
+    "endDate": "1945-09-02",
+    "color": "#1a202c",
+    "postCount": 0,
+    "profileCount": 0,
+    "previousEra": "american-revolution",
+    "nextEra": null,
+    "metaTitle": "World War II (1939-1945) | Tempus",
+    "metaDescription": "Coming soon: Experience World War II from all fronts through soldiers, leaders, and civilians worldwide."
+  }
+]
