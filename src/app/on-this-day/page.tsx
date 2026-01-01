@@ -237,7 +237,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
 
   // === FRENCH REVOLUTION ===
   '01-21': [
-    { year: 1793, event: 'Louis XVI executed', detail: 'King of France guillotined in Paris. "I die innocent of all the crimes laid to my charge."', category: 'politics', era: 'french-revolution', location: 'Paris' }
+    { year: 1793, event: 'Louis XVI executed', detail: 'King of France guillotined in Paris. "I die innocent of all the crimes laid to my charge."', category: 'politics', era: 'french-revolution', location: 'Paris' },
+    { year: 1924, event: 'Lenin dies', detail: 'Revolutionary leader dies after series of strokes. Power struggle between Stalin and Trotsky begins.', category: 'politics', era: 'russian-revolution', location: 'Gorki, Russia' }
   ],
   '07-27': [
     { year: 1794, event: 'Fall of Robespierre', detail: 'Robespierre arrested during the Thermidorian Reaction. Guillotined the next day.', category: 'politics', era: 'french-revolution', location: 'Paris' }
@@ -485,6 +486,35 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
   ],
   '10-22': [
     { year: 1325, event: 'Mansa Musa arrives in Cairo', detail: 'So much gold given away that Cairo\'s economy destabilizes for years. "I saw no one more respectable than him."', category: 'other', era: 'african-kingdoms', location: 'Cairo, Egypt' }
+  ],
+
+  // === RUSSIAN REVOLUTION (1905-1924) ===
+  '01-22': [
+    { year: 1905, event: 'Bloody Sunday', detail: 'Troops fire on peaceful protesters at the Winter Palace. Hundreds killed. The 1905 Revolution begins.', category: 'military', era: 'russian-revolution', location: 'St. Petersburg, Russia' }
+  ],
+  '03-02': [
+    { year: 1917, event: 'Nicholas II abdicates', detail: 'The last Tsar abdicates in a railway car at Pskov. 300 years of Romanov rule ends.', category: 'politics', era: 'russian-revolution', location: 'Pskov, Russia' }
+  ],
+  '04-03': [
+    { year: 1917, event: 'Lenin arrives at Finland Station', detail: 'After sealed train journey from Switzerland, Lenin returns to lead the revolution. "All Power to the Soviets!"', category: 'politics', era: 'russian-revolution', location: 'Petrograd, Russia' }
+  ],
+  '10-25': [
+    { year: 1917, event: 'October Revolution begins', detail: 'Bolsheviks storm the Winter Palace. Aurora fires blank shot as signal. Kerensky flees. Soviet power begins.', category: 'military', era: 'russian-revolution', location: 'Petrograd, Russia' }
+  ],
+  '07-17': [
+    { year: 1918, event: 'Romanov family executed', detail: 'Nicholas II, Alexandra, and their five children shot in basement of Ipatiev House. Bodies burned and buried.', category: 'politics', era: 'russian-revolution', location: 'Yekaterinburg, Russia' }
+  ],
+  '12-30': [
+    { year: 1916, event: 'Rasputin murdered', detail: 'Poisoned, shot, beaten, and drowned. The "Mad Monk" finally dies. His prophecy of the Tsar\'s fall will come true.', category: 'politics', era: 'russian-revolution', location: 'Petrograd, Russia' }
+  ],
+  '08-30': [
+    { year: 1918, event: 'Lenin shot', detail: 'Fanny Kaplan shoots Lenin twice. He survives but never fully recovers. The Red Terror begins.', category: 'politics', era: 'russian-revolution', location: 'Moscow, Russia' }
+  ],
+  '03-01': [
+    { year: 1921, event: 'Kronstadt Rebellion begins', detail: 'Revolutionary sailors rise against Bolshevik dictatorship. "Free soviets!" Crushed within weeks.', category: 'military', era: 'russian-revolution', location: 'Kronstadt, Russia' }
+  ],
+  '03-03': [
+    { year: 1918, event: 'Treaty of Brest-Litovsk', detail: 'Russia exits WWI at enormous cost. Loses third of population, half of industry. Lenin needs peace to consolidate power.', category: 'diplomacy', era: 'russian-revolution', location: 'Brest-Litovsk' }
   ]
 }
 

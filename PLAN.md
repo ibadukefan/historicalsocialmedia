@@ -1,10 +1,10 @@
 # Tempus Development Plan
 
 ## Current Status
-- **Posts:** 1317 across 18 eras
-- **Profiles:** 395 historical figures and ordinary people
-- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms
-- **Build:** 1735 static pages, deployed to Vercel
+- **Posts:** 1367 across 19 eras
+- **Profiles:** 417 historical figures and ordinary people
+- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution
+- **Build:** 1807 static pages, deployed to Vercel
 
 ---
 
@@ -159,9 +159,11 @@
    - Scholars: Ahmed Baba, Timbuktu scholars, Leo Africanus, Ibn Battuta
    - Ordinary people: Griot, Salt Trader, Gold Miner, Swahili Merchant, African Slave
 
-4. **Russian Revolution** (1905-1924)
-   - Lenin, Tsar Nicholas II, Rasputin
-   - Workers, soldiers, Romanovs
+4. ✅ **Russian Revolution** (1905-1924) - 50 posts, 22 profiles
+   - Bolsheviks: Lenin, Trotsky, Stalin, Krupskaya, Kollontai
+   - Romanovs: Nicholas II, Alexandra, Anastasia, Rasputin
+   - Key figures: Kerensky, Yusupov, Kornilov, Makhno, Father Gapon
+   - Ordinary people: Worker, Soldier, Peasant, Sailor, Cheka officer
 
 5. **Meiji Japan** (1868-1912)
    - Emperor Meiji, samurai adapting to change

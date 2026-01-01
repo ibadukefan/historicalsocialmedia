@@ -683,5 +683,106 @@
   "african-slave": [
     { "profileId": "afonso-i-kongo", "type": "ruler", "description": "Kongo king who tried to help us" },
     { "profileId": "queen-nzinga", "type": "defender", "description": "The queen who fought for our freedom" }
+  ],
+
+  "vladimir-lenin": [
+    { "profileId": "nadezhda-krupskaya", "type": "spouse", "description": "Wife and revolutionary partner" },
+    { "profileId": "leon-trotsky", "type": "ally", "description": "Key ally in the revolution, later marginalized" },
+    { "profileId": "joseph-stalin", "type": "colleague", "description": "General Secretary, later warned against him" },
+    { "profileId": "alexander-kerensky", "type": "enemy", "description": "Leader of the Provisional Government he overthrew" },
+    { "profileId": "alexandra-kollontai", "type": "ally", "description": "Leading Bolshevik and feminist" }
+  ],
+  "leon-trotsky": [
+    { "profileId": "vladimir-lenin", "type": "ally", "description": "Revolutionary leader and mentor" },
+    { "profileId": "joseph-stalin", "type": "rival", "description": "Bitter rival for power after Lenin's death" },
+    { "profileId": "lavr-kornilov", "type": "enemy", "description": "White Army general he fought against" },
+    { "profileId": "nestor-makhno", "type": "rival", "description": "Anarchist leader, temporary ally then enemy" }
+  ],
+  "joseph-stalin": [
+    { "profileId": "vladimir-lenin", "type": "colleague", "description": "Revolutionary leader who later regretted promoting him" },
+    { "profileId": "leon-trotsky", "type": "rival", "description": "Main rival for power, eventually had him killed" },
+    { "profileId": "nadezhda-krupskaya", "type": "enemy", "description": "Lenin's widow whom he treated brutally" }
+  ],
+  "nicholas-ii": [
+    { "profileId": "tsarina-alexandra", "type": "spouse", "description": "Beloved wife, partner in tragedy" },
+    { "profileId": "anastasia-romanov", "type": "family", "description": "Youngest daughter" },
+    { "profileId": "rasputin", "type": "ally", "description": "The mystic who helped his son" },
+    { "profileId": "alexander-kerensky", "type": "successor", "description": "Led the government after his abdication" },
+    { "profileId": "yakov-yurovsky", "type": "enemy", "description": "The man who executed him and his family" }
+  ],
+  "tsarina-alexandra": [
+    { "profileId": "nicholas-ii", "type": "spouse", "description": "Beloved husband, Tsar of Russia" },
+    { "profileId": "rasputin", "type": "ally", "description": "The holy man who saved her son" },
+    { "profileId": "anastasia-romanov", "type": "family", "description": "Youngest daughter" },
+    { "profileId": "felix-yusupov", "type": "enemy", "description": "The prince who killed Rasputin" }
+  ],
+  "rasputin": [
+    { "profileId": "tsarina-alexandra", "type": "ally", "description": "The Empress who believed in him" },
+    { "profileId": "nicholas-ii", "type": "ally", "description": "The Tsar whose son he healed" },
+    { "profileId": "felix-yusupov", "type": "enemy", "description": "The prince who murdered him" }
+  ],
+  "alexander-kerensky": [
+    { "profileId": "vladimir-lenin", "type": "enemy", "description": "Bolshevik leader who overthrew him" },
+    { "profileId": "nicholas-ii", "type": "predecessor", "description": "The Tsar who abdicated before him" },
+    { "profileId": "lavr-kornilov", "type": "rival", "description": "General who attempted a coup against him" }
+  ],
+  "anastasia-romanov": [
+    { "profileId": "nicholas-ii", "type": "family", "description": "Father, the Tsar" },
+    { "profileId": "tsarina-alexandra", "type": "family", "description": "Mother, the Empress" },
+    { "profileId": "yakov-yurovsky", "type": "enemy", "description": "The man who ordered her death" }
+  ],
+  "felix-yusupov": [
+    { "profileId": "rasputin", "type": "enemy", "description": "The 'holy man' he murdered" },
+    { "profileId": "nicholas-ii", "type": "ally", "description": "The Tsar he tried to save" }
+  ],
+  "nadezhda-krupskaya": [
+    { "profileId": "vladimir-lenin", "type": "spouse", "description": "Husband and revolutionary leader" },
+    { "profileId": "joseph-stalin", "type": "enemy", "description": "The man who abused her after Lenin's death" },
+    { "profileId": "alexandra-kollontai", "type": "ally", "description": "Fellow revolutionary woman" }
+  ],
+  "alexandra-kollontai": [
+    { "profileId": "vladimir-lenin", "type": "ally", "description": "Revolutionary leader" },
+    { "profileId": "nadezhda-krupskaya", "type": "ally", "description": "Fellow revolutionary woman" }
+  ],
+  "lavr-kornilov": [
+    { "profileId": "alexander-kerensky", "type": "rival", "description": "Provisional Government leader he tried to overthrow" },
+    { "profileId": "leon-trotsky", "type": "enemy", "description": "Red Army commander who defeated the Whites" }
+  ],
+  "nestor-makhno": [
+    { "profileId": "leon-trotsky", "type": "rival", "description": "Red Army leader, temporary ally then betrayer" },
+    { "profileId": "lavr-kornilov", "type": "enemy", "description": "White general he fought against" }
+  ],
+  "father-gapon": [
+    { "profileId": "nicholas-ii", "type": "subject", "description": "The Tsar he trusted, who betrayed the workers" },
+    { "profileId": "russian-worker", "type": "ally", "description": "The workers he led to the Winter Palace" }
+  ],
+  "yakov-yurovsky": [
+    { "profileId": "nicholas-ii", "type": "enemy", "description": "The Tsar he executed" },
+    { "profileId": "anastasia-romanov", "type": "enemy", "description": "The Grand Duchess he killed" },
+    { "profileId": "vladimir-lenin", "type": "commander", "description": "Revolutionary leader who ordered the execution" }
+  ],
+  "russian-worker": [
+    { "profileId": "father-gapon", "type": "ally", "description": "The priest who led us to the Winter Palace" },
+    { "profileId": "vladimir-lenin", "type": "leader", "description": "The revolutionary who promised bread and peace" }
+  ],
+  "russian-soldier": [
+    { "profileId": "nicholas-ii", "type": "commander", "description": "The Tsar who sent us to die" },
+    { "profileId": "leon-trotsky", "type": "leader", "description": "Commander of the Red Army" }
+  ],
+  "russian-peasant": [
+    { "profileId": "vladimir-lenin", "type": "leader", "description": "He promised us land" },
+    { "profileId": "joseph-stalin", "type": "ruler", "description": "The man who collectivized our farms" }
+  ],
+  "russian-sailor": [
+    { "profileId": "leon-trotsky", "type": "leader", "description": "Commissar of War who led the Red forces" },
+    { "profileId": "kronstadt-sailor", "type": "comrade", "description": "Fellow sailors who made the revolution" }
+  ],
+  "kronstadt-sailor": [
+    { "profileId": "russian-sailor", "type": "comrade", "description": "Fellow revolutionary sailors" },
+    { "profileId": "leon-trotsky", "type": "enemy", "description": "The man who crushed our rebellion" }
+  ],
+  "cheka-officer": [
+    { "profileId": "vladimir-lenin", "type": "commander", "description": "The leader who authorized the Red Terror" },
+    { "profileId": "yakov-yurovsky", "type": "colleague", "description": "Fellow Cheka officer" }
   ]
 }

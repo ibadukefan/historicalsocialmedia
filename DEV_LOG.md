@@ -4,13 +4,25 @@ Last Updated: 2026-01-01
 
 ## Quick Reference
 - **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual
-- **Status:** Phase 17 Complete - 1317 posts, 395 profiles, 1735 static pages (18 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms)
+- **Status:** Phase 18 Complete - 1367 posts, 417 profiles, 1807 static pages (19 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution)
 - **Active Branch:** main
 
 ## Current Focus
 **IMPLEMENTING HIGH PRIORITY FEATURES** - Building out missing functionality from the comprehensive plan (PLAN.md).
 
 ## Recent Changes
+- 2026-01-01 — **RUSSIAN REVOLUTION ERA:**
+  - Added Russian Revolution (1905-1924) as 19th era
+  - 50 posts covering 1905 Revolution, February Revolution, October Revolution, Civil War, and Lenin's death
+  - 22 profiles including:
+    - Bolsheviks: Vladimir Lenin, Leon Trotsky, Joseph Stalin, Nadezhda Krupskaya, Alexandra Kollontai
+    - Romanovs: Nicholas II, Tsarina Alexandra, Anastasia Romanov
+    - Key figures: Rasputin, Alexander Kerensky, Felix Yusupov, Lavr Kornilov, Nestor Makhno, Father Gapon, Yakov Yurovsky
+    - Ordinary people: Worker, Soldier, Peasant, Sailor, Cheka officer, Kronstadt rebel
+  - Key events covered: Bloody Sunday (1905), Rasputin's murder, February Revolution, Lenin at Finland Station, October Revolution, Romanov execution, Red Terror, Kronstadt Rebellion, Lenin's death
+  - Added 60+ relationships for Russian profiles
+  - Added 10 On This Day events for Russian era
+  - Build: 1807 static pages generated
 - 2026-01-01 — **AFRICAN KINGDOMS ERA:**
   - Added African Kingdoms (300-1600 CE) as 18th era
   - 50 posts covering 1300 years of African empires and kingdoms
@@ -469,9 +481,10 @@ historicalsocialmedia/
 │       │   ├── american-civil-war.json  # 50 posts (1861-1865 Civil War)
 │       │   ├── cold-war.json            # 50 posts (1947-1991 Cold War)
 │       │   ├── age-of-exploration.json  # 50 posts (1415-1600 Exploration)
-│       │   └── african-kingdoms.json    # 50 posts (300-1600 African Kingdoms)
+│       │   ├── african-kingdoms.json    # 50 posts (300-1600 African Kingdoms)
+│       │   └── russian-revolution.json  # 50 posts (1905-1924 Russian Revolution)
 │       ├── profiles/
-│       │   └── index.json      # 395 profiles (18 eras + ordinary people)
+│       │   └── index.json      # 417 profiles (19 eras + ordinary people)
 │       ├── eras/
 │       │   └── index.json      # Era metadata
 │       └── relationships.json  # 50+ historical relationships
