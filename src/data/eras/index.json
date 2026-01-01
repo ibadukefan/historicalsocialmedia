@@ -221,5 +221,20 @@
     "nextEra": "renaissance",
     "metaTitle": "Age of Exploration (1415-1600) | Tempus",
     "metaDescription": "Experience the Age of Exploration through sailors, conquistadors, and indigenous peoples. The voyages that connected the world and changed it forever."
+  },
+  {
+    "id": "byzantine-empire",
+    "name": "Byzantine Empire",
+    "shortName": "Byzantium",
+    "description": "The Eastern Roman Empire that preserved classical knowledge for a thousand years. From Constantine to the fall of Constantinople, emperors, scholars, and saints shaped civilization.",
+    "startDate": "0330-05-11",
+    "endDate": "1453-05-29",
+    "color": "#6b21a8",
+    "postCount": 50,
+    "profileCount": 20,
+    "previousEra": "ancient-rome",
+    "nextEra": "medieval-crusades",
+    "metaTitle": "Byzantine Empire (330-1453) | Tempus",
+    "metaDescription": "Experience the Byzantine Empire through emperors like Justinian and Constantine XI, scholars who preserved ancient knowledge, and the fall of Constantinople."
   }
 ]

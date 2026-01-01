@@ -1,10 +1,10 @@
 # Tempus Development Plan
 
 ## Current Status
-- **Posts:** 917 across 10 eras
-- **Profiles:** 281 historical figures and ordinary people
-- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age
-- **Build:** 1221 static pages, deployed to Vercel
+- **Posts:** 1217 across 16 eras
+- **Profiles:** 352 historical figures and ordinary people
+- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire
+- **Build:** 1592 static pages, deployed to Vercel
 
 ---
 
@@ -134,32 +134,38 @@
 ## MEDIUM PRIORITY (Enhance User Experience)
 
 ### 7. Content Expansion - New Eras
-**Current imbalance:** American Revolution has 405 posts (45% of all content)
+**Status:** Phase 1 Complete - 15 eras total, 1167 posts, 331 profiles
 
-**Suggested new eras:**
-1. **Medieval Period / Crusades** (1095-1291)
-   - Crusaders, Saladin, Richard the Lionheart
-   - Monks, peasants, merchants
+**Completed eras (Phase 1):**
+1. ✅ **Medieval Period / Crusades** (1095-1291) - 50 posts, 11 profiles
+2. ✅ **Ancient Egypt** (3100 BCE - 30 BCE) - 50 posts, 11 profiles
+3. ✅ **American Civil War** (1861-1865) - 50 posts, 11 profiles
+4. ✅ **Cold War / Space Race** (1947-1991) - 50 posts, 11 profiles
+5. ✅ **Age of Exploration** (1415-1600) - 50 posts, 10 profiles
 
-2. **Ancient Egypt** (3100 BCE - 30 BCE)
-   - Pharaohs: Ramesses, Cleopatra, Tutankhamun
-   - Priests, scribes, workers
+**Phase 2 - Suggested new eras:**
+1. ✅ **Byzantine Empire** (330-1453) - 50 posts, 21 profiles
+   - Emperors: Constantine the Great, Justinian I, Heraclius, Basil II, Constantine XI, Empress Irene
+   - Key figures: Theodora, Belisarius, Anna Comnena, Procopius, Mehmed II
+   - Ordinary people: Greek Fire technician, icon painter, merchant, Varangian guardsman
 
-3. **American Civil War** (1861-1865)
-   - Lincoln, Lee, Grant, Frederick Douglass
-   - Soldiers, nurses, enslaved people
+2. **Mongol Empire** (1206-1368)
+   - Genghis Khan, Kublai Khan, Marco Polo
+   - Warriors, traders along the Silk Road
 
-4. **Cold War / Space Race** (1947-1991)
-   - JFK, Khrushchev, astronauts
-   - Spies, scientists, ordinary citizens
+3. **African Kingdoms** (Ghana, Mali, Songhai, Great Zimbabwe)
+   - Mansa Musa, Sundiata Keita
+   - Traders, scholars of Timbuktu
 
-5. **Age of Exploration** (1400-1600)
-   - Columbus, Magellan, Zheng He
-   - Sailors, indigenous peoples
+4. **Russian Revolution** (1905-1924)
+   - Lenin, Tsar Nicholas II, Rasputin
+   - Workers, soldiers, Romanovs
+
+5. **Meiji Japan** (1868-1912)
+   - Emperor Meiji, samurai adapting to change
+   - Merchants, modernizers, traditionalists
 
 **Target:** 20 profiles, 50 posts per new era
-
-**Effort:** 3-4 hours per era (15-20 hours total)
 
 ---
 

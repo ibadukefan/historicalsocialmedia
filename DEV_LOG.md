@@ -4,13 +4,24 @@ Last Updated: 2026-01-01
 
 ## Quick Reference
 - **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual
-- **Status:** Phase 16 Complete - 1167 posts, 331 profiles, 1471+ static pages (15 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration)
+- **Status:** Phase 16 Complete - 1217 posts, 352 profiles, 1592 static pages (16 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire)
 - **Active Branch:** main
 
 ## Current Focus
 **IMPLEMENTING HIGH PRIORITY FEATURES** - Building out missing functionality from the comprehensive plan (PLAN.md).
 
 ## Recent Changes
+- 2026-01-01 — **BYZANTINE EMPIRE ERA:**
+  - Added Byzantine Empire (330-1453 CE) as 16th era
+  - 50 posts covering the full span of the Eastern Roman Empire
+  - 21 profiles including:
+    - Emperors: Constantine the Great, Justinian I, Heraclius, Basil II, Constantine XI, Empress Irene
+    - Key figures: Theodora (Empress), Belisarius (General), Anna Comnena (Historian), Procopius, Mehmed II
+    - Ordinary people: Greek Fire technician, icon painter, merchant, Varangian guardsman, scholar, soldier, citizen, priest
+  - Key events covered: Founding of Constantinople, Nika Riots, Hagia Sophia, Manzikert, Great Schism, Fall of Constantinople
+  - Added 40+ relationships for Byzantine profiles
+  - Added 10 On This Day events for Byzantine era
+  - Build: 1592 static pages generated
 - 2026-01-01 — **CONTENT EXPANSION - 5 NEW ERAS:**
   - **Medieval Crusades (1095-1291):** 50 posts, 11 profiles
     - Leaders: Pope Urban II, Richard the Lionheart, Saladin, Eleanor of Aquitaine, Baldwin IV (Leper King), Frederick Barbarossa

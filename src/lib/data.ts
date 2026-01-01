@@ -22,6 +22,7 @@ import ancientEgyptData from '@/data/posts/ancient-egypt.json'
 import americanCivilWarData from '@/data/posts/american-civil-war.json'
 import coldWarData from '@/data/posts/cold-war.json'
 import ageOfExplorationData from '@/data/posts/age-of-exploration.json'
+import byzantineEmpireData from '@/data/posts/byzantine-empire.json'
 import profilesData from '@/data/profiles/index.json'
 import erasData from '@/data/eras/index.json'
 import relationshipsData from '@/data/relationships.json'
@@ -50,9 +51,10 @@ const ancientEgyptPosts: Post[] = ancientEgyptData as Post[]
 const americanCivilWarPosts: Post[] = americanCivilWarData as Post[]
 const coldWarPosts: Post[] = coldWarData as Post[]
 const ageOfExplorationPosts: Post[] = ageOfExplorationData as Post[]
+const byzantineEmpirePosts: Post[] = byzantineEmpireData as Post[]
 
 // Combine all posts and sort by timestamp (newest first)
-const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts, ...everydayPosts, ...laterRevolutionPosts, ...everyday1777Posts, ...historicalFiguresPosts, ...ancientRomePosts, ...worldWar2Posts, ...renaissancePosts, ...civilRightsPosts, ...frenchRevolutionPosts, ...ancientGreecePosts, ...worldWar1Posts, ...industrialRevolutionPosts, ...vikingAgePosts, ...threadPosts, ...medievalCrusadesPosts, ...ancientEgyptPosts, ...americanCivilWarPosts, ...coldWarPosts, ...ageOfExplorationPosts].sort(
+const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts, ...everydayPosts, ...laterRevolutionPosts, ...everyday1777Posts, ...historicalFiguresPosts, ...ancientRomePosts, ...worldWar2Posts, ...renaissancePosts, ...civilRightsPosts, ...frenchRevolutionPosts, ...ancientGreecePosts, ...worldWar1Posts, ...industrialRevolutionPosts, ...vikingAgePosts, ...threadPosts, ...medievalCrusadesPosts, ...ancientEgyptPosts, ...americanCivilWarPosts, ...coldWarPosts, ...ageOfExplorationPosts, ...byzantineEmpirePosts].sort(
   (a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
 )
 

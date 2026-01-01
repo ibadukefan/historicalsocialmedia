@@ -396,6 +396,38 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
   '06-07': [
     { year: 1494, event: 'Treaty of Tordesillas', detail: 'Spain and Portugal divide the New World between them. Pope-approved colonialism.', category: 'diplomacy', era: 'age-of-exploration', location: 'Tordesillas, Spain' }
   ],
+
+  // === BYZANTINE EMPIRE (330-1453) ===
+  '05-11': [
+    { year: 330, event: 'Constantinople founded', detail: 'Constantine the Great dedicates his new capital on the site of Byzantium. A thousand years of empire begins.', category: 'politics', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+  '01-11': [
+    { year: 532, event: 'Nika Riots begin', detail: 'Chariot racing fans turn to revolution. "Nika!" - Victory! Theodora convinces Justinian to stay and fight.', category: 'politics', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+  '12-27': [
+    { year: 537, event: 'Hagia Sophia dedicated', detail: 'Justinian dedicates the greatest church in Christendom. "Solomon, I have surpassed thee!"', category: 'culture', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+  '08-26': [
+    { year: 1071, event: 'Battle of Manzikert', detail: 'Seljuk Turks capture Emperor Romanos IV. Anatolia opens to Turkish settlement. Beginning of the end.', category: 'military', era: 'byzantine-empire', location: 'Manzikert, Armenia' }
+  ],
+  '05-29': [
+    { year: 1453, event: 'Fall of Constantinople', detail: 'Ottoman cannons breach the walls after 53 days. Constantine XI dies defending the city. The Roman Empire finally ends.', category: 'military', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+  '07-16': [
+    { year: 1054, event: 'Great Schism', detail: 'Papal legate excommunicates the Patriarch of Constantinople. East and West Christianity split forever.', category: 'politics', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+  '09-14': [
+    { year: 628, event: 'True Cross returned to Jerusalem', detail: 'Emperor Heraclius returns the True Cross after defeating Persia. Greatest triumph of Byzantine arms.', category: 'military', era: 'byzantine-empire', location: 'Jerusalem' }
+  ],
+  '07-29': [
+    { year: 1014, event: 'Battle of Kleidion', detail: 'Basil II blinds 15,000 Bulgarian prisoners. The Bulgar Slayer earns his name.', category: 'military', era: 'byzantine-empire', location: 'Kleidion, Bulgaria' }
+  ],
+  '02-13': [
+    { year: 787, event: 'Second Council of Nicaea', detail: 'Empress Irene restores icon veneration. Iconoclasm ends.', category: 'politics', era: 'byzantine-empire', location: 'Nicaea' }
+  ],
+  '06-23': [
+    { year: 678, event: 'Greek Fire saves Constantinople', detail: 'Byzantine navy destroys Arab fleet with Greek Fire. The secret weapon saves the empire.', category: 'military', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
 }
 
 const categoryColors: Record<string, string> = {

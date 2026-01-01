@@ -401,5 +401,87 @@
   ],
   "inca-messenger": [
     { "profileId": "hernan-cortes", "type": "enemy", "description": "Heard rumors of the conquistadors from the north" }
+  ],
+
+  "constantine-great": [
+    { "profileId": "augustus", "type": "predecessor", "description": "Modeled himself on the first emperor" },
+    { "profileId": "diocletian", "type": "predecessor", "description": "Rose through the ranks under Diocletian" }
+  ],
+  "justinian": [
+    { "profileId": "theodora-empress", "type": "spouse", "description": "Beloved wife and co-ruler" },
+    { "profileId": "belisarius", "type": "general", "description": "Greatest general of the age" },
+    { "profileId": "procopius", "type": "historian", "description": "Court historian who documented the reign" }
+  ],
+  "theodora-empress": [
+    { "profileId": "justinian", "type": "spouse", "description": "Partner in ruling the empire" },
+    { "profileId": "belisarius", "type": "ally", "description": "Trusted general and ally" },
+    { "profileId": "procopius", "type": "subject", "description": "Documented by the court historian" }
+  ],
+  "belisarius": [
+    { "profileId": "justinian", "type": "emperor", "description": "Served loyally despite suspicion" },
+    { "profileId": "theodora-empress", "type": "ally", "description": "Protected by the empress" },
+    { "profileId": "procopius", "type": "colleague", "description": "Secretary who accompanied campaigns" }
+  ],
+  "anna-comnena": [
+    { "profileId": "constantine-xi", "type": "successor", "description": "Later emperor of the Comneni line" }
+  ],
+  "constantine-xi": [
+    { "profileId": "mehmed-ii", "type": "enemy", "description": "Ottoman sultan who conquered Constantinople" },
+    { "profileId": "byzantine-soldier", "type": "commander", "description": "Led the final defense" },
+    { "profileId": "varangian-guardsman", "type": "ally", "description": "Loyal guards at the final stand" }
+  ],
+  "heraclius": [
+    { "profileId": "byzantine-soldier", "type": "commander", "description": "Led the army personally against Persia" }
+  ],
+  "basil-ii": [
+    { "profileId": "byzantine-soldier", "type": "commander", "description": "Led campaigns against the Bulgars" },
+    { "profileId": "varangian-guardsman", "type": "commander", "description": "Established the Varangian Guard" }
+  ],
+  "procopius": [
+    { "profileId": "justinian", "type": "subject", "description": "Documented the emperor's reign" },
+    { "profileId": "theodora-empress", "type": "subject", "description": "Wrote controversial Secret History" },
+    { "profileId": "belisarius", "type": "colleague", "description": "Served as secretary on campaigns" }
+  ],
+  "mehmed-ii": [
+    { "profileId": "constantine-xi", "type": "enemy", "description": "Byzantine emperor he defeated" },
+    { "profileId": "constantinople-citizen", "type": "conqueror", "description": "Conquered the city's residents" }
+  ],
+  "greek-fire-technician": [
+    { "profileId": "byzantine-soldier", "type": "colleague", "description": "Supplied weapons to the military" },
+    { "profileId": "belisarius", "type": "commander", "description": "Served under the general's campaigns" }
+  ],
+  "byzantine-merchant": [
+    { "profileId": "byzantine-scholar", "type": "neighbor", "description": "Fellow resident of Constantinople" },
+    { "profileId": "constantinople-citizen", "type": "neighbor", "description": "Fellow trader in the markets" }
+  ],
+  "varangian-guardsman": [
+    { "profileId": "basil-ii", "type": "emperor", "description": "Served in the imperial guard" },
+    { "profileId": "constantine-xi", "type": "emperor", "description": "Defended to the last" },
+    { "profileId": "byzantine-soldier", "type": "comrade", "description": "Fellow defenders of the empire" }
+  ],
+  "byzantine-scholar": [
+    { "profileId": "procopius", "type": "predecessor", "description": "Studied the earlier historian's works" },
+    { "profileId": "anna-comnena", "type": "colleague", "description": "Fellow scholar and historian" }
+  ],
+  "byzantine-soldier": [
+    { "profileId": "belisarius", "type": "general", "description": "Served under the legendary general" },
+    { "profileId": "constantine-xi", "type": "emperor", "description": "Died defending the last emperor" },
+    { "profileId": "varangian-guardsman", "type": "comrade", "description": "Brothers in arms" }
+  ],
+  "constantinople-citizen": [
+    { "profileId": "mehmed-ii", "type": "conqueror", "description": "Conquered by the Ottoman sultan" },
+    { "profileId": "byzantine-merchant", "type": "neighbor", "description": "Fellow city resident" }
+  ],
+  "byzantine-priest": [
+    { "profileId": "empress-irene", "type": "ally", "description": "Supported the empress during iconoclasm" },
+    { "profileId": "byzantine-icon-painter", "type": "colleague", "description": "Commissioned icons for the church" }
+  ],
+  "empress-irene": [
+    { "profileId": "byzantine-priest", "type": "ally", "description": "Restored icons with church support" },
+    { "profileId": "byzantine-icon-painter", "type": "patron", "description": "Patron of icon painters" }
+  ],
+  "byzantine-icon-painter": [
+    { "profileId": "byzantine-priest", "type": "patron", "description": "Created icons for the church" },
+    { "profileId": "empress-irene", "type": "patron", "description": "Protected by the empress" }
   ]
 }
