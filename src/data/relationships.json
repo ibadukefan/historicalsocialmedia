@@ -573,5 +573,115 @@
   "nestorian-priest": [
     { "profileId": "kublai-khan", "type": "patron", "description": "The tolerant Khan who allowed all faiths" },
     { "profileId": "marco-polo", "type": "colleague", "description": "Fellow foreigner at the Mongol court" }
+  ],
+
+  "tunka-manin": [
+    { "profileId": "ghana-griot", "type": "subject", "description": "Griots who preserved Ghana's history" },
+    { "profileId": "gold-miner", "type": "subject", "description": "Miners who filled the treasury" },
+    { "profileId": "salt-trader", "type": "subject", "description": "Traders who brought wealth through salt" }
+  ],
+  "sundiata-keita": [
+    { "profileId": "mansa-musa", "type": "predecessor", "description": "Founded the empire Musa made famous" },
+    { "profileId": "ghana-griot", "type": "subject", "description": "Griots who sang the Sundiata Epic" },
+    { "profileId": "timbuktu-scholar", "type": "subject", "description": "Scholars in the empire he founded" }
+  ],
+  "mansa-musa": [
+    { "profileId": "sundiata-keita", "type": "predecessor", "description": "Founder of the Mali Empire" },
+    { "profileId": "askia-muhammad", "type": "inspiration", "description": "Inspired later Sahelian rulers" },
+    { "profileId": "timbuktu-scholar", "type": "patron", "description": "Built mosques and schools for scholars" },
+    { "profileId": "ghana-griot", "type": "subject", "description": "Griots who spread his legend" },
+    { "profileId": "ibn-battuta", "type": "predecessor", "description": "His fame drew travelers like Ibn Battuta" },
+    { "profileId": "gold-miner", "type": "subject", "description": "Gold miners who funded his legendary wealth" }
+  ],
+  "sunni-ali": [
+    { "profileId": "askia-muhammad", "type": "predecessor", "description": "Founded the empire Askia inherited" },
+    { "profileId": "timbuktu-scholar", "type": "subject", "description": "Scholars he sometimes clashed with" },
+    { "profileId": "mansa-musa", "type": "predecessor", "description": "Conquered the remnants of Mali" }
+  ],
+  "askia-muhammad": [
+    { "profileId": "sunni-ali", "type": "predecessor", "description": "Succeeded after the founder's death" },
+    { "profileId": "timbuktu-scholar", "type": "patron", "description": "Great patron of Islamic learning" },
+    { "profileId": "ahmed-baba", "type": "predecessor", "description": "Created the scholarly tradition Ahmed Baba inherited" },
+    { "profileId": "mansa-musa", "type": "inspiration", "description": "Emulated Musa's hajj tradition" },
+    { "profileId": "leo-africanus", "type": "subject", "description": "Visited during Askia's golden age" }
+  ],
+  "ahmed-baba": [
+    { "profileId": "timbuktu-scholar", "type": "colleague", "description": "Fellow scholars at Sankore" },
+    { "profileId": "askia-muhammad", "type": "predecessor", "description": "Built the tradition he inherited" },
+    { "profileId": "leo-africanus", "type": "predecessor", "description": "Earlier traveler to Timbuktu" }
+  ],
+  "queen-amina": [
+    { "profileId": "ghana-griot", "type": "subject", "description": "Griots who sang of her conquests" },
+    { "profileId": "sunni-ali", "type": "contemporary", "description": "Fellow Sahelian warrior ruler" }
+  ],
+  "great-zimbabwe-king": [
+    { "profileId": "swahili-merchant", "type": "partner", "description": "Coastal traders who bought Zimbabwe's gold" },
+    { "profileId": "gold-miner", "type": "subject", "description": "Miners in the Zimbabwe gold fields" }
+  ],
+  "joao-i-kongo": [
+    { "profileId": "afonso-i-kongo", "type": "family", "description": "Father of the Christian king" }
+  ],
+  "afonso-i-kongo": [
+    { "profileId": "joao-i-kongo", "type": "family", "description": "Father who first welcomed Christianity" },
+    { "profileId": "queen-nzinga", "type": "predecessor", "description": "Earlier Kongo king she later defied" },
+    { "profileId": "african-slave", "type": "subject", "description": "Tried to protect his people from slavery" }
+  ],
+  "queen-nzinga": [
+    { "profileId": "afonso-i-kongo", "type": "predecessor", "description": "Earlier king who tried diplomacy with Portugal" },
+    { "profileId": "african-slave", "type": "defender", "description": "Fought against the slave trade" }
+  ],
+  "oba-esigie": [
+    { "profileId": "queen-idia", "type": "family", "description": "Powerful mother who supported his rule" },
+    { "profileId": "swahili-merchant", "type": "partner", "description": "Part of West African trade networks" }
+  ],
+  "queen-idia": [
+    { "profileId": "oba-esigie", "type": "family", "description": "Son whom she helped gain the throne" }
+  ],
+  "zara-yaqob": [
+    { "profileId": "ethiopian-monk", "type": "ally", "description": "Monks who supported his religious reforms" },
+    { "profileId": "timbuktu-scholar", "type": "contemporary", "description": "Fellow African scholar-king" }
+  ],
+  "ethiopian-monk": [
+    { "profileId": "zara-yaqob", "type": "emperor", "description": "The reforming emperor" }
+  ],
+  "ibn-battuta": [
+    { "profileId": "mansa-musa", "type": "subject", "description": "The legendary king who preceded his visit" },
+    { "profileId": "timbuktu-scholar", "type": "colleague", "description": "Scholars he met in his travels" },
+    { "profileId": "swahili-merchant", "type": "host", "description": "Merchants who hosted him on the coast" }
+  ],
+  "leo-africanus": [
+    { "profileId": "askia-muhammad", "type": "contemporary", "description": "Visited during Songhai's golden age" },
+    { "profileId": "timbuktu-scholar", "type": "colleague", "description": "Scholars he documented" },
+    { "profileId": "ibn-battuta", "type": "predecessor", "description": "Earlier traveler whose route he followed" }
+  ],
+  "timbuktu-scholar": [
+    { "profileId": "ahmed-baba", "type": "colleague", "description": "Greatest of the Timbuktu scholars" },
+    { "profileId": "mansa-musa", "type": "patron", "description": "The king who built Sankore" },
+    { "profileId": "askia-muhammad", "type": "patron", "description": "Great patron of learning" },
+    { "profileId": "leo-africanus", "type": "contemporary", "description": "Traveler who documented Timbuktu" }
+  ],
+  "ghana-griot": [
+    { "profileId": "sundiata-keita", "type": "subject", "description": "The king whose epic we sing" },
+    { "profileId": "mansa-musa", "type": "subject", "description": "The wealthy king we praise" },
+    { "profileId": "tunka-manin", "type": "subject", "description": "Ghana king we remember" }
+  ],
+  "salt-trader": [
+    { "profileId": "tunka-manin", "type": "emperor", "description": "Ghana king who taxed the salt trade" },
+    { "profileId": "mansa-musa", "type": "emperor", "description": "Mali king who controlled the salt routes" },
+    { "profileId": "gold-miner", "type": "partner", "description": "We trade salt for their gold" }
+  ],
+  "gold-miner": [
+    { "profileId": "mansa-musa", "type": "emperor", "description": "The golden king who needed our gold" },
+    { "profileId": "great-zimbabwe-king", "type": "emperor", "description": "Zimbabwe king who controlled the mines" },
+    { "profileId": "salt-trader", "type": "partner", "description": "We trade gold for their salt" }
+  ],
+  "swahili-merchant": [
+    { "profileId": "great-zimbabwe-king", "type": "partner", "description": "Inland kingdom that supplied gold" },
+    { "profileId": "ibn-battuta", "type": "host", "description": "Famous traveler who visited our ports" },
+    { "profileId": "chinese-official", "type": "partner", "description": "Zheng He's fleet traded with us" }
+  ],
+  "african-slave": [
+    { "profileId": "afonso-i-kongo", "type": "ruler", "description": "Kongo king who tried to help us" },
+    { "profileId": "queen-nzinga", "type": "defender", "description": "The queen who fought for our freedom" }
   ]
 }

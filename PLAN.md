@@ -1,10 +1,10 @@
 # Tempus Development Plan
 
 ## Current Status
-- **Posts:** 1267 across 17 eras
-- **Profiles:** 373 historical figures and ordinary people
-- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire
-- **Build:** 1663 static pages, deployed to Vercel
+- **Posts:** 1317 across 18 eras
+- **Profiles:** 395 historical figures and ordinary people
+- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms
+- **Build:** 1735 static pages, deployed to Vercel
 
 ---
 
@@ -154,9 +154,10 @@
    - Key figures: Börte, Subutai, Jebe, Marco Polo, Rashid al-Din
    - Ordinary people: warrior, Silk Road merchant, Persian scholar, Chinese official
 
-3. **African Kingdoms** (Ghana, Mali, Songhai, Great Zimbabwe)
-   - Mansa Musa, Sundiata Keita
-   - Traders, scholars of Timbuktu
+3. ✅ **African Kingdoms** (300-1600) - 50 posts, 22 profiles
+   - Rulers: Mansa Musa, Sundiata Keita, Tunka Manin, Sunni Ali, Askia Muhammad, Queen Amina, Queen Nzinga, Afonso I of Kongo
+   - Scholars: Ahmed Baba, Timbuktu scholars, Leo Africanus, Ibn Battuta
+   - Ordinary people: Griot, Salt Trader, Gold Miner, Swahili Merchant, African Slave
 
 4. **Russian Revolution** (1905-1924)
    - Lenin, Tsar Nicholas II, Rasputin

@@ -251,5 +251,20 @@
     "nextEra": "renaissance",
     "metaTitle": "Mongol Empire (1206-1368) | Tempus",
     "metaDescription": "Experience the Mongol Empire through Genghis Khan, Kublai Khan, Marco Polo, and the warriors and traders who built the largest land empire in history."
+  },
+  {
+    "id": "african-kingdoms",
+    "name": "African Kingdoms",
+    "shortName": "Africa",
+    "description": "The great empires of Africa: Ghana, Mali, Songhai, Great Zimbabwe, and Kongo. Gold, salt, scholarship, and the richest man in history - Mansa Musa.",
+    "startDate": "0300-01-01",
+    "endDate": "1600-12-31",
+    "color": "#b8860b",
+    "postCount": 50,
+    "profileCount": 20,
+    "previousEra": "ancient-egypt",
+    "nextEra": "age-of-exploration",
+    "metaTitle": "African Kingdoms (300-1600) | Tempus",
+    "metaDescription": "Experience the great African empires through Mansa Musa, Sundiata Keita, the scholars of Timbuktu, and the traders who made Africa the center of the medieval world."
   }
 ]

@@ -4,13 +4,25 @@ Last Updated: 2026-01-01
 
 ## Quick Reference
 - **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual
-- **Status:** Phase 16 Complete - 1267 posts, 373 profiles, 1663 static pages (17 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire)
+- **Status:** Phase 17 Complete - 1317 posts, 395 profiles, 1735 static pages (18 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms)
 - **Active Branch:** main
 
 ## Current Focus
 **IMPLEMENTING HIGH PRIORITY FEATURES** - Building out missing functionality from the comprehensive plan (PLAN.md).
 
 ## Recent Changes
+- 2026-01-01 — **AFRICAN KINGDOMS ERA:**
+  - Added African Kingdoms (300-1600 CE) as 18th era
+  - 50 posts covering 1300 years of African empires and kingdoms
+  - 22 profiles including:
+    - Rulers: Mansa Musa, Sundiata Keita, Tunka Manin (Ghana), Sunni Ali, Askia Muhammad (Songhai), Queen Amina (Zazzau), Queen Nzinga (Ndongo), Afonso I (Kongo), João I (Kongo), Oba Esigie (Benin), Emperor Zara Yaqob (Ethiopia), Great Zimbabwe King, Queen Idia
+    - Scholars: Ahmed Baba, Timbuktu Scholar
+    - Travelers: Ibn Battuta, Leo Africanus
+    - Ordinary people: Griot, Salt Trader, Gold Miner, Swahili Merchant, African Slave, Ethiopian Monk
+  - Key events covered: Ghana Empire fall, Battle of Kirina (Mali founded), Mansa Musa's legendary hajj, Sunni Ali captures Timbuktu, Askia Muhammad's golden age, Portuguese contact with Kongo, Battle of Tondibi (Songhai falls)
+  - Added 60+ relationships for African profiles
+  - Added 10 On This Day events for African era
+  - Build: 1735 static pages generated
 - 2026-01-01 — **MONGOL EMPIRE ERA:**
   - Added Mongol Empire (1206-1368) as 17th era
   - 50 posts covering the rise and fall of the largest land empire in history
@@ -456,9 +468,10 @@ historicalsocialmedia/
 │       │   ├── ancient-egypt.json       # 50 posts (3100 BCE-30 BCE Egypt)
 │       │   ├── american-civil-war.json  # 50 posts (1861-1865 Civil War)
 │       │   ├── cold-war.json            # 50 posts (1947-1991 Cold War)
-│       │   └── age-of-exploration.json  # 50 posts (1415-1600 Exploration)
+│       │   ├── age-of-exploration.json  # 50 posts (1415-1600 Exploration)
+│       │   └── african-kingdoms.json    # 50 posts (300-1600 African Kingdoms)
 │       ├── profiles/
-│       │   └── index.json      # 331 profiles (15 eras + ordinary people)
+│       │   └── index.json      # 395 profiles (18 eras + ordinary people)
 │       ├── eras/
 │       │   └── index.json      # Era metadata
 │       └── relationships.json  # 50+ historical relationships

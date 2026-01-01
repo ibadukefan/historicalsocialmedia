@@ -454,6 +454,38 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
   '12-21': [
     { year: 1237, event: 'Ryazan destroyed', detail: 'First Russian city destroyed by Mongols. Total annihilation - not rebuilt on same site.', category: 'military', era: 'mongol-empire', location: 'Ryazan, Russia' }
   ],
+
+  // === AFRICAN KINGDOMS (300-1600) ===
+  '07-18': [
+    { year: 1324, event: 'Mansa Musa begins hajj', detail: 'The wealthiest man in history departs for Mecca with 60,000 attendants and 12 tons of gold.', category: 'other', era: 'african-kingdoms', location: 'Niani, Mali Empire' }
+  ],
+  '01-15': [
+    { year: 1235, event: 'Battle of Kirina', detail: 'Sundiata Keita defeats Sumanguru Kante. Mali Empire founded. The Sundiata Epic begins.', category: 'military', era: 'african-kingdoms', location: 'Kirina, West Africa' }
+  ],
+  '03-23': [
+    { year: 1076, event: 'Ghana Empire falls', detail: 'Almoravid forces capture Koumbi Saleh. Ghana\'s golden age ends after 300 years.', category: 'military', era: 'african-kingdoms', location: 'Koumbi Saleh, Ghana' }
+  ],
+  '02-04': [
+    { year: 1468, event: 'Sunni Ali captures Timbuktu', detail: 'Songhai conquers the great city. Timbuktu becomes Africa\'s intellectual capital.', category: 'military', era: 'african-kingdoms', location: 'Timbuktu, Songhai' }
+  ],
+  '11-12': [
+    { year: 1493, event: 'Askia Muhammad takes power', detail: 'After defeating Sunni Ali\'s son, Askia Muhammad begins Songhai\'s golden age.', category: 'politics', era: 'african-kingdoms', location: 'Gao, Songhai' }
+  ],
+  '03-13': [
+    { year: 1591, event: 'Battle of Tondibi', detail: 'Moroccan musketeers destroy Songhai cavalry. The last Sahelian empire falls.', category: 'military', era: 'african-kingdoms', location: 'Tondibi, Songhai' }
+  ],
+  '05-03': [
+    { year: 1483, event: 'Portuguese reach Kongo', detail: 'Diogo Cão makes contact with the Kingdom of Kongo. Nothing will ever be the same.', category: 'diplomacy', era: 'african-kingdoms', location: 'Mpinda, Kingdom of Kongo' }
+  ],
+  '06-24': [
+    { year: 1506, event: 'Afonso I becomes King of Kongo', detail: 'Christian convert defeats his brother. "I am called the Apostle of the Kongo."', category: 'politics', era: 'african-kingdoms', location: 'M\'banza-Kongo, Kingdom of Kongo' }
+  ],
+  '08-17': [
+    { year: 1663, event: 'Battle of Mbwila', detail: 'Portuguese defeat Kongo. King António I dies. Kongo\'s independence effectively ends.', category: 'military', era: 'african-kingdoms', location: 'Mbwila, Kingdom of Kongo' }
+  ],
+  '10-22': [
+    { year: 1325, event: 'Mansa Musa arrives in Cairo', detail: 'So much gold given away that Cairo\'s economy destabilizes for years. "I saw no one more respectable than him."', category: 'other', era: 'african-kingdoms', location: 'Cairo, Egypt' }
+  ]
 }
 
 const categoryColors: Record<string, string> = {
