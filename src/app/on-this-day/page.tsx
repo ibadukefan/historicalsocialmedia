@@ -39,7 +39,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1960, event: 'Greensboro sit-ins begin', detail: 'Four Black students sit at Woolworth\'s whites-only lunch counter.', category: 'politics', era: 'civil-rights', location: 'Greensboro, North Carolina' }
   ],
   '02-11': [
-    { year: 1990, event: 'Nelson Mandela released', detail: 'After 27 years, Nelson Mandela walks free from Victor Verster Prison.', category: 'politics', era: 'civil-rights', location: 'Cape Town, South Africa' }
+    { year: 1990, event: 'Nelson Mandela released', detail: 'After 27 years, Nelson Mandela walks free from Victor Verster Prison.', category: 'politics', era: 'civil-rights', location: 'Cape Town, South Africa' },
+    { year: 1889, event: 'Meiji Constitution promulgated', detail: 'First Asian constitution. Emperor grants rights to his subjects. Diet established. Japan joins the modern nations.', category: 'politics', era: 'meiji-japan', location: 'Tokyo, Japan' }
   ],
   '02-21': [
     { year: 1965, event: 'Malcolm X assassinated', detail: 'Malcolm X shot at the Audubon Ballroom in Manhattan.', category: 'other', era: 'civil-rights', location: 'New York City' }
@@ -61,7 +62,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1968, event: 'Martin Luther King Jr. assassinated', detail: 'MLK shot at the Lorraine Motel in Memphis, Tennessee.', category: 'other', era: 'civil-rights', location: 'Memphis, Tennessee' }
   ],
   '04-06': [
-    { year: 1917, event: 'United States enters WWI', detail: 'Congress declares war on Germany, joining the Allied Powers.', category: 'politics', era: 'world-war-1', location: 'Washington, D.C.' }
+    { year: 1917, event: 'United States enters WWI', detail: 'Congress declares war on Germany, joining the Allied Powers.', category: 'politics', era: 'world-war-1', location: 'Washington, D.C.' },
+    { year: 1868, event: 'Charter Oath proclaimed', detail: 'Emperor Meiji announces Five Articles. Japan will seek knowledge throughout the world. A new era begins.', category: 'politics', era: 'meiji-japan', location: 'Kyoto, Japan' }
   ],
   '04-12': [
     { year: 1861, event: 'Fort Sumter attacked', detail: 'Confederate forces fire on Fort Sumter, beginning the American Civil War.', category: 'military', era: 'american-civil-war', location: 'Charleston, South Carolina' },
@@ -162,7 +164,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1492, event: 'Columbus reaches the Americas', detail: 'Christopher Columbus lands in the Bahamas, believing he reached Asia.', category: 'other', era: 'renaissance', location: 'San Salvador, Bahamas' }
   ],
   '10-14': [
-    { year: 1066, event: 'Battle of Hastings', detail: 'William the Conqueror defeats King Harold II, changing English history.', category: 'military', era: 'viking-age', location: 'Hastings, England' }
+    { year: 1066, event: 'Battle of Hastings', detail: 'William the Conqueror defeats King Harold II, changing English history.', category: 'military', era: 'viking-age', location: 'Hastings, England' },
+    { year: 1872, event: 'First Japanese railway opens', detail: 'Emperor Meiji rides the train from Tokyo to Yokohama. 29 kilometers in 53 minutes. Japan enters the modern age.', category: 'science', era: 'meiji-japan', location: 'Tokyo, Japan' }
   ],
   '10-19': [
     { year: 1781, event: 'British surrender at Yorktown', detail: 'Cornwallis surrenders 8,000 troops. American Revolution effectively won.', category: 'military', era: 'american-revolution', location: 'Yorktown, Virginia' }
@@ -331,7 +334,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1863, event: 'Battle of Gettysburg - Day 2', detail: 'Little Round Top, Devil\'s Den, the Peach Orchard. 20th Maine holds the line.', category: 'military', era: 'american-civil-war', location: 'Gettysburg, Pennsylvania' }
   ],
   '09-17': [
-    { year: 1862, event: 'Battle of Antietam', detail: 'Bloodiest single day in American history. 23,000 casualties. Lee retreats to Virginia.', category: 'military', era: 'american-civil-war', location: 'Sharpsburg, Maryland' }
+    { year: 1862, event: 'Battle of Antietam', detail: 'Bloodiest single day in American history. 23,000 casualties. Lee retreats to Virginia.', category: 'military', era: 'american-civil-war', location: 'Sharpsburg, Maryland' },
+    { year: 1894, event: 'Battle of Pyongyang', detail: 'Japanese forces defeat Qing China. The ancient order in Asia begins to crumble.', category: 'military', era: 'meiji-japan', location: 'Pyongyang, Korea' }
   ],
   '11-19': [
     { year: 1863, event: 'Gettysburg Address', detail: '"Four score and seven years ago..." Lincoln redefines the war\'s purpose in 272 words.', category: 'politics', era: 'american-civil-war', location: 'Gettysburg, Pennsylvania' }
@@ -515,6 +519,26 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
   ],
   '03-03': [
     { year: 1918, event: 'Treaty of Brest-Litovsk', detail: 'Russia exits WWI at enormous cost. Loses third of population, half of industry. Lenin needs peace to consolidate power.', category: 'diplomacy', era: 'russian-revolution', location: 'Brest-Litovsk' }
+  ],
+
+  // === MEIJI JAPAN (1868-1912) ===
+  '01-03': [
+    { year: 1868, event: 'Meiji Restoration proclaimed', detail: 'The Boshin War begins. Imperial forces defeat the Shogunate. After 268 years, Tokugawa rule ends.', category: 'politics', era: 'meiji-japan', location: 'Kyoto, Japan' }
+  ],
+  '09-24': [
+    { year: 1877, event: 'Saigo Takamori dies', detail: 'The last samurai falls at Shiroyama. Shot in the hip, commits seppuku. 40,000 samurai dead. An era ends.', category: 'military', era: 'meiji-japan', location: 'Kagoshima, Japan' }
+  ],
+  '05-27': [
+    { year: 1905, event: 'Battle of Tsushima', detail: 'Admiral Togo destroys Russian Baltic Fleet. Japan becomes a world power. "The Empire\'s fate depends on this battle."', category: 'military', era: 'meiji-japan', location: 'Tsushima Strait' }
+  ],
+  '08-22': [
+    { year: 1910, event: 'Japan annexes Korea', detail: 'Korea becomes a Japanese colony. The Joseon dynasty ends after 519 years. A wound that still bleeds today.', category: 'politics', era: 'meiji-japan', location: 'Seoul, Korea' }
+  ],
+  '10-26': [
+    { year: 1909, event: 'Ito Hirobumi assassinated', detail: 'An Jung-geun shoots Japan\'s elder statesman at Harbin station. Korean hero or terrorist? Depends who writes the history.', category: 'politics', era: 'meiji-japan', location: 'Harbin, Manchuria' }
+  ],
+  '07-30': [
+    { year: 1912, event: 'Emperor Meiji dies', detail: 'The Emperor who transformed Japan passes at age 59. General Nogi and his wife commit junshi to follow him.', category: 'other', era: 'meiji-japan', location: 'Tokyo, Japan' }
   ]
 }
 

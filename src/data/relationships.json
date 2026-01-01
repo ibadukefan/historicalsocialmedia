@@ -784,5 +784,103 @@
   "cheka-officer": [
     { "profileId": "vladimir-lenin", "type": "commander", "description": "The leader who authorized the Red Terror" },
     { "profileId": "yakov-yurovsky", "type": "colleague", "description": "Fellow Cheka officer" }
+  ],
+
+  "emperor-meiji": [
+    { "profileId": "empress-shoken", "type": "spouse", "description": "Beloved consort and partner in modernization" },
+    { "profileId": "ito-hirobumi", "type": "advisor", "description": "Chief architect of the Meiji Constitution" },
+    { "profileId": "saigo-takamori", "type": "ally", "description": "Leader of the Restoration, later rebel" },
+    { "profileId": "okubo-toshimichi", "type": "advisor", "description": "Key modernizer who suppressed the Satsuma Rebellion" },
+    { "profileId": "yamagata-aritomo", "type": "advisor", "description": "Creator of the modern Japanese army" },
+    { "profileId": "tokugawa-yoshinobu", "type": "rival", "description": "The last Shogun who surrendered power" }
+  ],
+  "empress-shoken": [
+    { "profileId": "emperor-meiji", "type": "spouse", "description": "Emperor and partner in building modern Japan" },
+    { "profileId": "tsuda-umeko", "type": "ally", "description": "Pioneer of women's education she supported" }
+  ],
+  "saigo-takamori": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he restored to power" },
+    { "profileId": "okubo-toshimichi", "type": "rival", "description": "Childhood friend, later deadly enemy" },
+    { "profileId": "general-nogi", "type": "enemy", "description": "Imperial general who fought against him" },
+    { "profileId": "tokugawa-yoshinobu", "type": "enemy", "description": "The last Shogun he helped overthrow" }
+  ],
+  "okubo-toshimichi": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he served faithfully" },
+    { "profileId": "saigo-takamori", "type": "rival", "description": "Childhood friend who became his greatest enemy" },
+    { "profileId": "ito-hirobumi", "type": "colleague", "description": "Fellow modernizer and government leader" },
+    { "profileId": "iwasaki-yataro", "type": "ally", "description": "Industrial partner in modernization" }
+  ],
+  "ito-hirobumi": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he served as Prime Minister" },
+    { "profileId": "okubo-toshimichi", "type": "colleague", "description": "Fellow architect of modern Japan" },
+    { "profileId": "yamagata-aritomo", "type": "rival", "description": "Political rival within the oligarchy" },
+    { "profileId": "an-jung-geun", "type": "enemy", "description": "Korean patriot who assassinated him" }
+  ],
+  "yamagata-aritomo": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he served" },
+    { "profileId": "ito-hirobumi", "type": "rival", "description": "Political rival in the government" },
+    { "profileId": "general-nogi", "type": "colleague", "description": "Fellow military leader" },
+    { "profileId": "admiral-togo", "type": "colleague", "description": "Navy counterpart in Japanese military" }
+  ],
+  "admiral-togo": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he served at Tsushima" },
+    { "profileId": "general-nogi", "type": "colleague", "description": "Army counterpart in Russo-Japanese War" },
+    { "profileId": "yamagata-aritomo", "type": "colleague", "description": "Military leader who supported the war" }
+  ],
+  "general-nogi": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor he followed to death" },
+    { "profileId": "admiral-togo", "type": "colleague", "description": "Naval hero of the same war" },
+    { "profileId": "saigo-takamori", "type": "enemy", "description": "Rebel leader he fought against" },
+    { "profileId": "empress-shoken", "type": "ally", "description": "The Empress he honored through junshi" }
+  ],
+  "tokugawa-yoshinobu": [
+    { "profileId": "emperor-meiji", "type": "rival", "description": "The Emperor who replaced Tokugawa rule" },
+    { "profileId": "saigo-takamori", "type": "enemy", "description": "Leader who forced his abdication" },
+    { "profileId": "fukuzawa-yukichi", "type": "ally", "description": "Scholar who bridged old and new Japan" }
+  ],
+  "iwasaki-yataro": [
+    { "profileId": "okubo-toshimichi", "type": "ally", "description": "Government patron of Mitsubishi" },
+    { "profileId": "shibusawa-eiichi", "type": "rival", "description": "Competing vision of Japanese capitalism" },
+    { "profileId": "fukuzawa-yukichi", "type": "ally", "description": "Fellow modernizer and entrepreneur" }
+  ],
+  "shibusawa-eiichi": [
+    { "profileId": "iwasaki-yataro", "type": "rival", "description": "Rival industrialist with different philosophy" },
+    { "profileId": "ito-hirobumi", "type": "colleague", "description": "Government leader he worked with" },
+    { "profileId": "fukuzawa-yukichi", "type": "ally", "description": "Fellow advocate of Western learning" }
+  ],
+  "fukuzawa-yukichi": [
+    { "profileId": "emperor-meiji", "type": "ally", "description": "The Emperor whose modernization he championed" },
+    { "profileId": "tsuda-umeko", "type": "ally", "description": "Fellow educator and modernizer" },
+    { "profileId": "iwasaki-yataro", "type": "ally", "description": "Fellow proponent of civilization and enlightenment" },
+    { "profileId": "shibusawa-eiichi", "type": "ally", "description": "Shared vision of modern Japan" }
+  ],
+  "tsuda-umeko": [
+    { "profileId": "empress-shoken", "type": "ally", "description": "Imperial patron of her educational mission" },
+    { "profileId": "fukuzawa-yukichi", "type": "ally", "description": "Fellow educator for modern Japan" }
+  ],
+  "an-jung-geun": [
+    { "profileId": "ito-hirobumi", "type": "enemy", "description": "The man he assassinated for Korea" },
+    { "profileId": "emperor-meiji", "type": "enemy", "description": "Emperor of the nation that colonized Korea" }
+  ],
+  "meiji-samurai": [
+    { "profileId": "saigo-takamori", "type": "ally", "description": "The great samurai who led us in rebellion" },
+    { "profileId": "emperor-meiji", "type": "enemy", "description": "The Emperor who abolished our class" }
+  ],
+  "meiji-farmer": [
+    { "profileId": "emperor-meiji", "type": "ruler", "description": "The Emperor who brought conscription and taxes" },
+    { "profileId": "okubo-toshimichi", "type": "ruler", "description": "The minister who changed everything" }
+  ],
+  "meiji-factory-worker": [
+    { "profileId": "iwasaki-yataro", "type": "employer", "description": "The zaibatsu boss who owns the factories" },
+    { "profileId": "shibusawa-eiichi", "type": "employer", "description": "Another industrialist shaping our lives" }
+  ],
+  "meiji-student": [
+    { "profileId": "fukuzawa-yukichi", "type": "teacher", "description": "The great educator of civilization" },
+    { "profileId": "tsuda-umeko", "type": "ally", "description": "Pioneer who opened doors for women" }
+  ],
+  "meiji-soldier": [
+    { "profileId": "general-nogi", "type": "commander", "description": "The general who led us at Port Arthur" },
+    { "profileId": "admiral-togo", "type": "ally", "description": "The admiral who won at Tsushima" },
+    { "profileId": "emperor-meiji", "type": "ruler", "description": "The Emperor we die for" }
   ]
 }

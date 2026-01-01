@@ -281,5 +281,20 @@
     "nextEra": "world-war-2",
     "metaTitle": "Russian Revolution (1905-1924) | Tempus",
     "metaDescription": "Experience the Russian Revolution through the Romanovs, Lenin, Trotsky, and the workers, soldiers, and peasants who transformed an empire into the Soviet Union."
+  },
+  {
+    "id": "meiji-japan",
+    "name": "Meiji Japan",
+    "shortName": "Meiji",
+    "description": "The transformation of Japan from feudal shogunate to modern empire. Samurai become businessmen, isolation becomes imperialism, tradition meets the telegraph and the railroad.",
+    "startDate": "1868-01-03",
+    "endDate": "1912-07-30",
+    "color": "#dc2626",
+    "postCount": 50,
+    "profileCount": 20,
+    "previousEra": "industrial-revolution",
+    "nextEra": "world-war-1",
+    "metaTitle": "Meiji Japan (1868-1912) | Tempus",
+    "metaDescription": "Experience Meiji Japan through Emperor Meiji, the last samurai, modernizers, and ordinary people caught between tradition and transformation."
   }
 ]

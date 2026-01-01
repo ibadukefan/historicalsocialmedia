@@ -4,13 +4,27 @@ Last Updated: 2026-01-01
 
 ## Quick Reference
 - **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual
-- **Status:** Phase 18 Complete - 1367 posts, 417 profiles, 1807 static pages (19 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution)
+- **Status:** Phase 19 Complete - 1417 posts, 442 profiles, 1882 static pages (20 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution, Meiji Japan)
 - **Active Branch:** main
 
 ## Current Focus
 **IMPLEMENTING HIGH PRIORITY FEATURES** - Building out missing functionality from the comprehensive plan (PLAN.md).
 
 ## Recent Changes
+- 2026-01-01 — **MEIJI JAPAN ERA:**
+  - Added Meiji Japan (1868-1912) as 20th era
+  - 50 posts covering the transformation from feudal shogunate to modern empire
+  - 25 profiles including:
+    - Leaders: Emperor Meiji, Saigo Takamori, Okubo Toshimichi, Ito Hirobumi, Yamagata Aritomo
+    - Military: Admiral Togo Heihachiro, General Nogi Maresuke
+    - Industrialists: Iwasaki Yataro (Mitsubishi), Shibusawa Eiichi
+    - Educators: Fukuzawa Yukichi, Tsuda Umeko
+    - Others: Empress Shoken, Tokugawa Yoshinobu (last Shogun), An Jung-geun (Korean patriot)
+    - Ordinary people: Former samurai, farmer, factory worker, geisha, student, soldier, journalist
+  - Key events covered: Meiji Restoration, Charter Oath, abolition of samurai class, Satsuma Rebellion, First railway, Meiji Constitution, Sino-Japanese War, Russo-Japanese War (Tsushima), Korea annexation, Emperor Meiji's death
+  - Added 50+ relationships for Meiji profiles
+  - Added 10 On This Day events for Meiji era
+  - Build: 1882 static pages generated
 - 2026-01-01 — **RUSSIAN REVOLUTION ERA:**
   - Added Russian Revolution (1905-1924) as 19th era
   - 50 posts covering 1905 Revolution, February Revolution, October Revolution, Civil War, and Lenin's death
@@ -482,9 +496,10 @@ historicalsocialmedia/
 │       │   ├── cold-war.json            # 50 posts (1947-1991 Cold War)
 │       │   ├── age-of-exploration.json  # 50 posts (1415-1600 Exploration)
 │       │   ├── african-kingdoms.json    # 50 posts (300-1600 African Kingdoms)
-│       │   └── russian-revolution.json  # 50 posts (1905-1924 Russian Revolution)
+│       │   ├── russian-revolution.json  # 50 posts (1905-1924 Russian Revolution)
+│       │   └── meiji-japan.json         # 50 posts (1868-1912 Meiji Japan)
 │       ├── profiles/
-│       │   └── index.json      # 417 profiles (19 eras + ordinary people)
+│       │   └── index.json      # 442 profiles (20 eras + ordinary people)
 │       ├── eras/
 │       │   └── index.json      # Era metadata
 │       └── relationships.json  # 50+ historical relationships

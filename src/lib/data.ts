@@ -26,6 +26,7 @@ import byzantineEmpireData from '@/data/posts/byzantine-empire.json'
 import mongolEmpireData from '@/data/posts/mongol-empire.json'
 import africanKingdomsData from '@/data/posts/african-kingdoms.json'
 import russianRevolutionData from '@/data/posts/russian-revolution.json'
+import meijiJapanData from '@/data/posts/meiji-japan.json'
 import profilesData from '@/data/profiles/index.json'
 import erasData from '@/data/eras/index.json'
 import relationshipsData from '@/data/relationships.json'
@@ -58,9 +59,10 @@ const byzantineEmpirePosts: Post[] = byzantineEmpireData as Post[]
 const mongolEmpirePosts: Post[] = mongolEmpireData as Post[]
 const africanKingdomsPosts: Post[] = africanKingdomsData as Post[]
 const russianRevolutionPosts: Post[] = russianRevolutionData as Post[]
+const meijiJapanPosts: Post[] = meijiJapanData as Post[]
 
 // Combine all posts and sort by timestamp (newest first)
-const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts, ...everydayPosts, ...laterRevolutionPosts, ...everyday1777Posts, ...historicalFiguresPosts, ...ancientRomePosts, ...worldWar2Posts, ...renaissancePosts, ...civilRightsPosts, ...frenchRevolutionPosts, ...ancientGreecePosts, ...worldWar1Posts, ...industrialRevolutionPosts, ...vikingAgePosts, ...threadPosts, ...medievalCrusadesPosts, ...ancientEgyptPosts, ...americanCivilWarPosts, ...coldWarPosts, ...ageOfExplorationPosts, ...byzantineEmpirePosts, ...mongolEmpirePosts, ...africanKingdomsPosts, ...russianRevolutionPosts].sort(
+const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts, ...everydayPosts, ...laterRevolutionPosts, ...everyday1777Posts, ...historicalFiguresPosts, ...ancientRomePosts, ...worldWar2Posts, ...renaissancePosts, ...civilRightsPosts, ...frenchRevolutionPosts, ...ancientGreecePosts, ...worldWar1Posts, ...industrialRevolutionPosts, ...vikingAgePosts, ...threadPosts, ...medievalCrusadesPosts, ...ancientEgyptPosts, ...americanCivilWarPosts, ...coldWarPosts, ...ageOfExplorationPosts, ...byzantineEmpirePosts, ...mongolEmpirePosts, ...africanKingdomsPosts, ...russianRevolutionPosts, ...meijiJapanPosts].sort(
   (a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
 )
 

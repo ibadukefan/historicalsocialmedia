@@ -1,10 +1,10 @@
 # Tempus Development Plan
 
 ## Current Status
-- **Posts:** 1367 across 19 eras
-- **Profiles:** 417 historical figures and ordinary people
-- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution
-- **Build:** 1807 static pages, deployed to Vercel
+- **Posts:** 1417 across 20 eras
+- **Profiles:** 442 historical figures and ordinary people
+- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution, Meiji Japan
+- **Build:** 1882 static pages, deployed to Vercel
 
 ---
 
@@ -165,9 +165,13 @@
    - Key figures: Kerensky, Yusupov, Kornilov, Makhno, Father Gapon
    - Ordinary people: Worker, Soldier, Peasant, Sailor, Cheka officer
 
-5. **Meiji Japan** (1868-1912)
-   - Emperor Meiji, samurai adapting to change
-   - Merchants, modernizers, traditionalists
+5. ✅ **Meiji Japan** (1868-1912) - 50 posts, 25 profiles
+   - Leaders: Emperor Meiji, Saigo Takamori, Okubo Toshimichi, Ito Hirobumi, Yamagata Aritomo
+   - Military: Admiral Togo, General Nogi
+   - Industrialists: Iwasaki Yataro (Mitsubishi), Shibusawa Eiichi
+   - Educators: Fukuzawa Yukichi, Tsuda Umeko
+   - Others: Empress Shoken, Tokugawa Yoshinobu (last Shogun), An Jung-geun
+   - Ordinary people: Former samurai, farmer, factory worker, geisha, student, soldier, journalist
 
 **Target:** 20 profiles, 50 posts per new era
 
