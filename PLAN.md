@@ -1,10 +1,10 @@
 # Tempus Development Plan
 
 ## Current Status
-- **Posts:** 1217 across 16 eras
-- **Profiles:** 352 historical figures and ordinary people
-- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire
-- **Build:** 1592 static pages, deployed to Vercel
+- **Posts:** 1267 across 17 eras
+- **Profiles:** 373 historical figures and ordinary people
+- **Eras:** American Revolution, Ancient Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire
+- **Build:** 1663 static pages, deployed to Vercel
 
 ---
 
@@ -149,9 +149,10 @@
    - Key figures: Theodora, Belisarius, Anna Comnena, Procopius, Mehmed II
    - Ordinary people: Greek Fire technician, icon painter, merchant, Varangian guardsman
 
-2. **Mongol Empire** (1206-1368)
-   - Genghis Khan, Kublai Khan, Marco Polo
-   - Warriors, traders along the Silk Road
+2. ✅ **Mongol Empire** (1206-1368) - 50 posts, 21 profiles
+   - Khans: Genghis Khan, Ögedei, Möngke, Kublai, Batu, Hulagu
+   - Key figures: Börte, Subutai, Jebe, Marco Polo, Rashid al-Din
+   - Ordinary people: warrior, Silk Road merchant, Persian scholar, Chinese official
 
 3. **African Kingdoms** (Ghana, Mali, Songhai, Great Zimbabwe)
    - Mansa Musa, Sundiata Keita

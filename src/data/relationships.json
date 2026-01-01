@@ -483,5 +483,95 @@
   "byzantine-icon-painter": [
     { "profileId": "byzantine-priest", "type": "patron", "description": "Created icons for the church" },
     { "profileId": "empress-irene", "type": "patron", "description": "Protected by the empress" }
+  ],
+
+  "genghis-khan": [
+    { "profileId": "borte", "type": "spouse", "description": "Beloved first wife, mother of his heirs" },
+    { "profileId": "ogedei-khan", "type": "family", "description": "Third son, chosen successor as Great Khan" },
+    { "profileId": "subutai", "type": "general", "description": "Most trusted general and strategist" },
+    { "profileId": "jebe", "type": "general", "description": "Former enemy turned loyal general" }
+  ],
+  "borte": [
+    { "profileId": "genghis-khan", "type": "spouse", "description": "The great conqueror, her childhood love" },
+    { "profileId": "ogedei-khan", "type": "family", "description": "Son, second Great Khan" },
+    { "profileId": "kublai-khan", "type": "family", "description": "Grandson, founder of the Yuan Dynasty" }
+  ],
+  "ogedei-khan": [
+    { "profileId": "genghis-khan", "type": "family", "description": "Father, the great conqueror" },
+    { "profileId": "subutai", "type": "general", "description": "Inherited his father's greatest general" },
+    { "profileId": "batu-khan", "type": "family", "description": "Nephew, founder of the Golden Horde" }
+  ],
+  "kublai-khan": [
+    { "profileId": "genghis-khan", "type": "family", "description": "Grandfather, founder of the empire" },
+    { "profileId": "mongke-khan", "type": "family", "description": "Brother, fourth Great Khan" },
+    { "profileId": "hulagu", "type": "family", "description": "Brother, destroyer of Baghdad" },
+    { "profileId": "marco-polo", "type": "friend", "description": "Venetian traveler at his court" }
+  ],
+  "subutai": [
+    { "profileId": "genghis-khan", "type": "emperor", "description": "Served the Great Khan loyally" },
+    { "profileId": "jebe", "type": "comrade", "description": "Fellow general, partner in the great raid" },
+    { "profileId": "ogedei-khan", "type": "emperor", "description": "Served the second Great Khan" },
+    { "profileId": "batu-khan", "type": "commander", "description": "Led the European campaign for Batu" }
+  ],
+  "jebe": [
+    { "profileId": "genghis-khan", "type": "emperor", "description": "The Khan who spared him and made him great" },
+    { "profileId": "subutai", "type": "comrade", "description": "Partner in the great reconnaissance raid" }
+  ],
+  "batu-khan": [
+    { "profileId": "genghis-khan", "type": "family", "description": "Grandfather, the great conqueror" },
+    { "profileId": "subutai", "type": "general", "description": "The legendary general who led his armies" },
+    { "profileId": "ogedei-khan", "type": "family", "description": "Uncle, Great Khan during European campaign" }
+  ],
+  "mongke-khan": [
+    { "profileId": "kublai-khan", "type": "family", "description": "Brother, future Great Khan and founder of Yuan" },
+    { "profileId": "hulagu", "type": "family", "description": "Brother, sent to conquer Persia" },
+    { "profileId": "genghis-khan", "type": "family", "description": "Grandfather, the great conqueror" }
+  ],
+  "hulagu": [
+    { "profileId": "mongke-khan", "type": "family", "description": "Brother, the Great Khan" },
+    { "profileId": "kublai-khan", "type": "family", "description": "Brother, founder of the Yuan Dynasty" },
+    { "profileId": "rashid-al-din", "type": "subject", "description": "Persian historian who documented the Ilkhanate" }
+  ],
+  "marco-polo": [
+    { "profileId": "kublai-khan", "type": "patron", "description": "The Great Khan who employed him" },
+    { "profileId": "rustichello", "type": "friend", "description": "The writer who recorded his travels" }
+  ],
+  "rustichello": [
+    { "profileId": "marco-polo", "type": "friend", "description": "The traveler whose stories I recorded" }
+  ],
+  "rashid-al-din": [
+    { "profileId": "hulagu", "type": "subject", "description": "Ilkhan I documented in my chronicles" },
+    { "profileId": "persian-scholar", "type": "colleague", "description": "Fellow Persian scholar" }
+  ],
+  "toghon-temur": [
+    { "profileId": "kublai-khan", "type": "predecessor", "description": "Founder of the Yuan Dynasty" },
+    { "profileId": "chinese-official", "type": "subject", "description": "Chinese officials who served the Yuan" }
+  ],
+  "mongol-warrior": [
+    { "profileId": "subutai", "type": "general", "description": "The legendary general we all followed" },
+    { "profileId": "genghis-khan", "type": "emperor", "description": "The Khan we served" }
+  ],
+  "mongol-woman": [
+    { "profileId": "borte", "type": "empress", "description": "The Empress, model for Mongol women" }
+  ],
+  "silk-road-merchant": [
+    { "profileId": "marco-polo", "type": "colleague", "description": "Famous trader on the same routes" },
+    { "profileId": "persian-scholar", "type": "neighbor", "description": "Fellow Persian" }
+  ],
+  "persian-scholar": [
+    { "profileId": "rashid-al-din", "type": "colleague", "description": "Fellow Persian historian" },
+    { "profileId": "hulagu", "type": "conqueror", "description": "The Khan who destroyed Baghdad" }
+  ],
+  "chinese-official": [
+    { "profileId": "toghon-temur", "type": "emperor", "description": "Last Yuan Emperor I served" },
+    { "profileId": "chinese-scholar", "type": "colleague", "description": "Fellow official under Yuan rule" }
+  ],
+  "chinese-scholar": [
+    { "profileId": "kublai-khan", "type": "emperor", "description": "Mongol ruler who patronized learning" },
+    { "profileId": "chinese-official", "type": "colleague", "description": "Fellow servant of the Yuan" }
+  ],
+  "nestorian-priest": [
+    { "profileId": "kublai-khan", "type": "patron", "description": "The tolerant Khan who allowed all faiths" },
+    { "profileId": "marco-polo", "type": "colleague", "description": "Fellow foreigner at the Mongol court" }
   ]
 }

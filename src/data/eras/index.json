@@ -236,5 +236,20 @@
     "nextEra": "medieval-crusades",
     "metaTitle": "Byzantine Empire (330-1453) | Tempus",
     "metaDescription": "Experience the Byzantine Empire through emperors like Justinian and Constantine XI, scholars who preserved ancient knowledge, and the fall of Constantinople."
+  },
+  {
+    "id": "mongol-empire",
+    "name": "Mongol Empire",
+    "shortName": "Mongols",
+    "description": "The largest contiguous land empire in history. From Genghis Khan to Kublai Khan, warriors, merchants, and diplomats connected East and West along the Silk Road.",
+    "startDate": "1206-01-01",
+    "endDate": "1368-09-14",
+    "color": "#b45309",
+    "postCount": 50,
+    "profileCount": 20,
+    "previousEra": "medieval-crusades",
+    "nextEra": "renaissance",
+    "metaTitle": "Mongol Empire (1206-1368) | Tempus",
+    "metaDescription": "Experience the Mongol Empire through Genghis Khan, Kublai Khan, Marco Polo, and the warriors and traders who built the largest land empire in history."
   }
 ]

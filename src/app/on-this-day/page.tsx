@@ -323,7 +323,8 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1865, event: 'Lincoln assassinated', detail: 'John Wilkes Booth shoots Lincoln at Ford\'s Theatre. President dies next morning.', category: 'politics', era: 'american-civil-war', location: 'Washington, D.C.' }
   ],
   '04-09': [
-    { year: 1865, event: 'Lee surrenders at Appomattox', detail: 'Robert E. Lee surrenders the Army of Northern Virginia to Ulysses S. Grant.', category: 'military', era: 'american-civil-war', location: 'Appomattox Court House, Virginia' }
+    { year: 1865, event: 'Lee surrenders at Appomattox', detail: 'Robert E. Lee surrenders the Army of Northern Virginia to Ulysses S. Grant.', category: 'military', era: 'american-civil-war', location: 'Appomattox Court House, Virginia' },
+    { year: 1241, event: 'Battle of Legnica', detail: 'Mongols defeat combined Polish and German knights. Duke Henry II of Silesia killed.', category: 'military', era: 'mongol-empire', location: 'Legnica, Poland' }
   ],
   '07-02': [
     { year: 1863, event: 'Battle of Gettysburg - Day 2', detail: 'Little Round Top, Devil\'s Den, the Peach Orchard. 20th Maine holds the line.', category: 'military', era: 'american-civil-war', location: 'Gettysburg, Pennsylvania' }
@@ -417,16 +418,41 @@ const historicalEvents: Record<string, HistoricalEvent[]> = {
     { year: 1054, event: 'Great Schism', detail: 'Papal legate excommunicates the Patriarch of Constantinople. East and West Christianity split forever.', category: 'politics', era: 'byzantine-empire', location: 'Constantinople' }
   ],
   '09-14': [
-    { year: 628, event: 'True Cross returned to Jerusalem', detail: 'Emperor Heraclius returns the True Cross after defeating Persia. Greatest triumph of Byzantine arms.', category: 'military', era: 'byzantine-empire', location: 'Jerusalem' }
+    { year: 628, event: 'True Cross returned to Jerusalem', detail: 'Emperor Heraclius returns the True Cross after defeating Persia. Greatest triumph of Byzantine arms.', category: 'military', era: 'byzantine-empire', location: 'Jerusalem' },
+    { year: 1368, event: 'Yuan Dynasty falls', detail: 'Toghon Temür flees Beijing. Ming Dynasty rises. Mongol rule in China ends after 100 years.', category: 'politics', era: 'mongol-empire', location: 'Beijing, China' }
   ],
   '07-29': [
     { year: 1014, event: 'Battle of Kleidion', detail: 'Basil II blinds 15,000 Bulgarian prisoners. The Bulgar Slayer earns his name.', category: 'military', era: 'byzantine-empire', location: 'Kleidion, Bulgaria' }
   ],
   '02-13': [
-    { year: 787, event: 'Second Council of Nicaea', detail: 'Empress Irene restores icon veneration. Iconoclasm ends.', category: 'politics', era: 'byzantine-empire', location: 'Nicaea' }
+    { year: 787, event: 'Second Council of Nicaea', detail: 'Empress Irene restores icon veneration. Iconoclasm ends.', category: 'politics', era: 'byzantine-empire', location: 'Nicaea' },
+    { year: 1258, event: 'Fall of Baghdad', detail: 'Hulagu sacks Baghdad, destroys House of Wisdom. Caliph executed. End of the Abbasid Caliphate.', category: 'military', era: 'mongol-empire', location: 'Baghdad' }
   ],
   '06-23': [
     { year: 678, event: 'Greek Fire saves Constantinople', detail: 'Byzantine navy destroys Arab fleet with Greek Fire. The secret weapon saves the empire.', category: 'military', era: 'byzantine-empire', location: 'Constantinople' }
+  ],
+
+  // === MONGOL EMPIRE (1206-1368) ===
+  '05-31': [
+    { year: 1223, event: 'Battle of the Kalka River', detail: 'Subutai and Jebe destroy a much larger Rus and Cuman army. First Mongol victory in Europe.', category: 'military', era: 'mongol-empire', location: 'Kalka River, Ukraine' }
+  ],
+  '04-11': [
+    { year: 1241, event: 'Battle of Mohi', detail: 'Subutai destroys Hungarian army. 70,000 dead. Only Ögedei\'s death saves Europe from conquest.', category: 'military', era: 'mongol-empire', location: 'Mohi, Hungary' }
+  ],
+  '09-03': [
+    { year: 1260, event: 'Battle of Ain Jalut', detail: 'Mamluks defeat the Mongols. First major Mongol loss. High-water mark of Mongol expansion.', category: 'military', era: 'mongol-empire', location: 'Ain Jalut, Palestine' }
+  ],
+  '03-19': [
+    { year: 1279, event: 'Fall of the Song Dynasty', detail: 'Kublai Khan completes conquest of China. Yuan Dynasty rules all of China.', category: 'military', era: 'mongol-empire', location: 'China' }
+  ],
+  '08-15': [
+    { year: 1281, event: 'Mongol fleet destroyed by kamikaze', detail: 'Typhoon destroys second Mongol invasion fleet. Japan remains unconquered.', category: 'military', era: 'mongol-empire', location: 'Hakata Bay, Japan' }
+  ],
+  '01-08': [
+    { year: 1324, event: 'Marco Polo dies', detail: '"I have not told half of what I saw." The great traveler dies in Venice.', category: 'other', era: 'mongol-empire', location: 'Venice, Italy' }
+  ],
+  '12-21': [
+    { year: 1237, event: 'Ryazan destroyed', detail: 'First Russian city destroyed by Mongols. Total annihilation - not rebuilt on same site.', category: 'military', era: 'mongol-empire', location: 'Ryazan, Russia' }
   ],
 }
 
