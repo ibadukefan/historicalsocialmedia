@@ -1,11 +1,30 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import { Calendar, Users, FileText, ArrowRight, Clock } from 'lucide-react'
 import { getEras, getProfiles, getPosts } from '@/lib/data'
 import { cn } from '@/lib/utils'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Explore Eras | Tempus',
   description: 'Explore different historical eras and time periods on Tempus.',
+  openGraph: {
+    title: 'Explore Historical Eras',
+    description: 'Journey through 10 eras spanning thousands of years of history.',
+    images: [
+      {
+        url: '/og/explore.png',
+        width: 1200,
+        height: 630,
+        alt: 'Explore Historical Eras',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Explore Historical Eras | Tempus',
+    description: 'Journey through 10 eras spanning thousands of years of history.',
+    images: ['/og/explore.png'],
+  },
 }
 
 export default function ExplorePage() {
@@ -102,26 +121,26 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      {/* Coming Soon */}
+      {/* Era Timeline */}
       <div className="p-4 border-t border-border">
         <h2 className="font-semibold text-lg mb-4 text-muted-foreground">
-          Coming Soon
+          Spanning Human History
         </h2>
-        <div className="grid grid-cols-2 gap-3">
-          {[
-            { name: 'Renaissance', years: '1400-1600' },
-            { name: 'Victorian Era', years: '1837-1901' },
-            { name: 'French Revolution', years: '1789-1799' },
-            { name: 'Civil War', years: '1861-1865' },
-          ].map((era) => (
-            <div
-              key={era.name}
-              className="p-4 rounded-lg border border-dashed border-border text-center"
-            >
-              <p className="font-medium text-muted-foreground">{era.name}</p>
-              <p className="text-xs text-muted-foreground/60">{era.years}</p>
-            </div>
-          ))}
+        <div className="p-4 bg-muted rounded-lg">
+          <p className="text-sm text-muted-foreground mb-3">
+            From the philosophers of Ancient Greece to the trenches of World War I,
+            explore {posts.length} posts from {profiles.length} historical figures and ordinary people across {eras.length} eras.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            {eras.map((era) => (
+              <span
+                key={era.id}
+                className="text-xs px-2 py-1 rounded-full bg-background border border-border"
+              >
+                {era.shortName || era.name}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </div>

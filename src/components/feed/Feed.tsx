@@ -4,7 +4,9 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 import { useVirtualizer } from '@tanstack/react-virtual'
 import { Loader2, Calendar } from 'lucide-react'
 import { Post, Profile } from '@/types'
-import { PostCard } from './PostCard'
+import { SafePostCard } from './SafePostCard'
+import { KeyboardNavigablePost } from './KeyboardNavigablePost'
+import { useKeyboardShortcuts } from '@/components/KeyboardShortcutsProvider'
 import { cn } from '@/lib/utils'
 
 interface FeedProps {
@@ -125,7 +127,7 @@ export function Feed({ initialPosts, profiles, hasMore = false, loadMore }: Feed
                 }}
                 data-index={virtualItem.index}
               >
-                <PostCard
+                <SafePostCard
                   post={item.post}
                   author={profiles[item.post.authorId]}
                 />
@@ -213,6 +215,18 @@ function groupPostsByDate(posts: Post[]): FeedItem[] {
 // Non-virtualized feed for simpler use cases
 export function SimpleFeed({ posts, profiles }: { posts: Post[]; profiles: Record<string, Profile> }) {
   const postsWithDates = groupPostsByDate(posts)
+  const { setPostCount } = useKeyboardShortcuts()
+
+  // Count only posts (not date headers)
+  const postCount = postsWithDates.filter(item => item.type === 'post').length
+
+  // Set post count for keyboard navigation
+  useEffect(() => {
+    setPostCount(postCount)
+    return () => setPostCount(0)
+  }, [postCount, setPostCount])
+
+  let postIndex = -1
 
   return (
     <div className="feed-simple">
@@ -220,12 +234,19 @@ export function SimpleFeed({ posts, profiles }: { posts: Post[]; profiles: Recor
         if (item.type === 'date-header') {
           return <DateHeader key={`date-${item.date}-${index}`} date={item.date} />
         }
+        postIndex++
+        const currentPostIndex = postIndex
         return (
-          <PostCard
+          <KeyboardNavigablePost
             key={item.post.id}
-            post={item.post}
-            author={profiles[item.post.authorId]}
-          />
+            postId={item.post.id}
+            index={currentPostIndex}
+          >
+            <SafePostCard
+              post={item.post}
+              author={profiles[item.post.authorId]}
+            />
+          </KeyboardNavigablePost>
         )
       })}
     </div>

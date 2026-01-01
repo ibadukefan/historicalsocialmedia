@@ -1,0 +1,405 @@
+{
+  "thomas-jefferson": [
+    { "profileId": "john-adams", "type": "friend", "description": "Fellow Founding Father, later political rival, reconciled in old age" },
+    { "profileId": "benjamin-franklin", "type": "colleague", "description": "Worked together on Declaration of Independence" },
+    { "profileId": "george-washington", "type": "colleague", "description": "Served as Secretary of State under Washington" },
+    { "profileId": "james-madison", "type": "friend", "description": "Close friend and political ally" },
+    { "profileId": "alexander-hamilton", "type": "rival", "description": "Political opponents with opposing visions" },
+    { "profileId": "lafayette", "type": "friend", "description": "Close friends since the Revolution" }
+  ],
+  "john-adams": [
+    { "profileId": "abigail-adams", "type": "spouse", "description": "Beloved wife and intellectual partner" },
+    { "profileId": "thomas-jefferson", "type": "friend", "description": "Complex friendship, political rivalry, final reconciliation" },
+    { "profileId": "benjamin-franklin", "type": "colleague", "description": "Served together as diplomats in France" },
+    { "profileId": "george-washington", "type": "colleague", "description": "Nominated Washington as commander" },
+    { "profileId": "alexander-hamilton", "type": "rival", "description": "Clashed over political influence" }
+  ],
+  "abigail-adams": [
+    { "profileId": "john-adams", "type": "spouse", "description": "Partner in life and politics" },
+    { "profileId": "thomas-jefferson", "type": "friend", "description": "Maintained correspondence despite political differences" },
+    { "profileId": "mercy-otis-warren", "type": "friend", "description": "Fellow advocate for women's rights" }
+  ],
+  "benjamin-franklin": [
+    { "profileId": "thomas-jefferson", "type": "colleague", "description": "Edited the Declaration together" },
+    { "profileId": "john-adams", "type": "colleague", "description": "Diplomatic partners in France" },
+    { "profileId": "george-washington", "type": "friend", "description": "Mutual respect and admiration" },
+    { "profileId": "louis-xvi", "type": "ally", "description": "Secured French alliance for America" }
+  ],
+  "george-washington": [
+    { "profileId": "martha-washington", "type": "spouse", "description": "Devoted wife who joined him at winter camps" },
+    { "profileId": "lafayette", "type": "friend", "description": "Treated Lafayette like a son" },
+    { "profileId": "alexander-hamilton", "type": "mentor", "description": "Hamilton served as aide-de-camp" },
+    { "profileId": "thomas-jefferson", "type": "colleague", "description": "Secretary of State in his cabinet" },
+    { "profileId": "benedict-arnold", "type": "enemy", "description": "Trusted general who became traitor" },
+    { "profileId": "cornwallis", "type": "rival", "description": "British general he defeated at Yorktown" }
+  ],
+  "martha-washington": [
+    { "profileId": "george-washington", "type": "spouse", "description": "First Lady of the Revolution" }
+  ],
+  "alexander-hamilton": [
+    { "profileId": "george-washington", "type": "student", "description": "Washington's trusted aide and protégé" },
+    { "profileId": "thomas-jefferson", "type": "rival", "description": "Bitter political enemies" },
+    { "profileId": "john-adams", "type": "rival", "description": "Clashed within Federalist party" },
+    { "profileId": "lafayette", "type": "friend", "description": "Brothers in arms during Revolution" },
+    { "profileId": "aaron-burr", "type": "rival", "description": "Long-standing political and personal rivalry" }
+  ],
+  "lafayette": [
+    { "profileId": "george-washington", "type": "friend", "description": "Revered Washington as a father figure" },
+    { "profileId": "alexander-hamilton", "type": "friend", "description": "Fellow idealists and soldiers" },
+    { "profileId": "thomas-jefferson", "type": "friend", "description": "Shared revolutionary ideals" },
+    { "profileId": "louis-xvi", "type": "ally", "description": "Served the King while supporting revolution" },
+    { "profileId": "marie-antoinette", "type": "colleague", "description": "Tried to protect the royal family" }
+  ],
+
+  "julius-caesar": [
+    { "profileId": "pompey", "type": "rival", "description": "Former ally turned enemy in civil war" },
+    { "profileId": "marcus-brutus", "type": "friend", "description": "Trusted friend who betrayed him" },
+    { "profileId": "cleopatra", "type": "ally", "description": "Political alliance and romance" },
+    { "profileId": "mark-antony", "type": "friend", "description": "Loyal general and supporter" },
+    { "profileId": "cicero", "type": "rival", "description": "Political opponent in the Senate" }
+  ],
+  "cleopatra": [
+    { "profileId": "julius-caesar", "type": "ally", "description": "Political and romantic alliance" },
+    { "profileId": "mark-antony", "type": "spouse", "description": "Married alliance against Rome" },
+    { "profileId": "augustus", "type": "enemy", "description": "Final enemy who conquered Egypt" }
+  ],
+  "augustus": [
+    { "profileId": "julius-caesar", "type": "family", "description": "Adopted son and heir" },
+    { "profileId": "mark-antony", "type": "rival", "description": "Civil war opponent" },
+    { "profileId": "cleopatra", "type": "enemy", "description": "Defeated her at Actium" },
+    { "profileId": "livia", "type": "spouse", "description": "Influential empress and advisor" }
+  ],
+  "marcus-aurelius": [
+    { "profileId": "commodus", "type": "family", "description": "Disappointing son and successor" },
+    { "profileId": "lucius-verus", "type": "colleague", "description": "Co-emperor and adoptive brother" }
+  ],
+  "cicero": [
+    { "profileId": "julius-caesar", "type": "rival", "description": "Opposed Caesar's ambitions" },
+    { "profileId": "mark-antony", "type": "enemy", "description": "Executed on Antony's orders" },
+    { "profileId": "marcus-brutus", "type": "friend", "description": "Supported the conspirators" }
+  ],
+
+  "louis-xvi": [
+    { "profileId": "marie-antoinette", "type": "spouse", "description": "Queen of France" },
+    { "profileId": "lafayette", "type": "colleague", "description": "Reluctant revolutionary ally" },
+    { "profileId": "robespierre", "type": "enemy", "description": "Ordered his execution" },
+    { "profileId": "benjamin-franklin", "type": "ally", "description": "Supported American independence" }
+  ],
+  "marie-antoinette": [
+    { "profileId": "louis-xvi", "type": "spouse", "description": "King of France" },
+    { "profileId": "robespierre", "type": "enemy", "description": "Revolutionary enemy" },
+    { "profileId": "lafayette", "type": "colleague", "description": "Attempted to protect her" }
+  ],
+  "robespierre": [
+    { "profileId": "danton", "type": "rival", "description": "Former ally, executed him" },
+    { "profileId": "louis-xvi", "type": "enemy", "description": "Championed the king's execution" },
+    { "profileId": "saint-just", "type": "friend", "description": "Close political ally" },
+    { "profileId": "napoleon", "type": "colleague", "description": "Rose during the Revolution" }
+  ],
+  "napoleon": [
+    { "profileId": "josephine", "type": "spouse", "description": "First wife, great love" },
+    { "profileId": "robespierre", "type": "colleague", "description": "Benefited from Revolutionary chaos" },
+    { "profileId": "wellington", "type": "rival", "description": "Nemesis who defeated him at Waterloo" }
+  ],
+
+  "leonardo-da-vinci": [
+    { "profileId": "michelangelo", "type": "rival", "description": "Artistic rivals in Florence" },
+    { "profileId": "lorenzo-de-medici", "type": "mentor", "description": "Patron and supporter" }
+  ],
+  "michelangelo": [
+    { "profileId": "leonardo-da-vinci", "type": "rival", "description": "Competing for commissions" },
+    { "profileId": "lorenzo-de-medici", "type": "mentor", "description": "Early patron and protector" }
+  ],
+  "galileo": [
+    { "profileId": "copernicus", "type": "colleague", "description": "Built on Copernican model" }
+  ],
+  "shakespeare": [
+    { "profileId": "elizabeth-i", "type": "colleague", "description": "Playwright for her court" }
+  ],
+  "elizabeth-i": [
+    { "profileId": "shakespeare", "type": "colleague", "description": "Patron of the arts" },
+    { "profileId": "mary-queen-scots", "type": "rival", "description": "Cousin and political threat" }
+  ],
+
+  "martin-luther-king": [
+    { "profileId": "coretta-scott-king", "type": "spouse", "description": "Partner in the movement" },
+    { "profileId": "malcolm-x", "type": "rival", "description": "Different approaches to civil rights" },
+    { "profileId": "rosa-parks", "type": "colleague", "description": "Montgomery Bus Boycott ally" },
+    { "profileId": "john-lewis", "type": "friend", "description": "Fellow SNCC leader" }
+  ],
+  "malcolm-x": [
+    { "profileId": "martin-luther-king", "type": "rival", "description": "Debated methods of resistance" }
+  ],
+  "rosa-parks": [
+    { "profileId": "martin-luther-king", "type": "colleague", "description": "Sparked Montgomery Bus Boycott" }
+  ],
+
+  "winston-churchill": [
+    { "profileId": "franklin-roosevelt", "type": "ally", "description": "Wartime partnership" },
+    { "profileId": "eisenhower", "type": "colleague", "description": "Allied commander" },
+    { "profileId": "charles-de-gaulle", "type": "ally", "description": "Free French leader" }
+  ],
+  "franklin-roosevelt": [
+    { "profileId": "winston-churchill", "type": "ally", "description": "Special relationship" },
+    { "profileId": "eisenhower", "type": "colleague", "description": "Supreme Allied Commander" }
+  ],
+  "eisenhower": [
+    { "profileId": "winston-churchill", "type": "colleague", "description": "British ally" },
+    { "profileId": "franklin-roosevelt", "type": "colleague", "description": "Commander in Chief" },
+    { "profileId": "patton", "type": "colleague", "description": "Difficult but brilliant general" },
+    { "profileId": "rommel", "type": "rival", "description": "Respected enemy in North Africa" }
+  ],
+
+  "socrates": [
+    { "profileId": "plato", "type": "mentor", "description": "Greatest student" },
+    { "profileId": "aristotle", "type": "colleague", "description": "Intellectual lineage" }
+  ],
+  "plato": [
+    { "profileId": "socrates", "type": "student", "description": "Devoted student and chronicler" },
+    { "profileId": "aristotle", "type": "mentor", "description": "Taught at the Academy" }
+  ],
+  "aristotle": [
+    { "profileId": "plato", "type": "student", "description": "Studied at the Academy" },
+    { "profileId": "alexander-the-great", "type": "mentor", "description": "Tutored young Alexander" }
+  ],
+  "alexander-the-great": [
+    { "profileId": "aristotle", "type": "student", "description": "Received education from the philosopher" },
+    { "profileId": "philip-ii", "type": "family", "description": "Father and predecessor" }
+  ],
+  "leonidas": [
+    { "profileId": "xerxes", "type": "enemy", "description": "Faced at Thermopylae" },
+    { "profileId": "queen-gorgo", "type": "spouse", "description": "Queen of Sparta" }
+  ],
+
+  "ragnar-lothbrok": [
+    { "profileId": "lagertha", "type": "spouse", "description": "Shield-maiden wife" },
+    { "profileId": "bjorn-ironside", "type": "family", "description": "Legendary son" },
+    { "profileId": "ivar-the-boneless", "type": "family", "description": "Son who avenged him" }
+  ],
+  "lagertha": [
+    { "profileId": "ragnar-lothbrok", "type": "spouse", "description": "Earl and husband" }
+  ],
+  "alfred-the-great": [
+    { "profileId": "guthrum", "type": "rival", "description": "Viking king he defeated and baptized" }
+  ],
+  "william-the-conqueror": [
+    { "profileId": "harold-godwinson", "type": "rival", "description": "Defeated at Hastings" }
+  ],
+
+  "richard-lionheart": [
+    { "profileId": "saladin", "type": "rival", "description": "Legendary adversaries in the Third Crusade, developed mutual respect" },
+    { "profileId": "eleanor-aquitaine", "type": "family", "description": "Beloved mother who raised his ransom" },
+    { "profileId": "frederick-barbarossa", "type": "ally", "description": "Fellow leader of the Third Crusade" },
+    { "profileId": "pope-urban-ii", "type": "colleague", "description": "Answered the call to crusade" }
+  ],
+  "saladin": [
+    { "profileId": "richard-lionheart", "type": "rival", "description": "Worthy opponent, showed chivalry to each other" },
+    { "profileId": "baldwin-iv", "type": "enemy", "description": "The Leper King who defeated him at Montgisard" },
+    { "profileId": "templar-knight", "type": "enemy", "description": "Executed captured Templars after Hattin" }
+  ],
+  "eleanor-aquitaine": [
+    { "profileId": "richard-lionheart", "type": "family", "description": "Favorite son, ruled England during his crusade" },
+    { "profileId": "frederick-barbarossa", "type": "colleague", "description": "Fellow monarch, participated in Second Crusade" }
+  ],
+  "baldwin-iv": [
+    { "profileId": "saladin", "type": "enemy", "description": "Defended Jerusalem despite leprosy" },
+    { "profileId": "templar-knight", "type": "ally", "description": "Relied on Templars for defense" }
+  ],
+  "frederick-barbarossa": [
+    { "profileId": "richard-lionheart", "type": "ally", "description": "Co-leaders of Third Crusade" },
+    { "profileId": "saladin", "type": "enemy", "description": "Led massive army against Saladin, drowned en route" },
+    { "profileId": "pope-urban-ii", "type": "colleague", "description": "Took up the cross for the crusade" }
+  ],
+  "pope-urban-ii": [
+    { "profileId": "richard-lionheart", "type": "colleague", "description": "Called Christians to crusade" },
+    { "profileId": "frederick-barbarossa", "type": "colleague", "description": "Inspired the crusading movement" }
+  ],
+  "templar-knight": [
+    { "profileId": "hospitaller", "type": "colleague", "description": "Fellow military order, sometimes rivals" },
+    { "profileId": "saladin", "type": "enemy", "description": "Sworn enemies in the Holy Land" },
+    { "profileId": "baldwin-iv", "type": "ally", "description": "Defended the Kingdom of Jerusalem" }
+  ],
+  "hospitaller": [
+    { "profileId": "templar-knight", "type": "colleague", "description": "Brother military order" },
+    { "profileId": "baldwin-iv", "type": "ally", "description": "Served the Kingdom of Jerusalem" }
+  ],
+
+  "khufu": [
+    { "profileId": "pyramid-worker", "type": "colleague", "description": "Workers who built his eternal monument" }
+  ],
+  "cleopatra-vii": [
+    { "profileId": "julius-caesar", "type": "ally", "description": "Political alliance and romance" },
+    { "profileId": "mark-antony", "type": "spouse", "description": "Husband and political partner" },
+    { "profileId": "augustus", "type": "enemy", "description": "Final enemy who conquered Egypt" }
+  ],
+  "ramesses-ii": [
+    { "profileId": "nefertiti", "type": "colleague", "description": "Predecessor's queen, remembered her beauty" }
+  ],
+  "hatshepsut": [
+    { "profileId": "tutankhamun", "type": "colleague", "description": "Earlier female pharaoh who paved the way" }
+  ],
+  "akhenaten": [
+    { "profileId": "nefertiti", "type": "spouse", "description": "Great Royal Wife and co-ruler" },
+    { "profileId": "tutankhamun", "type": "family", "description": "Son who reversed his religious reforms" }
+  ],
+  "nefertiti": [
+    { "profileId": "akhenaten", "type": "spouse", "description": "Pharaoh husband, partners in religious revolution" },
+    { "profileId": "tutankhamun", "type": "family", "description": "Stepson who returned to old ways" }
+  ],
+  "tutankhamun": [
+    { "profileId": "akhenaten", "type": "family", "description": "Father whose reforms he reversed" },
+    { "profileId": "nefertiti", "type": "family", "description": "Stepmother from the Amarna period" }
+  ],
+  "pyramid-worker": [
+    { "profileId": "khufu", "type": "colleague", "description": "Served the god-king with labor" },
+    { "profileId": "egyptian-scribe", "type": "colleague", "description": "Scribes recorded our work" }
+  ],
+  "egyptian-scribe": [
+    { "profileId": "pyramid-worker", "type": "colleague", "description": "Recorded the workers' efforts" },
+    { "profileId": "egyptian-priestess", "type": "colleague", "description": "Both serve the temples" }
+  ],
+  "egyptian-priestess": [
+    { "profileId": "egyptian-scribe", "type": "colleague", "description": "Scribes record temple rituals" }
+  ],
+
+  "abraham-lincoln": [
+    { "profileId": "ulysses-grant", "type": "colleague", "description": "Trusted general who won the war" },
+    { "profileId": "robert-e-lee", "type": "enemy", "description": "Confederate commander" },
+    { "profileId": "frederick-douglass", "type": "ally", "description": "Advised on emancipation and Black soldiers" },
+    { "profileId": "harriet-tubman", "type": "ally", "description": "Underground Railroad conductor and Union spy" },
+    { "profileId": "william-sherman", "type": "colleague", "description": "General who marched to the sea" }
+  ],
+  "robert-e-lee": [
+    { "profileId": "ulysses-grant", "type": "rival", "description": "Opposing commander, surrendered to him at Appomattox" },
+    { "profileId": "abraham-lincoln", "type": "enemy", "description": "President of the Union" },
+    { "profileId": "william-sherman", "type": "enemy", "description": "Union general who devastated the South" },
+    { "profileId": "confederate-soldier", "type": "colleague", "description": "Led Southern troops" }
+  ],
+  "ulysses-grant": [
+    { "profileId": "abraham-lincoln", "type": "colleague", "description": "President who trusted him completely" },
+    { "profileId": "robert-e-lee", "type": "rival", "description": "Respected opponent, generous in victory" },
+    { "profileId": "william-sherman", "type": "friend", "description": "Closest friend and trusted subordinate" },
+    { "profileId": "union-soldier", "type": "colleague", "description": "Led Union armies" }
+  ],
+  "frederick-douglass": [
+    { "profileId": "abraham-lincoln", "type": "ally", "description": "Pushed Lincoln toward emancipation" },
+    { "profileId": "harriet-tubman", "type": "friend", "description": "Fellow abolitionist and freedom fighter" },
+    { "profileId": "freed-slave", "type": "colleague", "description": "Voice for the enslaved" }
+  ],
+  "harriet-tubman": [
+    { "profileId": "frederick-douglass", "type": "friend", "description": "Fellow conductor on freedom's road" },
+    { "profileId": "abraham-lincoln", "type": "ally", "description": "Served as Union spy and scout" },
+    { "profileId": "freed-slave", "type": "colleague", "description": "Led hundreds to freedom" }
+  ],
+  "clara-barton": [
+    { "profileId": "union-soldier", "type": "colleague", "description": "Nursed wounded soldiers" },
+    { "profileId": "confederate-soldier", "type": "colleague", "description": "Cared for all wounded, regardless of side" }
+  ],
+  "william-sherman": [
+    { "profileId": "ulysses-grant", "type": "friend", "description": "Best friend and fellow general" },
+    { "profileId": "abraham-lincoln", "type": "colleague", "description": "Served the President's war aims" },
+    { "profileId": "robert-e-lee", "type": "enemy", "description": "Brought total war to the Confederacy" }
+  ],
+  "union-soldier": [
+    { "profileId": "ulysses-grant", "type": "colleague", "description": "Fought under his command" },
+    { "profileId": "clara-barton", "type": "colleague", "description": "She saved my life on the field" },
+    { "profileId": "confederate-soldier", "type": "enemy", "description": "Enemy across the lines, sometimes friend in quiet moments" }
+  ],
+  "confederate-soldier": [
+    { "profileId": "robert-e-lee", "type": "colleague", "description": "Served under Marse Robert" },
+    { "profileId": "union-soldier", "type": "enemy", "description": "Enemies in battle, both just boys far from home" },
+    { "profileId": "clara-barton", "type": "colleague", "description": "Angel who helped the wounded" }
+  ],
+  "freed-slave": [
+    { "profileId": "frederick-douglass", "type": "colleague", "description": "He speaks for all of us" },
+    { "profileId": "harriet-tubman", "type": "colleague", "description": "She led us to freedom" },
+    { "profileId": "abraham-lincoln", "type": "ally", "description": "The Great Emancipator" }
+  ],
+
+  "jfk": [
+    { "profileId": "khrushchev", "type": "rival", "description": "Cold War adversary, Cuban Missile Crisis" },
+    { "profileId": "neil-armstrong", "type": "colleague", "description": "Inspired the Moon mission" },
+    { "profileId": "buzz-aldrin", "type": "colleague", "description": "Part of the Apollo program he championed" }
+  ],
+  "khrushchev": [
+    { "profileId": "jfk", "type": "rival", "description": "Standoff over Cuba nearly started WWIII" },
+    { "profileId": "yuri-gagarin", "type": "colleague", "description": "Celebrated Gagarin's triumph" },
+    { "profileId": "soviet-engineer", "type": "colleague", "description": "Engineers who won the early space race" }
+  ],
+  "yuri-gagarin": [
+    { "profileId": "khrushchev", "type": "colleague", "description": "Hero of the Soviet Union" },
+    { "profileId": "neil-armstrong", "type": "rival", "description": "First in space vs. first on Moon" },
+    { "profileId": "soviet-engineer", "type": "colleague", "description": "Engineers who made it possible" }
+  ],
+  "neil-armstrong": [
+    { "profileId": "buzz-aldrin", "type": "colleague", "description": "Walked on the Moon together" },
+    { "profileId": "jfk", "type": "colleague", "description": "Fulfilled Kennedy's promise" },
+    { "profileId": "yuri-gagarin", "type": "rival", "description": "Space race competitors, mutual respect" }
+  ],
+  "buzz-aldrin": [
+    { "profileId": "neil-armstrong", "type": "colleague", "description": "Apollo 11 crewmate" },
+    { "profileId": "jfk", "type": "colleague", "description": "Achieved the dream Kennedy set" }
+  ],
+  "ronald-reagan": [
+    { "profileId": "gorbachev", "type": "rival", "description": "Cold War adversary who became partner in ending it" },
+    { "profileId": "berlin-citizen", "type": "ally", "description": "Called to tear down the Wall" }
+  ],
+  "gorbachev": [
+    { "profileId": "ronald-reagan", "type": "rival", "description": "Found common ground despite differences" },
+    { "profileId": "soviet-engineer", "type": "colleague", "description": "Inherited the Soviet system" },
+    { "profileId": "berlin-citizen", "type": "colleague", "description": "The Wall came down under his watch" }
+  ],
+  "american-housewife-50s": [
+    { "profileId": "soviet-engineer", "type": "enemy", "description": "The enemy we're told to fear" }
+  ],
+  "soviet-engineer": [
+    { "profileId": "yuri-gagarin", "type": "colleague", "description": "Built the rockets that made him fly" },
+    { "profileId": "khrushchev", "type": "colleague", "description": "Served the Soviet space program" },
+    { "profileId": "american-housewife-50s", "type": "enemy", "description": "Americans fear us, but we just work" }
+  ],
+  "berlin-citizen": [
+    { "profileId": "ronald-reagan", "type": "ally", "description": "He spoke for us at the Wall" },
+    { "profileId": "gorbachev", "type": "colleague", "description": "Finally let the Wall fall" }
+  ],
+
+  "christopher-columbus": [
+    { "profileId": "spanish-sailor", "type": "colleague", "description": "Crew on the voyage west" },
+    { "profileId": "taino-chief", "type": "colleague", "description": "First contact in the New World" },
+    { "profileId": "ferdinand-magellan", "type": "colleague", "description": "Fellow explorer who followed" }
+  ],
+  "ferdinand-magellan": [
+    { "profileId": "christopher-columbus", "type": "colleague", "description": "Inspired by Columbus's voyages" },
+    { "profileId": "spanish-sailor", "type": "colleague", "description": "Led crews around the world" }
+  ],
+  "zheng-he": [
+    { "profileId": "vasco-da-gama", "type": "rival", "description": "Chinese admiral who reached Africa first" },
+    { "profileId": "portuguese-trader", "type": "colleague", "description": "Opened trade routes" }
+  ],
+  "vasco-da-gama": [
+    { "profileId": "zheng-he", "type": "rival", "description": "Followed routes the Chinese already knew" },
+    { "profileId": "portuguese-trader", "type": "colleague", "description": "Opened the spice trade" },
+    { "profileId": "ferdinand-magellan", "type": "colleague", "description": "Fellow Portuguese explorer" }
+  ],
+  "hernan-cortes": [
+    { "profileId": "montezuma-ii", "type": "enemy", "description": "Conquered the Aztec Empire" },
+    { "profileId": "spanish-sailor", "type": "colleague", "description": "Conquistadors who followed him" }
+  ],
+  "montezuma-ii": [
+    { "profileId": "hernan-cortes", "type": "enemy", "description": "Spanish conqueror who destroyed his empire" }
+  ],
+  "spanish-sailor": [
+    { "profileId": "christopher-columbus", "type": "colleague", "description": "Served under the Admiral" },
+    { "profileId": "ferdinand-magellan", "type": "colleague", "description": "Sailed around the world" },
+    { "profileId": "hernan-cortes", "type": "colleague", "description": "Conquistadors together" }
+  ],
+  "taino-chief": [
+    { "profileId": "christopher-columbus", "type": "colleague", "description": "Welcomed the strangers, later regretted it" }
+  ],
+  "portuguese-trader": [
+    { "profileId": "vasco-da-gama", "type": "colleague", "description": "Followed the route he opened" },
+    { "profileId": "zheng-he", "type": "rival", "description": "Competed for Asian trade" }
+  ],
+  "inca-messenger": [
+    { "profileId": "hernan-cortes", "type": "enemy", "description": "Heard rumors of the conquistadors from the north" }
+  ]
+}

@@ -28,6 +28,10 @@ import {
 } from 'lucide-react'
 import { Post, Profile } from '@/types'
 import { cn, formatHistoricalDate, formatNumber, getAccuracyColor } from '@/lib/utils'
+import { useBookmarks } from '@/components/BookmarksProvider'
+import { useLikes } from '@/components/LikesProvider'
+import { useComments } from '@/components/CommentsProvider'
+import { ShowThreadButton } from '@/components/thread/ThreadView'
 
 interface PostCardProps {
   post: Post
@@ -37,14 +41,19 @@ interface PostCardProps {
 }
 
 export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardProps) {
-  const [liked, setLiked] = useState(false)
-  const [bookmarked, setBookmarked] = useState(false)
   const [showSources, setShowSources] = useState(false)
   const [showShareMenu, setShowShareMenu] = useState(false)
   const [showContext, setShowContext] = useState(false)
   const [copied, setCopied] = useState(false)
   const shareMenuRef = useRef<HTMLDivElement>(null)
+  const { isBookmarked, toggleBookmark } = useBookmarks()
+  const { isLiked, toggleLike } = useLikes()
+  const { getCommentCount } = useComments()
 
+  const liked = isLiked(post.id)
+  const userCommentCount = getCommentCount(post.id)
+
+  const bookmarked = isBookmarked(post.id)
   const authorName = author?.displayName || 'Unknown'
   const authorHandle = author?.handle || '@unknown'
   const isVerified = author?.isVerified || false
@@ -62,12 +71,12 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
 
   const handleLike = (e: React.MouseEvent) => {
     e.preventDefault()
-    setLiked(!liked)
+    toggleLike(post.id)
   }
 
   const handleBookmark = (e: React.MouseEvent) => {
     e.preventDefault()
-    setBookmarked(!bookmarked)
+    toggleBookmark(post.id)
   }
 
   const handleShare = (e: React.MouseEvent) => {
@@ -118,17 +127,18 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
         <Link
           href={`/profile/${post.authorId}`}
           className="shrink-0"
+          aria-label={`View ${authorName}'s profile`}
         >
           <div className="relative">
             <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-lg font-semibold overflow-hidden">
               {author?.avatar ? (
                 <img
                   src={author.avatar}
-                  alt={authorName}
+                  alt={`${authorName}'s profile picture`}
                   className="w-full h-full object-cover"
                 />
               ) : (
-                authorName.charAt(0)
+                <span aria-hidden="true">{authorName.charAt(0)}</span>
               )}
             </div>
             {isVerified && (
@@ -166,9 +176,9 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
             </div>
             <button
               className="shrink-0 p-1 rounded-full hover:bg-muted text-muted-foreground"
-              aria-label="More options"
+              aria-label={`More options for post by ${authorName}`}
             >
-              <MoreHorizontal className="h-4 w-4" />
+              <MoreHorizontal className="h-4 w-4" aria-hidden="true" />
             </button>
           </div>
 
@@ -323,11 +333,13 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
 
           {/* Interactions */}
           <div className="flex items-center justify-between mt-3 max-w-md">
-            <InteractionButton
-              icon={MessageCircle}
-              count={post.comments}
-              label="Comment"
-            />
+            <Link href={`/post/${post.id}`} className="flex items-center">
+              <InteractionButton
+                icon={MessageCircle}
+                count={post.comments + userCommentCount}
+                label="Comment"
+              />
+            </Link>
             <InteractionButton
               icon={Repeat2}
               count={post.shares}
@@ -428,11 +440,20 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
             </div>
           </div>
 
+          {/* Thread indicator */}
+          {post.threadId && !isThreaded && (
+            <ShowThreadButton
+              threadId={post.threadId}
+              postId={post.id}
+              position={post.threadPosition}
+            />
+          )}
+
           {/* Sample comments preview */}
-          {post.interactions && post.interactions.filter(i => i.type === 'comment').length > 0 && (
+          {((post.interactions?.filter(i => i.type === 'comment').length ?? 0) > 0 || userCommentCount > 0) && (
             <div className="mt-3 space-y-2">
               {post.interactions
-                .filter(i => i.type === 'comment')
+                ?.filter(i => i.type === 'comment')
                 .slice(0, 2)
                 .map((interaction) => (
                   <div key={interaction.id} className="flex gap-2 text-sm">
@@ -440,12 +461,20 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
                     <span className="text-muted-foreground">{interaction.content}</span>
                   </div>
                 ))}
-              {post.comments > 2 && (
+              {(post.comments + userCommentCount) > 2 && (
                 <Link
                   href={`/post/${post.id}`}
                   className="text-sm text-primary hover:underline"
                 >
-                  View all {post.comments} comments
+                  View all {post.comments + userCommentCount} comments
+                </Link>
+              )}
+              {(post.comments + userCommentCount) <= 2 && (post.comments + userCommentCount) > 0 && (
+                <Link
+                  href={`/post/${post.id}`}
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
+                  Add a comment...
                 </Link>
               )}
             </div>

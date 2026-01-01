@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Users, CheckCircle2, Filter } from 'lucide-react'
 import { getProfiles, getPostsByAuthor } from '@/lib/data'
 import { cn, formatNumber } from '@/lib/utils'
+import { FollowButton } from '@/components/FollowButton'
 
 export const metadata = {
   title: 'Historical Figures | Tempus',
@@ -96,16 +97,15 @@ function ProfileCard({ profile, featured }: ProfileCardProps) {
   const postCount = getPostsByAuthor(profile.id).length
 
   return (
-    <Link
-      href={`/profile/${profile.id}`}
+    <div
       className={cn(
-        "block p-4 rounded-xl border border-border transition-all hover:border-primary hover:bg-muted/50",
+        "p-4 rounded-xl border border-border transition-all hover:border-primary hover:bg-muted/50",
         featured && "bg-gradient-to-r from-primary/5 to-transparent"
       )}
     >
       <div className="flex items-start gap-3">
         {/* Avatar */}
-        <div className="relative shrink-0">
+        <Link href={`/profile/${profile.id}`} className="relative shrink-0">
           <div className={cn(
             "rounded-full bg-muted flex items-center justify-center font-semibold",
             featured ? "w-14 h-14 text-xl" : "w-12 h-12 text-lg"
@@ -115,28 +115,35 @@ function ProfileCard({ profile, featured }: ProfileCardProps) {
           {profile.isVerified && (
             <CheckCircle2 className="absolute -bottom-0.5 -right-0.5 h-5 w-5 text-primary fill-background" />
           )}
-        </div>
+        </Link>
 
         {/* Info */}
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-1">
-            <span className={cn("font-bold truncate", featured && "text-lg")}>
-              {profile.displayName}
-            </span>
-            {profile.isVerified && (
-              <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
-            )}
+          <div className="flex items-start justify-between gap-2">
+            <Link href={`/profile/${profile.id}`} className="min-w-0">
+              <div className="flex items-center gap-1">
+                <span className={cn("font-bold truncate hover:underline", featured && "text-lg")}>
+                  {profile.displayName}
+                </span>
+                {profile.isVerified && (
+                  <CheckCircle2 className="h-4 w-4 text-primary shrink-0" />
+                )}
+              </div>
+              <p className="text-sm text-muted-foreground truncate">{profile.handle}</p>
+              {profile.title && (
+                <p className="text-sm text-muted-foreground mt-0.5">{profile.title}</p>
+              )}
+            </Link>
+            <FollowButton profileId={profile.id} size="sm" />
           </div>
-          <p className="text-sm text-muted-foreground truncate">{profile.handle}</p>
-          {profile.title && (
-            <p className="text-sm text-muted-foreground mt-0.5">{profile.title}</p>
-          )}
-          <p className={cn(
-            "mt-2 text-sm",
-            featured ? "line-clamp-2" : "line-clamp-1"
-          )}>
-            {profile.bio}
-          </p>
+          <Link href={`/profile/${profile.id}`}>
+            <p className={cn(
+              "mt-2 text-sm",
+              featured ? "line-clamp-2" : "line-clamp-1"
+            )}>
+              {profile.bio}
+            </p>
+          </Link>
 
           {/* Stats */}
           <div className="flex items-center gap-4 mt-2 text-xs text-muted-foreground">
@@ -153,6 +160,6 @@ function ProfileCard({ profile, featured }: ProfileCardProps) {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   )
 }

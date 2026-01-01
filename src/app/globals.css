@@ -126,3 +126,29 @@
 .thread-line {
   @apply absolute left-5 top-12 bottom-0 w-0.5 bg-border;
 }
+
+/* Reduce motion setting */
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+}
+
+.reduce-motion .animate-fade-in-up {
+  animation: none;
+}
+
+/* Compact mode setting */
+.compact-mode .post-card {
+  @apply py-2;
+}
+
+.compact-mode .post-card .text-\[15px\] {
+  @apply text-sm;
+}
+
+.compact-mode article {
+  @apply py-2;
+}

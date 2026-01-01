@@ -1,19 +1,58 @@
-import { Post, Profile, Era, FeedFilters, FeedSegment } from '@/types'
+import { Post, Profile, Era, FeedFilters, FeedSegment, Relationship } from '@/types'
 import julyPostsData from '@/data/posts/july-1776.json'
 import expandedPostsData from '@/data/posts/revolution-expanded.json'
 import globalPostsData from '@/data/posts/global-1776.json'
 import mundanePostsData from '@/data/posts/mundane-1776.json'
+import everydayPostsData from '@/data/posts/everyday-1776.json'
+import laterRevolutionData from '@/data/posts/revolution-1777-1783.json'
+import everyday1777Data from '@/data/posts/everyday-1777-1783.json'
+import historicalFiguresData from '@/data/posts/historical-figures.json'
+import ancientRomeData from '@/data/posts/ancient-rome.json'
+import worldWar2Data from '@/data/posts/world-war-2.json'
+import renaissanceData from '@/data/posts/renaissance.json'
+import civilRightsData from '@/data/posts/civil-rights.json'
+import frenchRevolutionData from '@/data/posts/french-revolution.json'
+import ancientGreeceData from '@/data/posts/ancient-greece.json'
+import worldWar1Data from '@/data/posts/world-war-1.json'
+import industrialRevolutionData from '@/data/posts/industrial-revolution.json'
+import vikingAgeData from '@/data/posts/viking-age.json'
+import threadsData from '@/data/posts/threads.json'
+import medievalCrusadesData from '@/data/posts/medieval-crusades.json'
+import ancientEgyptData from '@/data/posts/ancient-egypt.json'
+import americanCivilWarData from '@/data/posts/american-civil-war.json'
+import coldWarData from '@/data/posts/cold-war.json'
+import ageOfExplorationData from '@/data/posts/age-of-exploration.json'
 import profilesData from '@/data/profiles/index.json'
 import erasData from '@/data/eras/index.json'
+import relationshipsData from '@/data/relationships.json'
 
 // Type assertions for imported JSON and combine posts
 const julyPosts: Post[] = julyPostsData as Post[]
 const expandedPosts: Post[] = expandedPostsData as Post[]
 const globalPosts: Post[] = globalPostsData as Post[]
 const mundanePosts: Post[] = mundanePostsData as Post[]
+const everydayPosts: Post[] = everydayPostsData as Post[]
+const laterRevolutionPosts: Post[] = laterRevolutionData as Post[]
+const everyday1777Posts: Post[] = everyday1777Data as Post[]
+const historicalFiguresPosts: Post[] = historicalFiguresData as Post[]
+const ancientRomePosts: Post[] = ancientRomeData as Post[]
+const worldWar2Posts: Post[] = worldWar2Data as Post[]
+const renaissancePosts: Post[] = renaissanceData as Post[]
+const civilRightsPosts: Post[] = civilRightsData as Post[]
+const frenchRevolutionPosts: Post[] = frenchRevolutionData as Post[]
+const ancientGreecePosts: Post[] = ancientGreeceData as Post[]
+const worldWar1Posts: Post[] = worldWar1Data as Post[]
+const industrialRevolutionPosts: Post[] = industrialRevolutionData as Post[]
+const vikingAgePosts: Post[] = vikingAgeData as Post[]
+const threadPosts: Post[] = threadsData as Post[]
+const medievalCrusadesPosts: Post[] = medievalCrusadesData as Post[]
+const ancientEgyptPosts: Post[] = ancientEgyptData as Post[]
+const americanCivilWarPosts: Post[] = americanCivilWarData as Post[]
+const coldWarPosts: Post[] = coldWarData as Post[]
+const ageOfExplorationPosts: Post[] = ageOfExplorationData as Post[]
 
 // Combine all posts and sort by timestamp (newest first)
-const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts].sort(
+const posts: Post[] = [...julyPosts, ...expandedPosts, ...globalPosts, ...mundanePosts, ...everydayPosts, ...laterRevolutionPosts, ...everyday1777Posts, ...historicalFiguresPosts, ...ancientRomePosts, ...worldWar2Posts, ...renaissancePosts, ...civilRightsPosts, ...frenchRevolutionPosts, ...ancientGreecePosts, ...worldWar1Posts, ...industrialRevolutionPosts, ...vikingAgePosts, ...threadPosts, ...medievalCrusadesPosts, ...ancientEgyptPosts, ...americanCivilWarPosts, ...coldWarPosts, ...ageOfExplorationPosts].sort(
   (a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
 )
 
@@ -208,4 +247,68 @@ export function getSuggestedProfiles(limit: number = 5): Profile[] {
     .filter(p => p.isVerified)
     .sort((a, b) => (b.followers || 0) - (a.followers || 0))
     .slice(0, limit)
+}
+
+// Relationships data
+const relationships: Record<string, Relationship[]> = relationshipsData as Record<string, Relationship[]>
+
+/**
+ * Get relationships for a profile
+ */
+export function getRelationships(profileId: string): Relationship[] {
+  return relationships[profileId] || []
+}
+
+/**
+ * Get all profiles that have a relationship with the given profile
+ * (both directions - where they are the source AND where they are the target)
+ */
+export function getConnectedProfiles(profileId: string): { profile: Profile; relationship: Relationship; direction: 'outgoing' | 'incoming' }[] {
+  const connected: { profile: Profile; relationship: Relationship; direction: 'outgoing' | 'incoming' }[] = []
+
+  // Outgoing relationships (from this profile to others)
+  const outgoing = relationships[profileId] || []
+  outgoing.forEach(rel => {
+    const profile = getProfile(rel.profileId)
+    if (profile) {
+      connected.push({ profile, relationship: rel, direction: 'outgoing' })
+    }
+  })
+
+  // Incoming relationships (from others to this profile)
+  Object.entries(relationships).forEach(([sourceId, rels]) => {
+    if (sourceId !== profileId) {
+      rels.forEach(rel => {
+        if (rel.profileId === profileId) {
+          const profile = getProfile(sourceId)
+          if (profile) {
+            // Create a reverse relationship
+            const reverseRel: Relationship = {
+              profileId: sourceId,
+              type: rel.type,
+              description: rel.description,
+              since: rel.since,
+              until: rel.until
+            }
+            connected.push({ profile, relationship: reverseRel, direction: 'incoming' })
+          }
+        }
+      })
+    }
+  })
+
+  return connected
+}
+
+/**
+ * Get relationship between two profiles
+ */
+export function getRelationshipBetween(profileId1: string, profileId2: string): Relationship | undefined {
+  const rels1 = relationships[profileId1] || []
+  const found = rels1.find(r => r.profileId === profileId2)
+  if (found) return found
+
+  // Check reverse
+  const rels2 = relationships[profileId2] || []
+  return rels2.find(r => r.profileId === profileId1)
 }

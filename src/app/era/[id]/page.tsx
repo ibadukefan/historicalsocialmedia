@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft, Calendar, Users, FileText, MapPin } from 'lucide-react'
@@ -16,13 +17,34 @@ export async function generateStaticParams() {
   }))
 }
 
-export async function generateMetadata({ params }: EraPageProps) {
+export async function generateMetadata({ params }: EraPageProps): Promise<Metadata> {
   const era = getEra(params.id)
   if (!era) return { title: 'Era Not Found | Tempus' }
+
+  const posts = getPosts({ era: params.id })
 
   return {
     title: `${era.name} | Tempus`,
     description: era.description,
+    openGraph: {
+      title: era.name,
+      description: era.description,
+      type: 'website',
+      images: [
+        {
+          url: `/og/era-${params.id}.png`,
+          width: 1200,
+          height: 630,
+          alt: era.name,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${era.name} | ${posts.length} posts`,
+      description: era.description,
+      images: [`/og/era-${params.id}.png`],
+    },
   }
 }
 

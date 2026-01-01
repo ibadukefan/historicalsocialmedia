@@ -1,3 +1,4 @@
+import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import {
@@ -7,10 +8,12 @@ import {
   CheckCircle2,
   ArrowLeft
 } from 'lucide-react'
-import { getProfile, getPostsByAuthor, getProfiles } from '@/lib/data'
-import { SimpleFeed } from '@/components/feed/Feed'
+import { getProfile, getPostsByAuthor, getProfiles, getPosts, getConnectedProfiles } from '@/lib/data'
 import { cn, formatHistoricalDate, formatNumber } from '@/lib/utils'
 import { Profile } from '@/types'
+import { FollowButton } from '@/components/FollowButton'
+import { ProfileTabs } from '@/components/profile/ProfileTabs'
+import { RelationshipNetwork } from '@/components/profile/RelationshipNetwork'
 
 interface ProfilePageProps {
   params: { id: string }
@@ -23,6 +26,42 @@ export async function generateStaticParams() {
   }))
 }
 
+export async function generateMetadata({ params }: ProfilePageProps): Promise<Metadata> {
+  const profile = getProfile(params.id)
+
+  if (!profile) {
+    return {
+      title: 'Profile Not Found | Tempus',
+    }
+  }
+
+  const eraId = profile.era[0] || 'american-revolution'
+
+  return {
+    title: `${profile.displayName} | Tempus`,
+    description: profile.bio,
+    openGraph: {
+      title: profile.displayName,
+      description: profile.bio,
+      type: 'profile',
+      images: [
+        {
+          url: `/og/era-${eraId}.png`,
+          width: 1200,
+          height: 630,
+          alt: profile.displayName,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: profile.displayName,
+      description: profile.bio,
+      images: [`/og/era-${eraId}.png`],
+    },
+  }
+}
+
 export default function ProfilePage({ params }: ProfilePageProps) {
   const profile = getProfile(params.id)
 
@@ -31,7 +70,15 @@ export default function ProfilePage({ params }: ProfilePageProps) {
   }
 
   const posts = getPostsByAuthor(profile.id)
-  const profiles: Record<string, Profile> = { [profile.id]: profile }
+  const allPosts = getPosts()
+  const allProfiles = getProfiles()
+  const connections = getConnectedProfiles(profile.id)
+
+  // Build a profiles map for all posts (needed for Likes tab)
+  const profilesMap: Record<string, Profile> = {}
+  allProfiles.forEach(p => {
+    profilesMap[p.id] = p
+  })
 
   return (
     <div className="min-h-screen">
@@ -106,9 +153,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
               <p className="text-sm text-muted-foreground mt-1">{profile.title}</p>
             )}
           </div>
-          <button className="px-6 py-2 bg-foreground text-background rounded-full font-semibold hover:opacity-90 transition-opacity">
-            Follow
-          </button>
+          <FollowButton profileId={profile.id} size="lg" />
         </div>
 
         {/* Bio */}
@@ -165,30 +210,22 @@ export default function ProfilePage({ params }: ProfilePageProps) {
         </div>
       </div>
 
-      {/* Tabs */}
-      <div className="flex border-b border-border">
-        <button className="flex-1 py-4 text-center font-medium border-b-2 border-primary text-primary">
-          Posts
-        </button>
-        <button className="flex-1 py-4 text-center text-muted-foreground hover:bg-muted">
-          Replies
-        </button>
-        <button className="flex-1 py-4 text-center text-muted-foreground hover:bg-muted">
-          Media
-        </button>
-        <button className="flex-1 py-4 text-center text-muted-foreground hover:bg-muted">
-          Likes
-        </button>
-      </div>
-
-      {/* Posts Feed */}
-      {posts.length > 0 ? (
-        <SimpleFeed posts={posts} profiles={profiles} />
-      ) : (
-        <div className="py-12 text-center">
-          <p className="text-muted-foreground">No posts yet.</p>
-        </div>
+      {/* Relationship Network */}
+      {connections.length > 0 && (
+        <RelationshipNetwork
+          profileId={profile.id}
+          profileName={profile.displayName}
+          connections={connections}
+        />
       )}
+
+      {/* Tabs with Content */}
+      <ProfileTabs
+        profile={profile}
+        posts={posts}
+        allPosts={allPosts}
+        profiles={profilesMap}
+      />
     </div>
   )
 }

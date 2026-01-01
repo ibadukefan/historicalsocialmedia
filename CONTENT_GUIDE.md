@@ -284,6 +284,90 @@ Ask yourself:
 
 ---
 
+## Character Voice Reference
+
+Specific patterns for key recurring characters:
+
+### George Washington
+- **Core traits:** Imposter syndrome, physical exhaustion, protective of his men
+- **DO:** Stream of consciousness under stress, trailing off mid-thought, physical reactions (shaking, can't sleep)
+- **DON'T:** Sound commanding or confident—he's terrified and hiding it
+- **Example:** "I think I'm going to be sick."
+
+### John Adams
+- **Core traits:** Passionate, petty, deeply loves Abigail, doesn't sleep
+- **DO:** ALL CAPS when frustrated, questions, mentions of insomnia
+- **DON'T:** Sound calm or measured
+- **Example:** "THE SECOND. Why is everyone talking about the fourth?"
+
+### Abigail Adams
+- **Core traits:** Competent, wry humor, exhausted single parent (effectively)
+- **DO:** Farm problems, kid chaos, knowing her husband too well
+- **DON'T:** Sound meek or just supportive
+- **Example:** "He'll laugh. He always laughs. Then he'll think about it."
+
+### Benjamin Franklin
+- **Core traits:** Self-aware about his wit, feels old, deflects with humor
+- **DO:** References to age, gout, using jokes as defense mechanism
+- **DON'T:** Just be quotable—show the man behind the quotes
+- **Example:** "Seventy years old and still deflecting."
+
+### Thomas Jefferson
+- **Core traits:** Writer's frustration, misses Martha, hates editing, introverted
+- **DO:** Complaints about others changing his words, wanting to go home
+- **DON'T:** Sound like a philosopher—he's just a tired writer
+- **Example:** "It's better. I hate that it's better."
+
+### Catherine the Great
+- **Core traits:** Eye-rolling at philosophers, practical about power, exasperated
+- **DO:** Contrast between theory and reality, sarcasm about correspondence
+- **DON'T:** Sound enlightened or profound—she's annoyed
+- **Example:** "Philosophers are great at big ideas and terrible at sewage systems."
+
+### Emperor Qianlong
+- **Core traits:** Poetry obsession, annoyed by ministers, heat-sensitive
+- **DO:** Poetry counts, complaints about interruptions, weather
+- **DON'T:** Sound mystical or wise
+- **Example:** "Too hot. Moving the court tomorrow."
+
+### Louis XVI
+- **Core traits:** Locksmith hobby, avoidant, bored by politics
+- **DO:** Lock mechanisms, wanting to escape to his workshop
+- **DON'T:** Sound royal—he's just a guy who wants quiet
+- **Example:** "Three hours. Perfect silence. Nobody talking politics. Bliss."
+
+### Sultan Abdul Hamid I
+- **Core traits:** Insomnia, brooding BUT grounds it in mundane details
+- **DO:** Sleeplessness, political stress + physical complaints together
+- **DON'T:** Be uniformly dark—add petty moments
+- **Example:** "The pillow is too hot. Both sides. Even the pillow is against me."
+
+### Túpac Amaru II
+- **Core traits:** Caught between worlds, frustrated merchant, people expect things of him
+- **DO:** Confusion about expectations, tax complaints, oblique dangerous thoughts
+- **DON'T:** Sound revolutionary yet—he's not there yet in 1776
+- **Example:** "I'm a merchant. What am I supposed to do."
+
+### Amara (Dahomey Warrior)
+- **Core traits:** Physical exhaustion, competitive with younger warriors, not just "fierce"
+- **DO:** Muscle pain, annoyance at training, humanizing moments
+- **DON'T:** Only be about strength and loyalty
+- **Example:** "Younger girls keep up better than me now. Makes me feel old."
+
+### Tanaka Kenji (Fishmonger)
+- **Core traits:** Early mornings, pride in fish quality, customer frustration
+- **DO:** Pre-dawn energy, haggling complaints, specific fish types
+- **DON'T:** Be generic—he's a specific guy with opinions about fish
+- **Example:** "IT'S 5AM. OF COURSE IT'S FRESH."
+
+### Ivan Petrov (Serf)
+- **Core traits:** Dark humor, small moments of beauty, body pain
+- **DO:** Physical exhaustion, finding beauty in small things, vodka
+- **DON'T:** Only suffering—allow moments of humor and wonder
+- **Example:** "Full moon tonight. Beautiful. Still have to wake up at dawn. But beautiful."
+
+---
+
 ## Sources & Research
 
 - [Bored Panda: Funny Non-Political Tweets](https://www.boredpanda.com/funny-weird-tweets-non-political-twitter/)

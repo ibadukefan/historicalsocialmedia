@@ -6,12 +6,17 @@ import {
   Calendar,
   Users,
   Bookmark,
+  Heart,
   MapPin,
   Clock,
   TrendingUp,
   Settings,
   HelpCircle,
-  Scroll
+  Scroll,
+  CalendarDays,
+  Bell,
+  UserCheck,
+  User
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -98,6 +103,11 @@ export function Sidebar() {
           icon={Clock}
           label="Timeline View"
         />
+        <SidebarItem
+          href="/on-this-day"
+          icon={CalendarDays}
+          label="On This Day"
+        />
       </SidebarSection>
 
       {/* Eras Quick Access */}
@@ -125,9 +135,29 @@ export function Sidebar() {
       {/* User Section */}
       <SidebarSection title="Your Activity">
         <SidebarItem
+          href="/me"
+          icon={User}
+          label="Your Profile"
+        />
+        <SidebarItem
+          href="/notifications"
+          icon={Bell}
+          label="Notifications"
+        />
+        <SidebarItem
           href="/bookmarks"
           icon={Bookmark}
           label="Saved Posts"
+        />
+        <SidebarItem
+          href="/likes"
+          icon={Heart}
+          label="Liked Posts"
+        />
+        <SidebarItem
+          href="/following"
+          icon={UserCheck}
+          label="Following"
         />
         <SidebarItem
           href="/trending"
