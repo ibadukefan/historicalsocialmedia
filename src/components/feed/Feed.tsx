@@ -163,7 +163,7 @@ export function Feed({ initialPosts, profiles, hasMore = false, loadMore }: Feed
               You&apos;ve reached the end of this era.
             </p>
             <p className="text-sm text-muted-foreground mt-1">
-              More historical periods coming soon!
+              Explore 20 eras spanning 5,000 years of history
             </p>
           </div>
         )}

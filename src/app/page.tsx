@@ -28,7 +28,7 @@ export default function HomePage() {
       {/* End of feed message */}
       <div className="py-8 text-center border-t border-border">
         <p className="text-muted-foreground">
-          More historical periods coming soon
+          Explore all 20 historical eras spanning 5,000 years
         </p>
       </div>
     </div>
