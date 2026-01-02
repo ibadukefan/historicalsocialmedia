@@ -12,6 +12,32 @@ Last Updated: 2026-01-02
 **FEATURE COMPLETE** - All planned features implemented. Focus on content expansion and polish.
 
 ## Recent Changes
+- 2026-01-02 — **IMAGE & PERFORMANCE OPTIMIZATION:**
+  - **Image Optimization Pipeline:** Created `scripts/optimize-images.js` using sharp
+    - Compresses PNG images (quality 85, compression 9)
+    - Generates WebP versions for all images
+    - Creates responsive sizes for avatars (32-256px) and media (320-1280px)
+    - Results: 1.36 MB → 626 KB (55% savings), WebP: 292 KB (78% smaller)
+    - New scripts: `npm run optimize-images`, `npm run optimize-images:dry`
+  - **OptimizedImage Component:** React components for using optimized images
+    - `OptimizedImage`: Next.js Image with WebP fallback
+    - `Picture`: Native `<picture>` element with sources
+    - `useOptimizedImage`: Hook for getting optimized URLs
+  - **Responsive Image Sizing:** Converted all images to Next.js Image component
+    - Explicit width/height for avatars (24-128px)
+    - `sizes` prop for responsive hints
+    - `fill` prop for cover images and media gallery
+    - `priority` for above-fold images
+  - **Lazy Loading:** Added native `loading="lazy"` to all images
+  - **Bundle Size Optimization:**
+    - Dynamic imports for RightSidebar, KeyboardShortcutsProvider, ServiceWorkerProvider, Analytics
+    - `modularizeImports` for lucide-react icons
+    - `optimizePackageImports` for Radix UI packages
+    - Removed unused date-fns dependency
+    - Added `@next/bundle-analyzer` with `npm run build:analyze`
+  - **E2E Test Fixes:** Fixed 5 failing Playwright tests
+    - Updated selectors for search page, profile page, searchbox
+    - All 15 E2E tests now pass
 - 2026-01-02 — **TECHNICAL DEBT & TESTING:**
   - Added Zod validation schemas (`src/lib/schemas.ts`) for all data types
   - Set up Vitest with 59 unit tests for data utilities and schemas
@@ -528,7 +554,8 @@ historicalsocialmedia/
 │   └── og/                     # Open Graph images (17 images)
 ├── scripts/
 │   ├── generate-icons.js       # PWA icon generation script
-│   └── generate-og-images.js   # OG image generation script
+│   ├── generate-og-images.js   # OG image generation script
+│   └── optimize-images.js      # Image optimization pipeline
 ├── dev_log_archive/            # Archived dev log entries
 ├── package.json
 ├── tsconfig.json
@@ -570,13 +597,16 @@ historicalsocialmedia/
 - **Fonts:** Inter (default), system fonts fallback
 
 ## Technical Debt
-- [ ] Add proper image optimization (currently `unoptimized: true`)
+- [x] Add proper image optimization (`npm run optimize-images` - 55% size reduction)
 - [x] Implement client-side search functionality
 - [x] Add loading skeletons for better UX
 - [x] Create proper error boundaries
 - [x] Persistent likes/bookmarks/follows (localStorage)
 - [x] Add sitemap.xml (dynamic, covers all pages)
 - [x] Add robots.txt
+- [x] Bundle size optimization (dynamic imports, tree-shaking)
+- [x] Lazy loading for images
+- [x] Responsive image sizing (Next.js Image component)
 
 ## Roadmap
 
