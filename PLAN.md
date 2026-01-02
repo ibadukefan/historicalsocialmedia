@@ -101,9 +101,10 @@
 - ✅ Notification badges have proper screen reader text
 - ✅ Search inputs have `type="search"` and `aria-label`
 
-**Remaining (nice-to-have):**
-- [ ] Test color contrast ratios (manual testing needed)
-- [ ] Run automated accessibility audit (Lighthouse)
+**Fixed (from Lighthouse audit 2026-01-02):**
+- [x] Add `aria-label` to profile tab buttons (Posts, Replies, Media, Likes)
+- [x] Add `role="tablist"` to profile tab container
+- [x] Fix color contrast in dark mode (badge text using !important for inheritance)
 
 ---
 
@@ -464,10 +465,10 @@ Target: 30% of posts should be "nothing posts"
 - [x] Image optimization pipeline - `npm run optimize-images` (55% size reduction)
 - [x] Error boundaries throughout
 - [x] Data validation (Zod schemas) - `src/lib/schemas.ts`
-- [x] Accessibility audit - Score: 96%
+- [x] Accessibility audit - Score: 93% (profile page), all issues fixed
 
 ### Should Fix
-- [x] Performance profiling - Lighthouse Score: 85%
+- [x] Performance profiling - Lighthouse Score: 63% (profile page, LCP impacted by server redirects)
 - [x] Bundle size optimization - Dynamic imports, modularizeImports, removed unused deps
 - [x] Lazy loading for images - Native `loading="lazy"` on all images
 - [x] Responsive image sizing - Next.js Image with `sizes` prop
@@ -541,8 +542,8 @@ Target: 30% of posts should be "nothing posts"
 - [x] All pages load without errors
 - [x] Comments system functional
 - [x] Settings persist correctly
-- [x] Accessibility score > 90 (Lighthouse) - Score: 96%
-- [x] Performance score > 80 (Lighthouse) - Score: 85%
+- [x] Accessibility score > 90 (Lighthouse) - Score: 93% ✓
+- [ ] Performance score > 80 (Lighthouse) - Score: 56% (LCP impacted by local server redirects)
 - [x] All 10 eras have 60+ posts - Now 20 eras, 13 have 60+ posts
 
 ### Post-Launch

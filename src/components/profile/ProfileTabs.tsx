@@ -53,13 +53,14 @@ export function ProfileTabs({ profile, posts, allPosts, profiles }: ProfileTabsP
   return (
     <>
       {/* Tabs */}
-      <div className="flex border-b border-border">
+      <div className="flex border-b border-border" role="tablist" aria-label="Profile content tabs">
         {tabs.map((tab) => {
           const Icon = tab.icon
           const isActive = activeTab === tab.id
           return (
             <button
               key={tab.id}
+              id={`tab-${tab.id}`}
               onClick={() => setActiveTab(tab.id)}
               className={cn(
                 "flex-1 py-4 text-center font-medium transition-colors relative",
@@ -67,19 +68,22 @@ export function ProfileTabs({ profile, posts, allPosts, profiles }: ProfileTabsP
                 isActive ? "text-primary" : "text-muted-foreground"
               )}
               aria-selected={isActive}
+              aria-controls={`tabpanel-${tab.id}`}
+              aria-label={`${tab.label}${tab.count !== undefined ? ` (${tab.count})` : ''}`}
               role="tab"
+              tabIndex={isActive ? 0 : -1}
             >
               <span className="flex items-center justify-center gap-1.5">
-                <Icon className="h-4 w-4" />
+                <Icon className="h-4 w-4" aria-hidden="true" />
                 <span className="hidden sm:inline">{tab.label}</span>
                 {tab.count !== undefined && tab.count > 0 && (
-                  <span className="text-xs bg-muted px-1.5 py-0.5 rounded-full">
+                  <span className="text-xs bg-muted text-foreground px-1.5 py-0.5 rounded-full" aria-hidden="true">
                     {tab.count}
                   </span>
                 )}
               </span>
               {isActive && (
-                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" aria-hidden="true" />
               )}
             </button>
           )
@@ -87,7 +91,11 @@ export function ProfileTabs({ profile, posts, allPosts, profiles }: ProfileTabsP
       </div>
 
       {/* Tab Content */}
-      <div role="tabpanel">
+      <div
+        role="tabpanel"
+        id={`tabpanel-${activeTab}`}
+        aria-labelledby={`tab-${activeTab}`}
+      >
         {filteredPosts.length > 0 ? (
           <SimpleFeed posts={filteredPosts} profiles={profiles} />
         ) : (

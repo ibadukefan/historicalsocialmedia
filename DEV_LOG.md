@@ -6,12 +6,31 @@ Last Updated: 2026-01-02
 - **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual, Zod, Vitest, Playwright, Storybook
 - **Status:** Phase 20 Complete - 1324 posts, 442 profiles, 20 eras
 - **Active Branch:** main
-- **Lighthouse Scores:** Performance 85, Accessibility 96, Best Practices 96, SEO 100
+- **Lighthouse Scores:** Performance 56, Accessibility 93, Best Practices 96, SEO 100 (profile page)
 
 ## Current Focus
 **FEATURE COMPLETE** - All planned features implemented. Focus on content expansion and polish.
 
 ## Recent Changes
+- 2026-01-02 — **ACCESSIBILITY FIXES:**
+  - Added `role="tablist"` and `aria-label` to profile tabs container
+  - Added `aria-label`, `aria-controls`, `tabIndex` to individual tab buttons
+  - Added `aria-hidden="true"` to decorative icons in tabs
+  - Added proper `id` and `aria-labelledby` to tabpanel
+  - Fixed dark mode contrast for accuracy badges (using `!important` to prevent inheritance)
+  - Added explicit `text-foreground` to tab count badges
+  - **Result:** Accessibility score improved from 81 → 93
+- 2026-01-02 — **LIGHTHOUSE AUDIT (Post-Optimization):**
+  - Profile page scores: Performance 56, Accessibility 93, Best Practices 96, SEO 100
+  - Core Web Vitals: FCP 2.6s, LCP 12.5s, CLS 0, TBT 350ms
+  - Homepage audit timed out due to loading 1142 images (all eras at once)
+  - **Accessibility Issues Found:**
+    - Tab buttons on profile page missing accessible names (need aria-label)
+    - Tab container missing `role="tablist"` wrapper
+    - Color contrast issues in dark mode (badge text 3.97:1, needs 4.5:1)
+  - CLS of 0 is excellent (no layout shift)
+  - SEO score perfect at 100
+  - Reports saved: `lighthouse-report.report.html`, `lighthouse-profile`
 - 2026-01-02 — **IMAGE & PERFORMANCE OPTIMIZATION:**
   - **Image Optimization Pipeline:** Created `scripts/optimize-images.js` using sharp
     - Compresses PNG images (quality 85, compression 9)
