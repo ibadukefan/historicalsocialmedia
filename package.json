@@ -15,7 +15,9 @@
     "test:e2e:ui": "playwright test --ui",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "generate-data": "ts-node scripts/generate-data.ts"
+    "generate-data": "ts-node scripts/generate-data.ts",
+    "optimize-images": "node scripts/optimize-images.js",
+    "optimize-images:dry": "node scripts/optimize-images.js --dry-run"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
