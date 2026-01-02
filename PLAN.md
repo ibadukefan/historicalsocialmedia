@@ -469,7 +469,7 @@ Target: 30% of posts should be "nothing posts"
 ### Should Fix
 - [x] Performance profiling - Lighthouse Score: 85%
 - [ ] Bundle size optimization
-- [ ] Lazy loading for images
+- [x] Lazy loading for images - Native `loading="lazy"` on all images
 - [ ] Responsive image sizing
 
 ### Nice to Fix

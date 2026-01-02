@@ -164,6 +164,7 @@ export function RelationshipNetwork({ profileId, profileName, connections }: Rel
                               src={conn.profile.avatar}
                               alt={conn.profile.displayName}
                               className="w-full h-full rounded-full object-cover"
+                              loading="lazy"
                             />
                           ) : (
                             conn.profile.displayName.charAt(0)
@@ -260,6 +261,7 @@ export function RelationshipNetwork({ profileId, profileName, connections }: Rel
                         src={conn.profile.avatar}
                         alt={conn.profile.displayName}
                         className="w-full h-full rounded-full object-cover"
+                        loading="lazy"
                       />
                     ) : (
                       conn.profile.displayName.charAt(0)
@@ -335,6 +337,7 @@ export function RelationshipBadges({ connections, maxShow = 5 }: RelationshipBad
                 src={conn.profile.avatar}
                 alt={conn.profile.displayName}
                 className="w-full h-full rounded-full object-cover"
+                loading="lazy"
               />
             ) : (
               conn.profile.displayName.charAt(0)

@@ -131,6 +131,7 @@ export function PostPageContent({ post, author, era, authorPosts, eraPosts }: Po
                       src={author.avatar}
                       alt={`${authorName}'s avatar`}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   ) : (
                     authorName.charAt(0)

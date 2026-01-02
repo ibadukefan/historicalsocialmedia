@@ -113,6 +113,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
             src={profile.coverImage}
             alt=""
             className="w-full h-full object-cover"
+            loading="lazy"
           />
         )}
       </div>
@@ -127,6 +128,7 @@ export default function ProfilePage({ params }: ProfilePageProps) {
                 src={profile.avatar}
                 alt={profile.displayName}
                 className="w-full h-full object-cover"
+                loading="eager"
               />
             ) : (
               profile.displayName.charAt(0)

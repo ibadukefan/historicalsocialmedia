@@ -136,6 +136,7 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
                   src={author.avatar}
                   alt={`${authorName}'s profile picture`}
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               ) : (
                 <span aria-hidden="true">{authorName.charAt(0)}</span>
@@ -544,6 +545,7 @@ function MediaGallery({ media }: { media: Post['media'] }) {
               src={item.url}
               alt={item.alt}
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           ) : item.type === 'video' ? (
             <div className="w-full h-full flex items-center justify-center">
