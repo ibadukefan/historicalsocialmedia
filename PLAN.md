@@ -470,7 +470,7 @@ Target: 30% of posts should be "nothing posts"
 - [x] Performance profiling - Lighthouse Score: 85%
 - [ ] Bundle size optimization
 - [x] Lazy loading for images - Native `loading="lazy"` on all images
-- [ ] Responsive image sizing
+- [x] Responsive image sizing - Next.js Image with `sizes` prop
 
 ### Nice to Fix
 - [x] Unit tests for data utilities - 59 tests passing (Vitest)

@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Heart,
   MessageCircle,
@@ -132,11 +133,13 @@ export function PostCard({ post, author, isThreaded, showThreadLine }: PostCardP
           <div className="relative">
             <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-lg font-semibold overflow-hidden">
               {author?.avatar ? (
-                <img
+                <Image
                   src={author.avatar}
                   alt={`${authorName}'s profile picture`}
+                  width={40}
+                  height={40}
                   className="w-full h-full object-cover"
-                  loading="lazy"
+                  sizes="40px"
                 />
               ) : (
                 <span aria-hidden="true">{authorName.charAt(0)}</span>
@@ -541,11 +544,12 @@ function MediaGallery({ media }: { media: Post['media'] }) {
           )}
         >
           {item.type === 'image' || item.type === 'painting' ? (
-            <img
+            <Image
               src={item.url}
-              alt={item.alt}
-              className="w-full h-full object-cover"
-              loading="lazy"
+              alt={item.alt || ''}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
             />
           ) : item.type === 'video' ? (
             <div className="w-full h-full flex items-center justify-center">

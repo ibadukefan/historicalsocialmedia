@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { notFound } from 'next/navigation'
 import {
   Calendar,
@@ -107,13 +108,15 @@ export default function ProfilePage({ params }: ProfilePageProps) {
       </div>
 
       {/* Cover Image */}
-      <div className="h-32 sm:h-48 bg-gradient-to-r from-primary/20 to-primary/40">
+      <div className="relative h-32 sm:h-48 bg-gradient-to-r from-primary/20 to-primary/40">
         {profile.coverImage && (
-          <img
+          <Image
             src={profile.coverImage}
             alt=""
-            className="w-full h-full object-cover"
-            loading="lazy"
+            fill
+            className="object-cover"
+            sizes="100vw"
+            priority={false}
           />
         )}
       </div>
@@ -124,11 +127,14 @@ export default function ProfilePage({ params }: ProfilePageProps) {
         <div className="relative -mt-16 mb-4">
           <div className="w-32 h-32 rounded-full border-4 border-background bg-muted flex items-center justify-center text-4xl font-bold overflow-hidden">
             {profile.avatar ? (
-              <img
+              <Image
                 src={profile.avatar}
                 alt={profile.displayName}
+                width={128}
+                height={128}
                 className="w-full h-full object-cover"
-                loading="eager"
+                sizes="128px"
+                priority
               />
             ) : (
               profile.displayName.charAt(0)

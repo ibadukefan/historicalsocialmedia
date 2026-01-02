@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   ArrowLeft,
   Heart,
@@ -127,11 +128,13 @@ export function PostPageContent({ post, author, era, authorPosts, eraPosts }: Po
               <div className="relative">
                 <div className="w-12 h-12 rounded-full bg-muted flex items-center justify-center text-xl font-semibold overflow-hidden">
                   {author?.avatar ? (
-                    <img
+                    <Image
                       src={author.avatar}
                       alt={`${authorName}'s avatar`}
+                      width={48}
+                      height={48}
                       className="w-full h-full object-cover"
-                      loading="lazy"
+                      sizes="48px"
                     />
                   ) : (
                     authorName.charAt(0)

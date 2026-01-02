@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import {
   Users,
   Heart,
@@ -160,11 +161,13 @@ export function RelationshipNetwork({ profileId, profileName, connections }: Rel
                       >
                         <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center text-sm font-semibold shrink-0">
                           {conn.profile.avatar ? (
-                            <img
+                            <Image
                               src={conn.profile.avatar}
                               alt={conn.profile.displayName}
+                              width={40}
+                              height={40}
                               className="w-full h-full rounded-full object-cover"
-                              loading="lazy"
+                              sizes="40px"
                             />
                           ) : (
                             conn.profile.displayName.charAt(0)
@@ -257,11 +260,13 @@ export function RelationshipNetwork({ profileId, profileName, connections }: Rel
                     config.color.replace('text-', 'ring-')
                   )}>
                     {conn.profile.avatar ? (
-                      <img
+                      <Image
                         src={conn.profile.avatar}
                         alt={conn.profile.displayName}
+                        width={48}
+                        height={48}
                         className="w-full h-full rounded-full object-cover"
-                        loading="lazy"
+                        sizes="48px"
                       />
                     ) : (
                       conn.profile.displayName.charAt(0)
@@ -333,11 +338,13 @@ export function RelationshipBadges({ connections, maxShow = 5 }: RelationshipBad
             title={conn.profile.displayName}
           >
             {conn.profile.avatar ? (
-              <img
+              <Image
                 src={conn.profile.avatar}
                 alt={conn.profile.displayName}
+                width={24}
+                height={24}
                 className="w-full h-full rounded-full object-cover"
-                loading="lazy"
+                sizes="24px"
               />
             ) : (
               conn.profile.displayName.charAt(0)
