@@ -468,7 +468,7 @@ Target: 30% of posts should be "nothing posts"
 
 ### Should Fix
 - [x] Performance profiling - Lighthouse Score: 85%
-- [ ] Bundle size optimization
+- [x] Bundle size optimization - Dynamic imports, modularizeImports, removed unused deps
 - [x] Lazy loading for images - Native `loading="lazy"` on all images
 - [x] Responsive image sizing - Next.js Image with `sizes` prop
 

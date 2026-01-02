@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
+import dynamic from 'next/dynamic'
 import './globals.css'
 import { Header } from '@/components/layout/Header'
 import { Sidebar } from '@/components/layout/Sidebar'
-import { RightSidebar } from '@/components/layout/RightSidebar'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { BookmarksProvider } from '@/components/BookmarksProvider'
 import { LikesProvider } from '@/components/LikesProvider'
@@ -12,10 +12,21 @@ import { CommentsProvider } from '@/components/CommentsProvider'
 import { SettingsProvider } from '@/components/SettingsProvider'
 import { LiveAnnouncerProvider } from '@/components/LiveAnnouncer'
 import { NotificationsProvider } from '@/components/NotificationsProvider'
-import { KeyboardShortcutsProvider } from '@/components/KeyboardShortcutsProvider'
-import { ServiceWorkerProvider } from '@/components/ServiceWorkerProvider'
-import { Analytics } from '@vercel/analytics/react'
-import { SpeedInsights } from '@vercel/speed-insights/next'
+
+// Dynamically import non-critical components
+const RightSidebar = dynamic(() => import('@/components/layout/RightSidebar').then(mod => mod.RightSidebar), {
+  ssr: true,
+})
+const KeyboardShortcutsProvider = dynamic(
+  () => import('@/components/KeyboardShortcutsProvider').then(mod => mod.KeyboardShortcutsProvider),
+  { ssr: false }
+)
+const ServiceWorkerProvider = dynamic(
+  () => import('@/components/ServiceWorkerProvider').then(mod => mod.ServiceWorkerProvider),
+  { ssr: false }
+)
+const Analytics = dynamic(() => import('@vercel/analytics/react').then(mod => mod.Analytics), { ssr: false })
+const SpeedInsights = dynamic(() => import('@vercel/speed-insights/next').then(mod => mod.SpeedInsights), { ssr: false })
 
 const inter = Inter({ subsets: ['latin'] })
 
