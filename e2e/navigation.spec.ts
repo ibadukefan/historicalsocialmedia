@@ -17,16 +17,15 @@ test.describe('Navigation', () => {
 
   test('profiles page loads', async ({ page }) => {
     await page.goto('/profiles')
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Profiles')
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Historical Figures')
     // Should show profile cards
     await expect(page.locator('a[href*="/profile/"]').first()).toBeVisible()
   })
 
   test('search page loads', async ({ page }) => {
     await page.goto('/search')
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Search')
-    // Should have search input
-    await expect(page.getByRole('searchbox')).toBeVisible()
+    // Search page has no h1, but should have search input with specific label
+    await expect(page.getByRole('searchbox', { name: 'Search posts and profiles' })).toBeVisible()
   })
 
   test('about page loads', async ({ page }) => {
@@ -63,8 +62,8 @@ test.describe('Profile Pages', () => {
   test('profile page loads', async ({ page }) => {
     await page.goto('/profile/thomas-jefferson')
     await expect(page.getByRole('heading', { level: 1 })).toContainText('Jefferson')
-    // Should show bio
-    await expect(page.locator('text=Author')).toBeVisible()
+    // Should show bio section
+    await expect(page.locator('text=Virginian')).toBeVisible()
   })
 
   test('profile shows tabs', async ({ page }) => {

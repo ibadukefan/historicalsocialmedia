@@ -4,8 +4,8 @@ test.describe('Search Functionality', () => {
   test('can search for posts', async ({ page }) => {
     await page.goto('/search')
 
-    // Type in the search box
-    const searchInput = page.getByRole('searchbox')
+    // Type in the search box (use specific label to avoid matching header search)
+    const searchInput = page.getByRole('searchbox', { name: 'Search posts and profiles' })
     await searchInput.fill('declaration')
 
     // Wait for results
@@ -21,8 +21,8 @@ test.describe('Search Functionality', () => {
   test('can search for profiles', async ({ page }) => {
     await page.goto('/search')
 
-    // Type in the search box
-    const searchInput = page.getByRole('searchbox')
+    // Type in the search box (use specific label to avoid matching header search)
+    const searchInput = page.getByRole('searchbox', { name: 'Search posts and profiles' })
     await searchInput.fill('Jefferson')
 
     // Click on People tab
