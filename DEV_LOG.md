@@ -1,16 +1,33 @@
 # DEV LOG — Tempus
 
-Last Updated: 2026-01-01
+Last Updated: 2026-01-02
 
 ## Quick Reference
-- **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual
-- **Status:** Phase 19 Complete - 1417 posts, 442 profiles, 1882 static pages (20 eras: Revolution, Rome, WWII, Renaissance, Civil Rights, French Revolution, Ancient Greece, WWI, Industrial Revolution, Viking Age, Medieval Crusades, Ancient Egypt, American Civil War, Cold War, Age of Exploration, Byzantine Empire, Mongol Empire, African Kingdoms, Russian Revolution, Meiji Japan)
+- **Stack:** Next.js 14 (App Router, SSG), TypeScript, Tailwind CSS, Shadcn/UI patterns, TanStack Virtual, Zod, Vitest, Playwright, Storybook
+- **Status:** Phase 20 Complete - 1324 posts, 442 profiles, 20 eras
 - **Active Branch:** main
+- **Lighthouse Scores:** Performance 85, Accessibility 96, Best Practices 96, SEO 100
 
 ## Current Focus
-**IMPLEMENTING HIGH PRIORITY FEATURES** - Building out missing functionality from the comprehensive plan (PLAN.md).
+**FEATURE COMPLETE** - All planned features implemented. Focus on content expansion and polish.
 
 ## Recent Changes
+- 2026-01-02 — **TECHNICAL DEBT & TESTING:**
+  - Added Zod validation schemas (`src/lib/schemas.ts`) for all data types
+  - Set up Vitest with 59 unit tests for data utilities and schemas
+  - Set up Playwright E2E tests for critical paths (navigation, search)
+  - Created Storybook with component stories (Button, Skeleton variants)
+  - Wrote CONTRIBUTING.md documentation for contributors
+  - **Lighthouse Audit:** Performance 85, Accessibility 96, Best Practices 96, SEO 100
+- 2026-01-02 — **CONTENT REBALANCING:**
+  - Archived 147 American Revolution posts (from ~420 to 273)
+  - Added 59 new posts to underrepresented eras:
+    - Viking Age: +15 posts (now 60 total)
+    - World War I: +15 posts (now 60 total)
+    - Civil Rights: +15 posts (now 60 total)
+    - Byzantine Empire: +14 posts (now 60 total)
+  - Fixed era tags for 112 previously untagged posts
+  - Total active posts: 1324 (147 archived)
 - 2026-01-01 — **MEIJI JAPAN ERA:**
   - Added Meiji Japan (1868-1912) as 20th era
   - 50 posts covering the transformation from feudal shogunate to modern empire

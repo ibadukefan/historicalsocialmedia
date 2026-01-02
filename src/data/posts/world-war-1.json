@@ -3,7 +3,7 @@
     "id": "ww1-001",
     "authorId": "gavrilo-princip",
     "type": "status",
-    "content": "I did it. The Archduke is dead. His wife too—that was not intended. They have taken me. I am 19 years old. I have changed the world. I hope it was worth it.",
+    "content": "I did it. The Archduke is dead. His wife too\u2014that was not intended. They have taken me. I am 19 years old. I have changed the world. I hope it was worth it.",
     "timestamp": "1914-06-28T11:00:00Z",
     "displayDate": "June 28, 1914",
     "likes": 23450,
@@ -12,7 +12,10 @@
     "accuracy": "documented",
     "historicalContext": "Gavrilo Princip assassinated Archduke Franz Ferdinand and his wife Sophie in Sarajevo, triggering the chain of events that led to World War I.",
     "era": "world-war-1",
-    "location": {"name": "Sarajevo, Bosnia", "modern": "Sarajevo, Bosnia and Herzegovina"}
+    "location": {
+      "name": "Sarajevo, Bosnia",
+      "modern": "Sarajevo, Bosnia and Herzegovina"
+    }
   },
   {
     "id": "ww1-002",
@@ -27,7 +30,10 @@
     "accuracy": "documented",
     "historicalContext": "Kaiser Wilhelm II gave Austria-Hungary a 'blank check' of support against Serbia. This encouraged Austrian aggression and set off the alliance system that created a world war.",
     "era": "world-war-1",
-    "location": {"name": "Berlin, Germany", "modern": "Berlin, Germany"}
+    "location": {
+      "name": "Berlin, Germany",
+      "modern": "Berlin, Germany"
+    }
   },
   {
     "id": "ww1-003",
@@ -42,7 +48,10 @@
     "accuracy": "documented",
     "historicalContext": "Britain declared war on Germany on August 4, 1914. Thousands volunteered, expecting a short war. The phrase 'over by Christmas' became bitterly ironic.",
     "era": "world-war-1",
-    "location": {"name": "Manchester, England", "modern": "Manchester, England"}
+    "location": {
+      "name": "Manchester, England",
+      "modern": "Manchester, England"
+    }
   },
   {
     "id": "ww1-004",
@@ -57,7 +66,10 @@
     "accuracy": "documented",
     "historicalContext": "The German army swept through Belgium according to the Schlieffen Plan, aiming to defeat France in six weeks. Initial progress was stunning.",
     "era": "world-war-1",
-    "location": {"name": "Belgium", "modern": "Belgium"}
+    "location": {
+      "name": "Belgium",
+      "modern": "Belgium"
+    }
   },
   {
     "id": "ww1-005",
@@ -72,7 +84,10 @@
     "accuracy": "documented",
     "historicalContext": "The First Battle of the Marne stopped the German advance on Paris. 600 Parisian taxis were famously used to rush 6,000 troops to the front.",
     "era": "world-war-1",
-    "location": {"name": "Paris, France", "modern": "Paris, France"}
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    }
   },
   {
     "id": "ww1-006",
@@ -87,7 +102,10 @@
     "accuracy": "documented",
     "historicalContext": "By November 1914, the Western Front had stabilized into 400 miles of trenches. The war of movement was over; four years of attrition had begun.",
     "era": "world-war-1",
-    "location": {"name": "Flanders, Belgium", "modern": "Flanders, Belgium"}
+    "location": {
+      "name": "Flanders, Belgium",
+      "modern": "Flanders, Belgium"
+    }
   },
   {
     "id": "ww1-007",
@@ -102,13 +120,16 @@
     "accuracy": "documented",
     "historicalContext": "The Christmas Truce of 1914 saw spontaneous ceasefires along the Western Front. Soldiers exchanged gifts, sang carols, and played football. It was never repeated on such a scale.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "Belgium/France border"}
+    "location": {
+      "name": "Western Front",
+      "modern": "Belgium/France border"
+    }
   },
   {
     "id": "ww1-008",
     "authorId": "edith-cavell",
     "type": "status",
-    "content": "I have helped 200 Allied soldiers escape from Brussels to neutral Holland. British, French, Belgian—it doesn't matter. They are wounded men who would otherwise die or be imprisoned. I am a nurse. This is what nurses do.",
+    "content": "I have helped 200 Allied soldiers escape from Brussels to neutral Holland. British, French, Belgian\u2014it doesn't matter. They are wounded men who would otherwise die or be imprisoned. I am a nurse. This is what nurses do.",
     "timestamp": "1915-06-15T10:00:00Z",
     "displayDate": "June 15, 1915",
     "likes": 23450,
@@ -117,7 +138,10 @@
     "accuracy": "documented",
     "historicalContext": "Edith Cavell helped approximately 200 Allied soldiers escape German-occupied Belgium. She was arrested in August 1915 and executed in October despite international protests.",
     "era": "world-war-1",
-    "location": {"name": "Brussels, Belgium", "modern": "Brussels, Belgium"}
+    "location": {
+      "name": "Brussels, Belgium",
+      "modern": "Brussels, Belgium"
+    }
   },
   {
     "id": "ww1-009",
@@ -132,7 +156,10 @@
     "accuracy": "documented",
     "historicalContext": "Edith Cavell was executed by firing squad on October 12, 1915. Her last words became famous: 'Patriotism is not enough. I must have no hatred or bitterness towards anyone.'",
     "era": "world-war-1",
-    "location": {"name": "Brussels, Belgium", "modern": "Brussels, Belgium"}
+    "location": {
+      "name": "Brussels, Belgium",
+      "modern": "Brussels, Belgium"
+    }
   },
   {
     "id": "ww1-010",
@@ -147,13 +174,16 @@
     "accuracy": "documented",
     "historicalContext": "The Battle of Verdun lasted 10 months. 'Ils ne passeront pas' (They shall not pass) became the French rallying cry. Combined casualties exceeded 700,000.",
     "era": "world-war-1",
-    "location": {"name": "Verdun, France", "modern": "Verdun, France"}
+    "location": {
+      "name": "Verdun, France",
+      "modern": "Verdun, France"
+    }
   },
   {
     "id": "ww1-011",
     "authorId": "douglas-haig",
     "type": "status",
-    "content": "Tomorrow we attack on the Somme. The artillery bombardment has been unprecedented—1.5 million shells in a week. The German defenses will be destroyed. Our men will walk across No Man's Land.",
+    "content": "Tomorrow we attack on the Somme. The artillery bombardment has been unprecedented\u20141.5 million shells in a week. The German defenses will be destroyed. Our men will walk across No Man's Land.",
     "timestamp": "1916-06-30T20:00:00Z",
     "displayDate": "June 30, 1916",
     "likes": 8900,
@@ -162,7 +192,10 @@
     "accuracy": "documented",
     "historicalContext": "Haig believed the week-long bombardment would destroy German defenses. He was catastrophically wrong. The Germans survived in deep dugouts.",
     "era": "world-war-1",
-    "location": {"name": "The Somme, France", "modern": "Somme, France"}
+    "location": {
+      "name": "The Somme, France",
+      "modern": "Somme, France"
+    }
   },
   {
     "id": "ww1-012",
@@ -177,7 +210,10 @@
     "accuracy": "documented",
     "historicalContext": "The first day of the Somme remains the bloodiest day in British military history: 57,470 casualties including 19,240 dead. Many battalions were annihilated in minutes.",
     "era": "world-war-1",
-    "location": {"name": "The Somme, France", "modern": "Somme, France"}
+    "location": {
+      "name": "The Somme, France",
+      "modern": "Somme, France"
+    }
   },
   {
     "id": "ww1-013",
@@ -192,13 +228,16 @@
     "accuracy": "documented",
     "historicalContext": "Sassoon was renowned for near-suicidal bravery, earning him the nickname 'Mad Jack.' He later became a fierce critic of the war's conduct while remaining in the trenches.",
     "era": "world-war-1",
-    "location": {"name": "The Somme, France", "modern": "Somme, France"}
+    "location": {
+      "name": "The Somme, France",
+      "modern": "Somme, France"
+    }
   },
   {
     "id": "ww1-014",
     "authorId": "manfred-richthofen",
     "type": "status",
-    "content": "I shot down my sixteenth victory today. I have painted my Albatros red—let them know who kills them. The infantry fight in mud. We fight in the clean air, knight against knight. This is a gentleman's war.",
+    "content": "I shot down my sixteenth victory today. I have painted my Albatros red\u2014let them know who kills them. The infantry fight in mud. We fight in the clean air, knight against knight. This is a gentleman's war.",
     "timestamp": "1916-11-23T16:00:00Z",
     "displayDate": "November 23, 1916",
     "likes": 34560,
@@ -207,13 +246,16 @@
     "accuracy": "documented",
     "historicalContext": "The Red Baron painted his aircraft red after his 16th victory. Fighter pilots were romanticized as 'knights of the air,' though the reality was often brutal.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-015",
     "authorId": "lawrence-arabia",
     "type": "status",
-    "content": "The Arabs have taken Aqaba—from the landward side, where no one expected attack. I rode 600 miles through the Nefud desert to make it happen. The Turks never knew we were coming.",
+    "content": "The Arabs have taken Aqaba\u2014from the landward side, where no one expected attack. I rode 600 miles through the Nefud desert to make it happen. The Turks never knew we were coming.",
     "timestamp": "1917-07-06T10:00:00Z",
     "displayDate": "July 6, 1917",
     "likes": 28900,
@@ -222,7 +264,10 @@
     "accuracy": "documented",
     "historicalContext": "Lawrence led an epic desert march to capture Aqaba from an unexpected direction. The victory was crucial for the Arab Revolt against the Ottoman Empire.",
     "era": "world-war-1",
-    "location": {"name": "Aqaba, Arabia", "modern": "Aqaba, Jordan"}
+    "location": {
+      "name": "Aqaba, Arabia",
+      "modern": "Aqaba, Jordan"
+    }
   },
   {
     "id": "ww1-016",
@@ -237,13 +282,16 @@
     "accuracy": "documented",
     "historicalContext": "Sassoon's 'Soldier's Declaration' protested the war's continuation. To avoid a public trial, authorities declared him shell-shocked and sent him to Craiglockhart hospital.",
     "era": "world-war-1",
-    "location": {"name": "Liverpool, England", "modern": "Liverpool, England"}
+    "location": {
+      "name": "Liverpool, England",
+      "modern": "Liverpool, England"
+    }
   },
   {
     "id": "ww1-017",
     "authorId": "wilfred-owen",
     "type": "status",
-    "content": "I met Siegfried Sassoon at Craiglockhart. He read my poetry. He says I have talent. He says I must write what I have seen—the gas, the drowning lungs, the old lie. I will make them understand.",
+    "content": "I met Siegfried Sassoon at Craiglockhart. He read my poetry. He says I have talent. He says I must write what I have seen\u2014the gas, the drowning lungs, the old lie. I will make them understand.",
     "timestamp": "1917-08-20T16:00:00Z",
     "displayDate": "August 20, 1917",
     "likes": 23450,
@@ -252,7 +300,10 @@
     "accuracy": "documented",
     "historicalContext": "Owen met Sassoon while both were recovering from shell shock. Sassoon mentored Owen, encouraging the powerful anti-war poetry that would make Owen famous posthumously.",
     "era": "world-war-1",
-    "location": {"name": "Edinburgh, Scotland", "modern": "Edinburgh, Scotland"}
+    "location": {
+      "name": "Edinburgh, Scotland",
+      "modern": "Edinburgh, Scotland"
+    }
   },
   {
     "id": "ww1-018",
@@ -267,7 +318,10 @@
     "accuracy": "documented",
     "historicalContext": "Mata Hari was executed as a German spy on October 15, 1917. Modern historians question whether she was truly guilty or merely a convenient scapegoat.",
     "era": "world-war-1",
-    "location": {"name": "Paris, France", "modern": "Paris, France"}
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    }
   },
   {
     "id": "ww1-019",
@@ -282,7 +336,10 @@
     "accuracy": "documented",
     "historicalContext": "Third Ypres (Passchendaele) became synonymous with futile slaughter. The offensive gained five miles at a cost of nearly 500,000 combined casualties.",
     "era": "world-war-1",
-    "location": {"name": "Passchendaele, Belgium", "modern": "Passendale, Belgium"}
+    "location": {
+      "name": "Passchendaele, Belgium",
+      "modern": "Passendale, Belgium"
+    }
   },
   {
     "id": "ww1-020",
@@ -297,7 +354,10 @@
     "accuracy": "documented",
     "historicalContext": "Wilson asked Congress for a declaration of war on April 2, 1917. Unrestricted submarine warfare and the Zimmermann Telegram had finally pushed America to intervene.",
     "era": "world-war-1",
-    "location": {"name": "Washington, D.C.", "modern": "Washington, D.C., USA"}
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C., USA"
+    }
   },
   {
     "id": "ww1-021",
@@ -312,7 +372,10 @@
     "accuracy": "documented",
     "historicalContext": "Pershing resisted Allied pressure to amalgamate American troops into their armies. He insisted on an independent American force, though this delayed their combat deployment.",
     "era": "world-war-1",
-    "location": {"name": "Paris, France", "modern": "Paris, France"}
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    }
   },
   {
     "id": "ww1-022",
@@ -327,7 +390,10 @@
     "accuracy": "documented",
     "historicalContext": "The Treaty of Brest-Litovsk freed German forces from the East. Ludendorff planned a series of offensives to win the war before American strength became decisive.",
     "era": "world-war-1",
-    "location": {"name": "German Headquarters, Spa", "modern": "Spa, Belgium"}
+    "location": {
+      "name": "German Headquarters, Spa",
+      "modern": "Spa, Belgium"
+    }
   },
   {
     "id": "ww1-023",
@@ -342,13 +408,16 @@
     "accuracy": "documented",
     "historicalContext": "The Spring Offensive of 1918 initially succeeded spectacularly. German stormtrooper tactics broke the trench deadlock, gaining more ground than any offensive since 1914.",
     "era": "world-war-1",
-    "location": {"name": "The Somme, France", "modern": "Somme, France"}
+    "location": {
+      "name": "The Somme, France",
+      "modern": "Somme, France"
+    }
   },
   {
     "id": "ww1-024",
     "authorId": "ferdinand-foch",
     "type": "status",
-    "content": "I have been named Supreme Allied Commander. Haig and Pétain will take orders from me. The Germans are gambling everything on their offensive. If we hold, if we counterattack together, we will break them.",
+    "content": "I have been named Supreme Allied Commander. Haig and P\u00e9tain will take orders from me. The Germans are gambling everything on their offensive. If we hold, if we counterattack together, we will break them.",
     "timestamp": "1918-04-03T12:00:00Z",
     "displayDate": "April 3, 1918",
     "likes": 18900,
@@ -357,7 +426,10 @@
     "accuracy": "documented",
     "historicalContext": "The crisis of the Spring Offensive finally forced the Allies to accept unified command under Foch. This coordination would prove decisive in the counteroffensives.",
     "era": "world-war-1",
-    "location": {"name": "Doullens, France", "modern": "Doullens, France"}
+    "location": {
+      "name": "Doullens, France",
+      "modern": "Doullens, France"
+    }
   },
   {
     "id": "ww1-025",
@@ -372,7 +444,10 @@
     "accuracy": "documented",
     "historicalContext": "By 1918, Richthofen showed signs of combat fatigue and depression. He was killed the next day, April 21, 1918, shot down near the Somme River.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-026",
@@ -387,13 +462,16 @@
     "accuracy": "documented",
     "historicalContext": "Nurses and medical staff faced overwhelming casualties during the German offensives. Many volunteers, like VAD nurses, were young women with minimal training.",
     "era": "world-war-1",
-    "location": {"name": "Casualty Clearing Station, France", "modern": "France"}
+    "location": {
+      "name": "Casualty Clearing Station, France",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-027",
     "authorId": "american-doughboy",
     "type": "status",
-    "content": "First time in the trenches. The veterans—British, French, they look at us like we're children. Maybe we are. We still think this is an adventure. They've stopped thinking anything at all.",
+    "content": "First time in the trenches. The veterans\u2014British, French, they look at us like we're children. Maybe we are. We still think this is an adventure. They've stopped thinking anything at all.",
     "timestamp": "1918-05-28T10:00:00Z",
     "displayDate": "May 28, 1918",
     "likes": 12340,
@@ -402,7 +480,10 @@
     "accuracy": "documented",
     "historicalContext": "American troops began arriving in significant numbers in spring 1918. Their enthusiasm contrasted sharply with the exhaustion of soldiers who had fought for years.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-028",
@@ -417,13 +498,16 @@
     "accuracy": "documented",
     "historicalContext": "Belleau Wood was the first major American battle of the war. The Marines suffered 9,777 casualties but stopped the German advance and proved American fighting capability.",
     "era": "world-war-1",
-    "location": {"name": "Belleau Wood, France", "modern": "Belleau, France"}
+    "location": {
+      "name": "Belleau Wood, France",
+      "modern": "Belleau, France"
+    }
   },
   {
     "id": "ww1-029",
     "authorId": "erich-ludendorff",
     "type": "status",
-    "content": "The offensive has failed. We have gained ground but not victory. My armies are exhausted. The Americans keep coming—200,000 a month now. August 8th was the black day of the German Army. We cannot win.",
+    "content": "The offensive has failed. We have gained ground but not victory. My armies are exhausted. The Americans keep coming\u2014200,000 a month now. August 8th was the black day of the German Army. We cannot win.",
     "timestamp": "1918-08-08T22:00:00Z",
     "displayDate": "August 8, 1918",
     "likes": 15670,
@@ -432,13 +516,16 @@
     "accuracy": "documented",
     "historicalContext": "Ludendorff called August 8, 1918 'the black day of the German Army' when Allied forces broke through at Amiens. He knew then that Germany could not win.",
     "era": "world-war-1",
-    "location": {"name": "German Headquarters, Spa", "modern": "Spa, Belgium"}
+    "location": {
+      "name": "German Headquarters, Spa",
+      "modern": "Spa, Belgium"
+    }
   },
   {
     "id": "ww1-030",
     "authorId": "georges-clemenceau",
     "type": "status",
-    "content": "The Germans are retreating everywhere. Foch attacks without ceasing. The Americans are magnificent—raw but fearless. The Tiger will have his revenge. Germany will pay for every village, every life, everything.",
+    "content": "The Germans are retreating everywhere. Foch attacks without ceasing. The Americans are magnificent\u2014raw but fearless. The Tiger will have his revenge. Germany will pay for every village, every life, everything.",
     "timestamp": "1918-09-20T14:00:00Z",
     "displayDate": "September 20, 1918",
     "likes": 23450,
@@ -447,13 +534,16 @@
     "accuracy": "documented",
     "historicalContext": "The Hundred Days Offensive pushed Germany back relentlessly. Clemenceau, 77 years old, visited the front lines frequently. His demands for revenge would shape the Treaty of Versailles.",
     "era": "world-war-1",
-    "location": {"name": "Paris, France", "modern": "Paris, France"}
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    }
   },
   {
     "id": "ww1-031",
     "authorId": "wilfred-owen",
     "type": "status",
-    "content": "I am going back to France. My nerve is good. Sassoon says I should stay—that my poetry matters more than another officer. But how can I write about the men in the trenches while I am safe in England?",
+    "content": "I am going back to France. My nerve is good. Sassoon says I should stay\u2014that my poetry matters more than another officer. But how can I write about the men in the trenches while I am safe in England?",
     "timestamp": "1918-08-31T10:00:00Z",
     "displayDate": "August 31, 1918",
     "likes": 18900,
@@ -462,13 +552,16 @@
     "accuracy": "documented",
     "historicalContext": "Despite Sassoon's urging to stay in England, Owen returned to the front in August 1918. He would be killed in action on November 4, one week before the Armistice.",
     "era": "world-war-1",
-    "location": {"name": "London, England", "modern": "London, England"}
+    "location": {
+      "name": "London, England",
+      "modern": "London, England"
+    }
   },
   {
     "id": "ww1-032",
     "authorId": "kaiser-wilhelm",
     "type": "status",
-    "content": "Revolution in Berlin. The sailors have mutinied. My generals tell me the army will not fight for me. Abdication—they demand my abdication. After thirty years. I am going to Holland. I am finished.",
+    "content": "Revolution in Berlin. The sailors have mutinied. My generals tell me the army will not fight for me. Abdication\u2014they demand my abdication. After thirty years. I am going to Holland. I am finished.",
     "timestamp": "1918-11-09T16:00:00Z",
     "displayDate": "November 9, 1918",
     "likes": 23450,
@@ -477,7 +570,10 @@
     "accuracy": "documented",
     "historicalContext": "Kaiser Wilhelm II abdicated on November 9, 1918 as revolution spread through Germany. He fled to neutral Netherlands, where he lived until his death in 1941.",
     "era": "world-war-1",
-    "location": {"name": "German Headquarters, Spa", "modern": "Spa, Belgium"}
+    "location": {
+      "name": "German Headquarters, Spa",
+      "modern": "Spa, Belgium"
+    }
   },
   {
     "id": "ww1-033",
@@ -490,9 +586,12 @@
     "comments": 28900,
     "shares": 45670,
     "accuracy": "documented",
-    "historicalContext": "The Armistice took effect at 11 AM on November 11, 1918—the eleventh hour of the eleventh day of the eleventh month. Fighting continued until the last minute; 2,738 men died that morning.",
+    "historicalContext": "The Armistice took effect at 11 AM on November 11, 1918\u2014the eleventh hour of the eleventh day of the eleventh month. Fighting continued until the last minute; 2,738 men died that morning.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-034",
@@ -505,9 +604,12 @@
     "comments": 18900,
     "shares": 28900,
     "accuracy": "documented",
-    "historicalContext": "The 'Pals Battalions' of 1914—friends and neighbors who enlisted together—suffered catastrophic losses. Entire communities lost their young men in single battles.",
+    "historicalContext": "The 'Pals Battalions' of 1914\u2014friends and neighbors who enlisted together\u2014suffered catastrophic losses. Entire communities lost their young men in single battles.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-035",
@@ -522,7 +624,10 @@
     "accuracy": "documented",
     "historicalContext": "Foch's prediction that the Treaty of Versailles would lead to another war in twenty years proved chillingly accurate. World War II began in September 1939, twenty years later.",
     "era": "world-war-1",
-    "location": {"name": "Versailles, France", "modern": "Versailles, France"}
+    "location": {
+      "name": "Versailles, France",
+      "modern": "Versailles, France"
+    }
   },
   {
     "id": "ww1-036",
@@ -535,9 +640,12 @@
     "comments": 34560,
     "shares": 56780,
     "accuracy": "documented",
-    "historicalContext": "Lines from Owen's most famous poem 'Dulce et Decorum Est.' The Latin phrase means 'It is sweet and fitting to die for one's country'—which Owen calls 'the old Lie.'",
+    "historicalContext": "Lines from Owen's most famous poem 'Dulce et Decorum Est.' The Latin phrase means 'It is sweet and fitting to die for one's country'\u2014which Owen calls 'the old Lie.'",
     "era": "world-war-1",
-    "location": {"name": "Craiglockhart, Scotland", "modern": "Edinburgh, Scotland"}
+    "location": {
+      "name": "Craiglockhart, Scotland",
+      "modern": "Edinburgh, Scotland"
+    }
   },
   {
     "id": "ww1-037",
@@ -552,7 +660,10 @@
     "accuracy": "documented",
     "historicalContext": "The Allied naval blockade caused severe food shortages in Germany. An estimated 400,000 German civilians died from malnutrition and disease during the war.",
     "era": "world-war-1",
-    "location": {"name": "Western Front", "modern": "France"}
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-038",
@@ -567,7 +678,10 @@
     "accuracy": "documented",
     "historicalContext": "Lawrence helped lead the Arab capture of Damascus but knew about the Sykes-Picot Agreement dividing Arab lands between Britain and France. His guilt haunted him for life.",
     "era": "world-war-1",
-    "location": {"name": "Damascus, Syria", "modern": "Damascus, Syria"}
+    "location": {
+      "name": "Damascus, Syria",
+      "modern": "Damascus, Syria"
+    }
   },
   {
     "id": "ww1-039",
@@ -582,13 +696,16 @@
     "accuracy": "documented",
     "historicalContext": "Wilson's Fourteen Points outlined his vision for a just peace. The phrase 'war to end all wars' became bitterly ironic after the rise of fascism and World War II.",
     "era": "world-war-1",
-    "location": {"name": "Washington, D.C.", "modern": "Washington, D.C., USA"}
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C., USA"
+    }
   },
   {
     "id": "ww1-040",
     "authorId": "john-pershing",
     "type": "status",
-    "content": "Meuse-Argonne. The biggest American battle in history. 1.2 million of my boys attacking 47 German divisions. They are dying by the thousands but they keep attacking. This is how we will win—by sheer weight of American determination.",
+    "content": "Meuse-Argonne. The biggest American battle in history. 1.2 million of my boys attacking 47 German divisions. They are dying by the thousands but they keep attacking. This is how we will win\u2014by sheer weight of American determination.",
     "timestamp": "1918-10-15T10:00:00Z",
     "displayDate": "October 15, 1918",
     "likes": 23450,
@@ -597,7 +714,10 @@
     "accuracy": "documented",
     "historicalContext": "The Meuse-Argonne Offensive was the largest battle in American history. Over 47 days, 26,000 Americans died, but the offensive broke the German army.",
     "era": "world-war-1",
-    "location": {"name": "Meuse-Argonne, France", "modern": "Argonne, France"}
+    "location": {
+      "name": "Meuse-Argonne, France",
+      "modern": "Argonne, France"
+    }
   },
   {
     "id": "ww1-041",
@@ -612,7 +732,10 @@
     "accuracy": "documented",
     "historicalContext": "Wilfred Owen was killed on November 4, 1918, exactly one week before the Armistice. His mother received notification of his death as Armistice bells rang in Shrewsbury.",
     "era": "world-war-1",
-    "location": {"name": "London, England", "modern": "London, England"}
+    "location": {
+      "name": "London, England",
+      "modern": "London, England"
+    }
   },
   {
     "id": "ww1-042",
@@ -627,7 +750,10 @@
     "accuracy": "documented",
     "historicalContext": "Thousands of young women served as nurses during WWI. Many suffered psychological trauma similar to soldiers, though this was rarely acknowledged.",
     "era": "world-war-1",
-    "location": {"name": "France", "modern": "France"}
+    "location": {
+      "name": "France",
+      "modern": "France"
+    }
   },
   {
     "id": "ww1-043",
@@ -640,9 +766,12 @@
     "comments": 12340,
     "shares": 5670,
     "accuracy": "speculative",
-    "historicalContext": "Haig remains controversial—celebrated as the architect of victory or condemned for callous waste of life. He spent his later years supporting veterans' causes.",
+    "historicalContext": "Haig remains controversial\u2014celebrated as the architect of victory or condemned for callous waste of life. He spent his later years supporting veterans' causes.",
     "era": "world-war-1",
-    "location": {"name": "London, England", "modern": "London, England"}
+    "location": {
+      "name": "London, England",
+      "modern": "London, England"
+    }
   },
   {
     "id": "ww1-044",
@@ -657,7 +786,10 @@
     "accuracy": "documented",
     "historicalContext": "Gavrilo Princip died of tuberculosis in prison on April 28, 1918. Too young to be executed (he was 19 at the time of the assassination), he served a 20-year sentence.",
     "era": "world-war-1",
-    "location": {"name": "Theresienstadt Prison", "modern": "Terezín, Czech Republic"}
+    "location": {
+      "name": "Theresienstadt Prison",
+      "modern": "Terez\u00edn, Czech Republic"
+    }
   },
   {
     "id": "ww1-045",
@@ -670,8 +802,281 @@
     "comments": 15670,
     "shares": 23450,
     "accuracy": "documented",
-    "historicalContext": "World War I killed approximately 17 million people. France lost 1.4 million soldiers—nearly 4% of its entire population—with many more permanently wounded.",
+    "historicalContext": "World War I killed approximately 17 million people. France lost 1.4 million soldiers\u2014nearly 4% of its entire population\u2014with many more permanently wounded.",
     "era": "world-war-1",
-    "location": {"name": "France", "modern": "France"}
+    "location": {
+      "name": "France",
+      "modern": "France"
+    }
+  },
+  {
+    "id": "ww1-046",
+    "authorId": "british-tommy",
+    "type": "status",
+    "content": "Rats ate my chocolate ration. Fat ones too, size of cats. Sergeant says they're getting bigger from... well. Trying not to think about that.",
+    "timestamp": "1916-11-15T03:00:00Z",
+    "displayDate": "November 15, 1916",
+    "likes": 12300,
+    "comments": 2100,
+    "shares": 1800,
+    "accuracy": "documented",
+    "historicalContext": "Trench rats were a constant problem in WWI. Growing to enormous sizes, they fed on food supplies and worse. Soldiers organized rat hunts but never eradicated them.",
+    "era": "world-war-1",
+    "location": {
+      "name": "The Somme, France",
+      "modern": "Somme, France"
+    }
+  },
+  {
+    "id": "ww1-047",
+    "authorId": "french-poilu",
+    "type": "status",
+    "content": "Letter from home. My daughter is walking now. She was a baby when I left. My son doesn't remember my face. Coming home to strangers.",
+    "timestamp": "1917-03-20T19:00:00Z",
+    "displayDate": "March 20, 1917",
+    "likes": 34500,
+    "comments": 4500,
+    "shares": 5600,
+    "accuracy": "speculative",
+    "historicalContext": "Many soldiers served for years without leave. Some never saw their children's early years. Letters were the only connection to home.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Verdun, France",
+      "modern": "Verdun, France"
+    }
+  },
+  {
+    "id": "ww1-048",
+    "authorId": "war-nurse",
+    "type": "status",
+    "content": "Seventeen amputations today. Running low on chloroform. The young ones always ask if they'll walk again. Learning to lie convincingly.",
+    "timestamp": "1917-08-02T22:00:00Z",
+    "displayDate": "August 2, 1917",
+    "likes": 23400,
+    "comments": 3400,
+    "shares": 4500,
+    "accuracy": "documented",
+    "historicalContext": "Military hospitals were overwhelmed. Nurses worked in brutal conditions, often with inadequate supplies. Shell wounds and gas injuries required constant care.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Field Hospital, Flanders",
+      "modern": "Flanders, Belgium"
+    }
+  },
+  {
+    "id": "ww1-049",
+    "authorId": "manfred-richthofen",
+    "type": "status",
+    "content": "Painted my Albatros red. Makes me easier to spot. That's the point. Let them know who's coming.",
+    "timestamp": "1917-01-22T11:00:00Z",
+    "displayDate": "January 22, 1917",
+    "likes": 78900,
+    "comments": 5600,
+    "shares": 12300,
+    "accuracy": "documented",
+    "historicalContext": "Manfred von Richthofen, the Red Baron, painted his aircraft red for easy identification. He became the highest-scoring ace of WWI with 80 victories.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Douai, France",
+      "modern": "Douai, France"
+    }
+  },
+  {
+    "id": "ww1-050",
+    "authorId": "american-doughboy",
+    "type": "status",
+    "content": "Finally in France. Seasick the whole way over. The French soldiers look at us like we're tourists. Heard we'll learn soon enough. Not looking forward to that lesson.",
+    "timestamp": "1918-05-10T15:00:00Z",
+    "displayDate": "May 10, 1918",
+    "likes": 15600,
+    "comments": 2300,
+    "shares": 1900,
+    "accuracy": "speculative",
+    "historicalContext": "American troops, nicknamed 'doughboys,' arrived inexperienced. French and British veterans viewed them skeptically until they proved themselves in combat.",
+    "era": "world-war-1",
+    "location": {
+      "name": "France",
+      "modern": "France"
+    }
+  },
+  {
+    "id": "ww1-051",
+    "authorId": "wilfred-owen",
+    "type": "status",
+    "content": "Started a new poem. About the gas. The sounds they make, the faces. People at home should know. They shouldn't be allowed not to know.",
+    "timestamp": "1917-10-08T21:00:00Z",
+    "displayDate": "October 8, 1917",
+    "likes": 45600,
+    "comments": 5600,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Wilfred Owen wrote 'Dulce et Decorum Est' about a gas attack. His poetry exposed the horror of war to readers who imagined it glorious.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Craiglockhart, Scotland",
+      "modern": "Edinburgh, Scotland"
+    }
+  },
+  {
+    "id": "ww1-052",
+    "authorId": "german-soldier-ww1",
+    "type": "status",
+    "content": "Three years in the trenches. Can't remember what quiet sounds like. Even when there's no shelling, I hear it. Doctor says it's nerves. Easy for him.",
+    "timestamp": "1917-12-24T18:00:00Z",
+    "displayDate": "December 24, 1917",
+    "likes": 18900,
+    "comments": 2800,
+    "shares": 2100,
+    "accuracy": "speculative",
+    "historicalContext": "Shell shock (now called PTSD) affected soldiers on all sides. It was poorly understood and often stigmatized as cowardice.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Western Front",
+      "modern": "France/Belgium Border"
+    }
+  },
+  {
+    "id": "ww1-053",
+    "authorId": "lawrence-arabia",
+    "type": "status",
+    "content": "Blew up another Turkish train today. The desert tribes are magnificent fighters. Beginning to understand I'm just the explosives consultant.",
+    "timestamp": "1917-09-18T09:00:00Z",
+    "displayDate": "September 18, 1917",
+    "likes": 56700,
+    "comments": 4500,
+    "shares": 7800,
+    "accuracy": "documented",
+    "historicalContext": "T.E. Lawrence coordinated Arab guerrilla attacks on Ottoman railways, disrupting supply lines. His role was advisory; the Arab fighters did the actual fighting.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Arabian Desert",
+      "modern": "Jordan"
+    }
+  },
+  {
+    "id": "ww1-054",
+    "authorId": "edith-cavell",
+    "type": "status",
+    "content": "Another group of soldiers hidden and sent to safety. The Germans suspect the hospital. I know the risks. Some things matter more than safety.",
+    "timestamp": "1915-07-20T23:00:00Z",
+    "displayDate": "July 20, 1915",
+    "likes": 67800,
+    "comments": 7800,
+    "shares": 12300,
+    "accuracy": "documented",
+    "historicalContext": "Edith Cavell helped Allied soldiers escape occupied Belgium. Arrested by Germans, she was executed on October 12, 1915. Her death caused international outrage.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Brussels, Belgium",
+      "modern": "Brussels, Belgium"
+    }
+  },
+  {
+    "id": "ww1-055",
+    "authorId": "ferdinand-foch",
+    "type": "status",
+    "content": "The Germans are 40 miles from Paris. Everyone wants to retreat. I say we attack. Hard to explain but I feel we're at the turning point.",
+    "timestamp": "1918-07-18T06:00:00Z",
+    "displayDate": "July 18, 1918",
+    "likes": 45600,
+    "comments": 3400,
+    "shares": 5600,
+    "accuracy": "documented",
+    "historicalContext": "The Second Battle of the Marne (July 1918) was the turning point. Foch's counterattack stopped the German Spring Offensive and began the Allied advance to victory.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    }
+  },
+  {
+    "id": "ww1-056",
+    "authorId": "russian-soldier",
+    "type": "status",
+    "content": "New orders from Petrograd. The Tsar is gone. We're supposed to keep fighting but nobody knows why anymore. The Germans are offering peace. I'm tired.",
+    "timestamp": "1917-03-18T14:00:00Z",
+    "displayDate": "March 18, 1917",
+    "likes": 23400,
+    "comments": 3400,
+    "shares": 4500,
+    "accuracy": "documented",
+    "historicalContext": "The February Revolution led to Tsar Nicholas II's abdication. The Russian army began to disintegrate as soldiers questioned why they were still fighting.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Eastern Front",
+      "modern": "Poland/Russia Border"
+    }
+  },
+  {
+    "id": "ww1-057",
+    "authorId": "siegfried-sassoon",
+    "type": "status",
+    "content": "They're calling me shell-shocked. Putting me in a hospital. I'm not mad. I just refuse to pretend this war makes sense anymore.",
+    "timestamp": "1917-07-30T10:00:00Z",
+    "displayDate": "July 30, 1917",
+    "likes": 56700,
+    "comments": 6700,
+    "shares": 9800,
+    "accuracy": "documented",
+    "historicalContext": "Sassoon's 'Soldier's Declaration' protested the war's continuation. To avoid court-martial, he was diagnosed with shell shock and sent to Craiglockhart hospital.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Craiglockhart, Scotland",
+      "modern": "Edinburgh, Scotland"
+    }
+  },
+  {
+    "id": "ww1-058",
+    "authorId": "douglas-haig",
+    "type": "status",
+    "content": "The Somme offensive continues. Casualties are... significant. But we are wearing down the enemy. Victory requires sacrifice. History will understand.",
+    "timestamp": "1916-08-15T20:00:00Z",
+    "displayDate": "August 15, 1916",
+    "likes": 15600,
+    "comments": 8900,
+    "shares": 4500,
+    "accuracy": "documented",
+    "historicalContext": "Douglas Haig commanded British forces at the Somme, which cost nearly 420,000 British casualties. His tactics remain controversial to this day.",
+    "era": "world-war-1",
+    "location": {
+      "name": "British HQ, France",
+      "modern": "Montreuil, France"
+    }
+  },
+  {
+    "id": "ww1-059",
+    "authorId": "john-pershing",
+    "type": "status",
+    "content": "The French and British want my troops piecemeal, to plug holes in their lines. I said no. Americans fight as Americans, under American command.",
+    "timestamp": "1918-03-28T16:00:00Z",
+    "displayDate": "March 28, 1918",
+    "likes": 34500,
+    "comments": 4500,
+    "shares": 5600,
+    "accuracy": "documented",
+    "historicalContext": "Pershing insisted the American Expeditionary Force fight as an independent army, not be absorbed into Allied units. This was politically and militarily important.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Chaumont, France",
+      "modern": "Chaumont, France"
+    }
+  },
+  {
+    "id": "ww1-060",
+    "authorId": "british-tommy",
+    "type": "status",
+    "content": "11 o'clock. The guns stopped. Actual silence. Don't know what to do. Sat down and cried. Not ashamed. Everyone's crying.",
+    "timestamp": "1918-11-11T11:05:00Z",
+    "displayDate": "November 11, 1918",
+    "likes": 234000,
+    "comments": 34500,
+    "shares": 78900,
+    "accuracy": "documented",
+    "historicalContext": "The Armistice took effect at 11 AM on November 11, 1918. After four years of constant bombardment, the sudden silence was overwhelming.",
+    "era": "world-war-1",
+    "location": {
+      "name": "Western Front",
+      "modern": "France"
+    }
   }
 ]

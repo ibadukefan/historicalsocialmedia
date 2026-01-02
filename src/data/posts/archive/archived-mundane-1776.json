@@ -1,0 +1,740 @@
+[
+  {
+    "id": "mundane-050",
+    "type": "status",
+    "authorId": "raja-mysore",
+    "content": "Horse sneezed on me. In front of the generals. Just stood there. Covered in horse.\n\nNobody laughed. They wanted to. I could tell.",
+    "timestamp": "1776-03-15T09:00:00Z",
+    "displayDate": "March 15, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Seringapatam, Mysore"
+    },
+    "likes": 23000,
+    "comments": 156,
+    "shares": 34,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-004",
+    "type": "status",
+    "authorId": "marie-antoinette",
+    "content": "Ate an entire plate of those little cakes. No regrets.\n\n...some regrets.",
+    "timestamp": "1776-05-10T15:30:00Z",
+    "displayDate": "May 10, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Versailles, France"
+    },
+    "likes": 67000,
+    "comments": 890,
+    "shares": 234,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-022",
+    "type": "status",
+    "authorId": "king-george-iii",
+    "content": "Cannot sleep. Tried warm milk. Tried walking. Tried reading. Mind won't stop.",
+    "timestamp": "1776-05-08T03:00:00Z",
+    "displayDate": "May 8, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "London, England"
+    },
+    "likes": 23000,
+    "comments": 156,
+    "shares": 34,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-051",
+    "type": "status",
+    "authorId": "mehmet-trader",
+    "content": "Dropped my keys. Watched them fall. Watched them bounce. Watched them go exactly where I couldn't reach them.\n\nOf course.",
+    "timestamp": "1776-04-25T16:00:00Z",
+    "displayDate": "April 25, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Grand Bazaar, Constantinople"
+    },
+    "likes": 34,
+    "comments": 15,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-005",
+    "type": "status",
+    "authorId": "ivan-petrov",
+    "content": "My back. My poor back.",
+    "timestamp": "1776-04-22T18:00:00Z",
+    "displayDate": "April 22, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Tula Province, Russia"
+    },
+    "likes": 4,
+    "comments": 2,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-030",
+    "type": "status",
+    "authorId": "john-adams",
+    "content": "Sneezed so loud I scared myself. And everyone in the room. The look I got from Franklin.",
+    "timestamp": "1776-06-12T10:30:00Z",
+    "displayDate": "June 12, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Philadelphia, Pennsylvania"
+    },
+    "likes": 1890,
+    "comments": 234,
+    "shares": 67,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-011",
+    "type": "status",
+    "authorId": "priya-sharma",
+    "content": "The cat brought me a dead lizard. Looked so proud. What am I supposed to do with this.",
+    "timestamp": "1776-05-22T07:00:00Z",
+    "displayDate": "May 22, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Madras, India"
+    },
+    "likes": 28,
+    "comments": 9,
+    "shares": 1,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-060",
+    "type": "status",
+    "authorId": "james-somerset",
+    "content": "Meant to say 'good morning.' Said 'good morbing.' MORBING.\n\nI'm going back to bed. Starting the day over.",
+    "timestamp": "1776-04-22T07:00:00Z",
+    "displayDate": "April 22, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "London, England"
+    },
+    "likes": 178,
+    "comments": 56,
+    "shares": 14,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-023",
+    "type": "status",
+    "authorId": "ayumi-kyoto",
+    "content": "Someone left their sandals at the door. They've been there for two days. Whose sandals. WHO.",
+    "timestamp": "1776-06-18T11:00:00Z",
+    "displayDate": "June 18, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Kyoto, Japan"
+    },
+    "likes": 29,
+    "comments": 14,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-042",
+    "type": "status",
+    "authorId": "amara-dahomey",
+    "content": "Stubbed my toe on the same rock. Same rock. SAME ROCK. I know it's there. I KNOW.",
+    "timestamp": "1776-05-02T06:15:00Z",
+    "displayDate": "May 2, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Abomey, Kingdom of Dahomey"
+    },
+    "likes": 34,
+    "comments": 12,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-025",
+    "type": "status",
+    "authorId": "tupac-amaru",
+    "content": "Children asked me to tell the same story again. The exact same one. Fourth time today. Why.",
+    "timestamp": "1776-03-12T20:00:00Z",
+    "displayDate": "March 12, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Cusco, Peru"
+    },
+    "likes": 56,
+    "comments": 23,
+    "shares": 4,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-001",
+    "type": "status",
+    "authorId": "ordinary-colonist-1",
+    "content": "Dog won't stop barking at the door. There's nothing there. I checked. THREE TIMES.",
+    "timestamp": "1776-03-14T07:30:00Z",
+    "displayDate": "March 14, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Boston, Massachusetts"
+    },
+    "likes": 12,
+    "comments": 3,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-045",
+    "type": "status",
+    "authorId": "ivan-petrov",
+    "content": "Song stuck in my head for three days. Don't even know all the words. Just the same part. Over and over.",
+    "timestamp": "1776-04-28T17:00:00Z",
+    "displayDate": "April 28, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Tula Province, Russia"
+    },
+    "likes": 6,
+    "comments": 2,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-026",
+    "type": "status",
+    "authorId": "hyder-ali",
+    "content": "Horse looked at me weird today. Just stood there. Staring. What do you know that I don't.",
+    "timestamp": "1776-04-18T09:00:00Z",
+    "displayDate": "April 18, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Mysore, India"
+    },
+    "likes": 4500,
+    "comments": 89,
+    "shares": 12,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-053",
+    "type": "status",
+    "authorId": "catherine-great",
+    "content": "Hiccupped during a formal audience. Just once. Loud.\n\nFifty people pretending they didn't hear. I appreciate the effort. I also want to die.",
+    "timestamp": "1776-06-10T11:00:00Z",
+    "displayDate": "June 10, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Winter Palace, St. Petersburg"
+    },
+    "likes": 67000,
+    "comments": 234,
+    "shares": 45,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-019",
+    "type": "status",
+    "authorId": "ahmad-merchant",
+    "content": "Why does the best coffee always run out first. It's like the universe is testing me.",
+    "timestamp": "1776-03-08T08:00:00Z",
+    "displayDate": "March 8, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Constantinople"
+    },
+    "likes": 67,
+    "comments": 18,
+    "shares": 3,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-029",
+    "type": "status",
+    "authorId": "nana-yaa",
+    "content": "Made too much food. Happens every time. \"I won't make too much this time.\" Makes too much. Every. Time.",
+    "timestamp": "1776-04-30T18:00:00Z",
+    "displayDate": "April 30, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Dahomey"
+    },
+    "likes": 34,
+    "comments": 12,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-040",
+    "type": "status",
+    "authorId": "priya-sharma",
+    "content": "Forgot what I walked into this room for. Stood here for a while. Gave up. Went back. Remembered. Forgot again.",
+    "timestamp": "1776-05-28T10:00:00Z",
+    "displayDate": "May 28, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Madras, India"
+    },
+    "likes": 34,
+    "comments": 18,
+    "shares": 3,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-027",
+    "type": "status",
+    "authorId": "british-soldier-1",
+    "content": "Got a letter from home. Good news: family is well. Bad news: mum's still mad about the thing from before I left. It's been two years, mum.",
+    "timestamp": "1776-05-25T15:00:00Z",
+    "displayDate": "May 25, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Boston, Massachusetts"
+    },
+    "likes": 67,
+    "comments": 34,
+    "shares": 8,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-049",
+    "type": "status",
+    "authorId": "tokugawa-ieharu",
+    "content": "Forgot someone's name. Important someone. Nodded a lot. Made agreeing noises. Still don't know who that was.",
+    "timestamp": "1776-05-20T14:00:00Z",
+    "displayDate": "May 20, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Edo Castle, Japan"
+    },
+    "likes": 34000,
+    "comments": 89,
+    "shares": 12,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-013",
+    "type": "status",
+    "authorId": "thomas-jefferson",
+    "content": "Hungry but nothing sounds good. This is a uniquely frustrating problem.",
+    "timestamp": "1776-06-08T13:00:00Z",
+    "displayDate": "June 8, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Philadelphia, Pennsylvania"
+    },
+    "likes": 2890,
+    "comments": 189,
+    "shares": 45,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-036",
+    "type": "status",
+    "authorId": "ivan-petrov",
+    "content": "Full moon tonight. Beautiful. Still have to wake up at dawn. But beautiful.",
+    "timestamp": "1776-05-12T22:00:00Z",
+    "displayDate": "May 12, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Tula Province, Russia"
+    },
+    "likes": 8,
+    "comments": 2,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-043",
+    "type": "status",
+    "authorId": "tupac-amaru",
+    "content": "Woke up from a nap not knowing what year it is. What day it is. Who I am.\n\nNaps shouldn't be this disorienting.",
+    "timestamp": "1776-06-18T15:30:00Z",
+    "displayDate": "June 18, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Tungasuca, Peru"
+    },
+    "likes": 67,
+    "comments": 23,
+    "shares": 5,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-033",
+    "type": "status",
+    "authorId": "chen-wei",
+    "content": "That moment when you remember something you were supposed to do three days ago. Just had that moment.",
+    "timestamp": "1776-03-20T14:00:00Z",
+    "displayDate": "March 20, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Canton, China"
+    },
+    "likes": 28,
+    "comments": 9,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-054",
+    "type": "status",
+    "authorId": "yamamoto-hana",
+    "content": "Yawned. Couldn't stop. Yawned again. And again. Now everyone around me is yawning. \n\nI've created a yawning plague.",
+    "timestamp": "1776-04-18T22:30:00Z",
+    "displayDate": "April 18, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Gion District, Kyoto"
+    },
+    "likes": 56,
+    "comments": 23,
+    "shares": 4,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-014",
+    "type": "status",
+    "authorId": "emperor-qianlong",
+    "content": "Sometimes I just want to eat dinner without someone watching to see if I like it. Just once.",
+    "timestamp": "1776-04-12T19:00:00Z",
+    "displayDate": "April 12, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Forbidden City, Beijing"
+    },
+    "likes": 34000,
+    "comments": 12,
+    "shares": 0,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-047",
+    "type": "status",
+    "authorId": "li-mei",
+    "content": "Thread snapped. Again. Took twenty minutes to fix. Again. Same spot. Every time.\n\nThe loom is testing me personally.",
+    "timestamp": "1776-06-25T08:00:00Z",
+    "displayDate": "June 25, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Suzhou, China"
+    },
+    "likes": 12,
+    "comments": 5,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-058",
+    "type": "status",
+    "authorId": "maria-mexico",
+    "content": "Said goodbye. They said goodbye. Then we walked the same direction. For a while. In silence.\n\nWorst walk of my life.",
+    "timestamp": "1776-06-08T17:00:00Z",
+    "displayDate": "June 8, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Mexico City, New Spain"
+    },
+    "likes": 56,
+    "comments": 34,
+    "shares": 8,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-003",
+    "type": "status",
+    "authorId": "jean-pierre",
+    "content": "Why do I wake up before dawn even on days I don't have to. Body, please. I'm begging you.",
+    "timestamp": "1776-02-18T04:45:00Z",
+    "displayDate": "February 18, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Paris, France"
+    },
+    "likes": 18,
+    "comments": 7,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-028",
+    "type": "status",
+    "authorId": "olaudah-equiano",
+    "content": "The couple upstairs are either fighting or moving furniture. Either way I'm not sleeping tonight.",
+    "timestamp": "1776-06-22T23:30:00Z",
+    "displayDate": "June 22, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "London, England"
+    },
+    "likes": 189,
+    "comments": 45,
+    "shares": 12,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-038",
+    "type": "status",
+    "authorId": "tanaka-kenji",
+    "content": "Someone asking me if the fish is fresh. IT'S 5AM. OF COURSE IT'S FRESH. WHERE ELSE WOULD IT BE.",
+    "timestamp": "1776-06-28T05:15:00Z",
+    "displayDate": "June 28, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Edo, Japan"
+    },
+    "likes": 56,
+    "comments": 23,
+    "shares": 4,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-006",
+    "type": "status",
+    "authorId": "tanaka-kenji",
+    "content": "Someone explain to me why the best fish always come on the days I forget to sharpen my knives.",
+    "timestamp": "1776-03-28T05:00:00Z",
+    "displayDate": "March 28, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Edo, Japan"
+    },
+    "likes": 34,
+    "comments": 11,
+    "shares": 1,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-035",
+    "type": "status",
+    "authorId": "george-washington",
+    "content": "Thought I heard someone call my name. No one called my name. Hate when that happens.",
+    "timestamp": "1776-04-15T11:30:00Z",
+    "displayDate": "April 15, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "New York"
+    },
+    "likes": 3456,
+    "comments": 178,
+    "shares": 45,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-052",
+    "type": "status",
+    "authorId": "kwame-farmer",
+    "content": "Tried to count my chickens. They won't stay still. Lost count at twelve. Started over. Lost count at twelve again.\n\nI have approximately twelve chickens.",
+    "timestamp": "1776-05-30T07:00:00Z",
+    "displayDate": "May 30, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Near Kumasi, Ashanti Empire"
+    },
+    "likes": 19,
+    "comments": 8,
+    "shares": 1,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-044",
+    "type": "status",
+    "authorId": "ravi-calcutta",
+    "content": "Made a noise that was supposed to be a word. Everyone looked at me. I pretended I was coughing.\n\nWhy does my mouth betray me.",
+    "timestamp": "1776-03-22T11:00:00Z",
+    "displayDate": "March 22, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Fort William, Calcutta"
+    },
+    "likes": 18,
+    "comments": 8,
+    "shares": 1,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-007",
+    "type": "status",
+    "authorId": "chen-wei",
+    "content": "The humidity. THE HUMIDITY. I am becoming one with the moisture.",
+    "timestamp": "1776-06-15T14:00:00Z",
+    "displayDate": "June 15, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Canton, China"
+    },
+    "likes": 19,
+    "comments": 8,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-057",
+    "type": "status",
+    "authorId": "priya-madras",
+    "content": "Spent an hour looking for my needle. It was in my hair. I put it there. I REMEMBER putting it there.",
+    "timestamp": "1776-04-05T13:00:00Z",
+    "displayDate": "April 5, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Madras, India"
+    },
+    "likes": 23,
+    "comments": 11,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-009",
+    "type": "status",
+    "authorId": "fatima-hassan",
+    "content": "Neighbor's goat got into my garden again. AGAIN. I don't even have the energy to be angry anymore.",
+    "timestamp": "1776-04-08T08:30:00Z",
+    "displayDate": "April 8, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Constantinople"
+    },
+    "likes": 23,
+    "comments": 15,
+    "shares": 2,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-015",
+    "type": "status",
+    "authorId": "john-adams",
+    "content": "The man next to me is chewing with his mouth open. This is violence.",
+    "timestamp": "1776-05-30T12:30:00Z",
+    "displayDate": "May 30, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Philadelphia, Pennsylvania"
+    },
+    "likes": 1567,
+    "comments": 234,
+    "shares": 89,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-016",
+    "type": "status",
+    "authorId": "kofi-mensah",
+    "content": "Watching the clouds. There's one that looks like a face. Angry face. Probably means rain. Or nothing. Who knows.",
+    "timestamp": "1776-06-02T16:30:00Z",
+    "displayDate": "June 2, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Kumasi, Ashanti Empire"
+    },
+    "likes": 15,
+    "comments": 4,
+    "shares": 0,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-018",
+    "type": "status",
+    "authorId": "maria-garcia",
+    "content": "Kids finally asleep. Poured myself wine. Dropped the cup. Wine everywhere. This is my life now.",
+    "timestamp": "1776-04-28T21:30:00Z",
+    "displayDate": "April 28, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Mexico City"
+    },
+    "likes": 45,
+    "comments": 23,
+    "shares": 5,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-048",
+    "type": "status",
+    "authorId": "tanaka-kenji",
+    "content": "Customer haggled for half an hour. HALF AN HOUR. Over two fish. Ended up paying what I asked anyway.\n\nI will never understand people.",
+    "timestamp": "1776-04-10T06:30:00Z",
+    "displayDate": "April 10, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Nihonbashi, Edo"
+    },
+    "likes": 45,
+    "comments": 19,
+    "shares": 3,
+    "accuracy": "speculative"
+  },
+  {
+    "id": "mundane-002",
+    "type": "status",
+    "authorId": "abigail-adams",
+    "content": "Cannot find my good scissors. The ones that actually cut. I know someone borrowed them. I know it was John.",
+    "timestamp": "1776-04-02T09:15:00Z",
+    "displayDate": "April 2, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Braintree, Massachusetts"
+    },
+    "likes": 234,
+    "comments": 45,
+    "shares": 8,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-008",
+    "type": "status",
+    "authorId": "benjamin-franklin",
+    "content": "Lost my reading glasses again. They were on my head. They're always on my head.",
+    "timestamp": "1776-02-05T11:00:00Z",
+    "displayDate": "February 5, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Philadelphia, Pennsylvania"
+    },
+    "likes": 2345,
+    "comments": 156,
+    "shares": 89,
+    "accuracy": "speculative",
+    "isVerified": true
+  },
+  {
+    "id": "mundane-041",
+    "type": "status",
+    "authorId": "sultan-abdulhamid",
+    "content": "Bit my tongue at dinner. In front of everyone. Just sat there with tears in my eyes pretending nothing happened.\n\nDignity. I have dignity.",
+    "timestamp": "1776-04-14T19:30:00Z",
+    "displayDate": "April 14, 1776",
+    "era": "american-revolution",
+    "location": {
+      "name": "Topkapi Palace, Constantinople"
+    },
+    "likes": 23000,
+    "comments": 45,
+    "shares": 3,
+    "accuracy": "speculative",
+    "isVerified": true
+  }
+]

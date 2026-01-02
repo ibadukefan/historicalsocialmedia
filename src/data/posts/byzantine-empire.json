@@ -12,7 +12,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Constantine the Great officially dedicated Constantinople (modern Istanbul) on May 11, 330 CE, establishing it as the new capital of the Roman Empire. The city would remain the capital of the Byzantine Empire for over 1,100 years.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "constantine-christian-empire",
@@ -27,7 +29,9 @@
     "shares": 234,
     "accuracy": "documented",
     "historicalContext": "Constantine's Edict of Milan in 313 CE legalized Christianity throughout the Roman Empire. His reported vision before the Battle of Milvian Bridge in 312 CE is one of history's most significant religious moments.",
-    "location": { "name": "Rome" }
+    "location": {
+      "name": "Rome"
+    }
   },
   {
     "id": "justinian-hagia-sophia",
@@ -42,7 +46,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "Justinian I completed the Hagia Sophia in 537 CE. Upon entering the finished church, he reportedly exclaimed 'Solomon, I have surpassed thee!' It remained the largest cathedral in the world for nearly 1,000 years.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "justinian-code",
@@ -57,7 +63,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Justinian's Corpus Juris Civilis (Body of Civil Law) became the foundation of legal systems throughout Europe and much of the world. It remains influential in modern civil law systems.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "theodora-nika-riots",
@@ -72,7 +80,9 @@
     "shares": 1200,
     "accuracy": "documented",
     "historicalContext": "During the Nika riots of 532 CE, Empress Theodora famously convinced Justinian to stay and fight rather than flee. Her speech about 'purple making a fine burial shroud' saved the throne. The riots were suppressed with an estimated 30,000 deaths.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "theodora-rights",
@@ -87,7 +97,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "Empress Theodora championed laws protecting women's rights, including property rights, protection from forced prostitution, and legal recourse against abusive husbands. These were revolutionary for their time.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "belisarius-rome-recaptured",
@@ -102,7 +114,9 @@
     "shares": 789,
     "accuracy": "documented",
     "historicalContext": "Belisarius recaptured Rome from the Ostrogoths in 536 CE with a remarkably small force. His military genius allowed the Byzantine Empire to briefly reunite the Mediterranean world under Roman rule.",
-    "location": { "name": "Rome" }
+    "location": {
+      "name": "Rome"
+    }
   },
   {
     "id": "belisarius-beggar",
@@ -117,7 +131,9 @@
     "shares": 456,
     "accuracy": "legendary",
     "historicalContext": "The story of Belisarius being blinded and reduced to begging is likely legend, but reflects Byzantine court intrigues. He was briefly disgraced in 562 CE but was restored to favor. The tale has inspired artists and writers for centuries.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "heraclius-true-cross",
@@ -132,7 +148,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "Emperor Heraclius returned the True Cross to Jerusalem in 630 CE after defeating the Sasanian Persian Empire. He carried it barefoot into the city. Just eight years later, Arab armies would capture Jerusalem permanently.",
-    "location": { "name": "Jerusalem" }
+    "location": {
+      "name": "Jerusalem"
+    }
   },
   {
     "id": "heraclius-exhausted",
@@ -147,7 +165,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "The Arab-Byzantine wars began in 634 CE, just as Byzantium was exhausted from decades of war with Persia. Within a decade, the empire lost Syria, Palestine, and Egypt permanently to the new Islamic caliphate.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "basil-ii-bulgar-slayer",
@@ -162,7 +182,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "After the Battle of Kleidion in 1014 CE, Basil II reportedly blinded 15,000 Bulgarian prisoners. When Tsar Samuel saw his blinded army returning, he died of a heart attack. This earned Basil the title 'Bulgaroktonos' - Bulgar Slayer.",
-    "location": { "name": "Kleidion Pass, Bulgaria" }
+    "location": {
+      "name": "Kleidion Pass, Bulgaria"
+    }
   },
   {
     "id": "basil-ii-empire-peak",
@@ -177,7 +199,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Under Basil II (976-1025 CE), the Byzantine Empire reached its medieval peak. He left a full treasury and expanded borders. Within 50 years of his death, the empire would suffer catastrophic defeats.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "empress-irene-first",
@@ -192,7 +216,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Empress Irene became the first woman to rule the Roman/Byzantine Empire in her own right in 797 CE, after blinding her son Constantine VI. She took the male title 'Basileus' (Emperor) and ended the first period of Iconoclasm.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "anna-comnena-history",
@@ -207,7 +233,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "Anna Comnena wrote the Alexiad, one of the most important historical sources for the First Crusade and Byzantine history. She was one of the first female historians and provided valuable Byzantine perspectives on the Crusaders.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "anna-comnena-crusaders",
@@ -222,7 +250,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "The First Crusaders passed through Constantinople in 1096-1097 CE. The Byzantines viewed them as uncouth barbarians, while the Crusaders saw the Byzantines as decadent and untrustworthy. This tension would eventually lead to disaster.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "constantine-xi-walls",
@@ -237,7 +267,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "The Siege of Constantinople began on April 6, 1453. Constantine XI Palaiologos had only about 7,000 defenders against Mehmed II's army of 80,000-100,000 troops, plus the largest cannons ever built.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "constantine-xi-last-speech",
@@ -252,7 +284,9 @@
     "shares": 1200,
     "accuracy": "documented",
     "historicalContext": "On the night before the final assault, Constantine XI gave a famous speech to his defenders. He promised to fight to the death. He was last seen charging into the Ottoman ranks as the walls fell.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "constantine-xi-end",
@@ -267,7 +301,9 @@
     "shares": 1500,
     "accuracy": "documented",
     "historicalContext": "Constantinople fell on May 29, 1453. A small gate (the Kerkoporta) was left open, allowing Ottomans to enter. Constantine XI died fighting, reportedly tearing off his imperial regalia to die as a common soldier. His body was never identified.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "greek-fire-master",
@@ -282,7 +318,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Greek Fire was a devastating naval weapon that burned on water. It was crucial in repelling Arab sieges of Constantinople in 674-678 and 717-718 CE. The formula was so secret that it has been lost to history.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "icon-painter-work",
@@ -297,7 +335,9 @@
     "shares": 234,
     "accuracy": "speculative",
     "historicalContext": "Byzantine iconography followed strict conventions - icons were seen as windows to the divine, not mere art. The Iconoclast controversy (726-843 CE) saw periods where icons were destroyed, before their veneration was finally restored.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "constantinople-merchant",
@@ -312,7 +352,9 @@
     "shares": 189,
     "accuracy": "speculative",
     "historicalContext": "Constantinople was the commercial hub of the medieval world, linking Europe and Asia. The city's population reached around 500,000 - far larger than any Western European city of the time.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "varangian-guard",
@@ -327,7 +369,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "The Varangian Guard was an elite unit of Norse/Viking warriors who served as the Byzantine Emperor's personal bodyguards from about 988 to 1453 CE. Their loyalty to the throne, rather than to individuals, was legendary.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "byzantine-scholar-library",
@@ -342,7 +386,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "Byzantine scholars preserved Greek and Roman texts that were lost in Western Europe. When Constantinople fell in 1453, many scholars fled west with their manuscripts, helping spark the Italian Renaissance.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "byzantine-soldier-manzikert",
@@ -357,7 +403,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "The Battle of Manzikert in 1071 CE was a catastrophic Byzantine defeat. Emperor Romanos IV was captured by the Seljuk Turks. The battle opened Anatolia to Turkish settlement and marked the beginning of the empire's long decline.",
-    "location": { "name": "Manzikert, Anatolia" }
+    "location": {
+      "name": "Manzikert, Anatolia"
+    }
   },
   {
     "id": "fourth-crusade-sack",
@@ -372,7 +420,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "The Fourth Crusade sacked Constantinople in 1204, killing thousands and looting irreplaceable treasures. The Crusaders established a Latin Empire that lasted until 1261. The city never fully recovered from the devastation.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "procopius-secret-history",
@@ -387,7 +437,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "Procopius wrote the 'Secret History' (Anekdota), a scandalous account of Justinian and Theodora that was only published after his death. Historians debate how much is truth versus malicious gossip, but it provides a rare glimpse of Byzantine court intrigue.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "chariot-races",
@@ -402,7 +454,9 @@
     "shares": 234,
     "accuracy": "documented",
     "historicalContext": "The chariot racing factions (Blues and Greens) were intense rivals in Constantinople, often leading to riots. The Hippodrome held over 100,000 spectators. The factions were also political organizations that could threaten emperors.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "plague-justinian",
@@ -417,7 +471,9 @@
     "shares": 234,
     "accuracy": "documented",
     "historicalContext": "The Plague of Justinian (541-542 CE) killed an estimated 25-50 million people across the empire. It was the first recorded outbreak of bubonic plague and devastated Constantinople. Justinian himself contracted the disease but survived.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "nikephoros-victory",
@@ -432,7 +488,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Nikephoros Phokas reconquered Crete in 961 CE after it had been an Arab emirate for over a century. He later became emperor and continued expanding Byzantine territory, earning his fearsome nickname.",
-    "location": { "name": "Crete" }
+    "location": {
+      "name": "Crete"
+    }
   },
   {
     "id": "mehmed-bombardment",
@@ -447,7 +505,9 @@
     "shares": 678,
     "accuracy": "documented",
     "historicalContext": "Sultan Mehmed II deployed the largest cannons ever built against Constantinople's walls. The great bombard, built by the Hungarian engineer Orban, fired stone balls weighing over 500 kg. The bombardment lasted 53 days.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "last-liturgy",
@@ -462,7 +522,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "On the night before Constantinople fell, a final ecumenical service was held in the Hagia Sophia, with Orthodox and Catholic clergy together. After the conquest, the church was converted into a mosque.",
-    "location": { "name": "Hagia Sophia, Constantinople" }
+    "location": {
+      "name": "Hagia Sophia, Constantinople"
+    }
   },
   {
     "id": "refugees-west",
@@ -477,7 +539,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "After 1453, Byzantine scholars fled west, bringing Greek manuscripts and knowledge that helped fuel the Renaissance. Many settled in Italy, where their expertise in Greek language and philosophy was highly valued.",
-    "location": { "name": "Venice" }
+    "location": {
+      "name": "Venice"
+    }
   },
   {
     "id": "justinian-dream",
@@ -492,7 +556,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Justinian's 'Renovatio Imperii' (Restoration of the Empire) aimed to reconquer the Western Roman territories. He succeeded in taking North Africa, Italy, and southern Spain, but the conquests were costly and didn't last.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "theodora-origins",
@@ -507,7 +573,9 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "Theodora rose from humble origins as a circus performer and actress (often a euphemism for prostitute) to become one of the most powerful women in Byzantine history. Justinian changed the law to allow their marriage.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "iconoclasm-begins",
@@ -522,7 +590,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "Emperor Leo III began the first period of Iconoclasm in 726 CE, ordering the destruction of religious icons. The controversy tore the empire apart for over a century and caused a major rift with the Roman papacy.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "battle-yarmouk",
@@ -537,7 +607,9 @@
     "shares": 345,
     "accuracy": "documented",
     "historicalContext": "The Battle of Yarmouk in 636 CE was a catastrophic Byzantine defeat that opened the Levant to Arab conquest. A sandstorm at a critical moment contributed to the disaster. Syria and Palestine were permanently lost.",
-    "location": { "name": "Yarmouk River, Syria" }
+    "location": {
+      "name": "Yarmouk River, Syria"
+    }
   },
   {
     "id": "russian-conversion",
@@ -552,7 +624,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "The Christianization of Kievan Rus in 988 CE brought Byzantine Orthodox Christianity to Russia. According to legend, Vladimir chose Orthodoxy after his envoys were overwhelmed by the beauty of Hagia Sophia.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "schism-1054",
@@ -567,7 +641,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "The Great Schism of 1054 formally divided Christianity into the Roman Catholic and Eastern Orthodox churches. Patriarch Michael Cerularius and Cardinal Humbert exchanged mutual excommunications in the Hagia Sophia.",
-    "location": { "name": "Hagia Sophia, Constantinople" }
+    "location": {
+      "name": "Hagia Sophia, Constantinople"
+    }
   },
   {
     "id": "constantine-city",
@@ -582,7 +658,9 @@
     "shares": 567,
     "accuracy": "documented",
     "historicalContext": "Constantine chose Byzantium for his new capital for its strategic location controlling trade between Europe and Asia. The city was built at extraordinary speed, with monuments and churches constructed throughout the 320s CE.",
-    "location": { "name": "Byzantium" }
+    "location": {
+      "name": "Byzantium"
+    }
   },
   {
     "id": "hagia-sophia-light",
@@ -597,7 +675,9 @@
     "shares": 567,
     "accuracy": "speculative",
     "historicalContext": "The Hagia Sophia's revolutionary dome appeared to float on a ring of light from its 40 windows. Contemporaries described feeling as if the dome was suspended from heaven by a golden chain. The engineering was unprecedented.",
-    "location": { "name": "Hagia Sophia, Constantinople" }
+    "location": {
+      "name": "Hagia Sophia, Constantinople"
+    }
   },
   {
     "id": "silk-secret",
@@ -612,7 +692,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "According to Byzantine historian Procopius, two monks smuggled silkworm eggs from China to Constantinople in 552 CE, hidden in hollow bamboo staffs. This broke China's silk monopoly and established Byzantine silk production.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "walls-theodosian",
@@ -627,7 +709,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "The Theodosian Walls, built in the early 5th century, protected Constantinople for over a thousand years. The triple-wall system with 96 towers was considered impregnable until Ottoman cannons finally breached them in 1453.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "university-constantinople",
@@ -642,7 +726,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "The University of Constantinople was founded in 425 CE and continued operating for centuries. It preserved classical learning during the European Dark Ages and trained generations of scholars, administrators, and clergy.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "empress-zoe",
@@ -657,7 +743,9 @@
     "shares": 456,
     "accuracy": "documented",
     "historicalContext": "Empress Zoe (978-1050 CE) was at the center of Byzantine politics for decades. She married three times, ruled jointly with her sister, and survived palace coups. When she was exiled in 1042, popular riots restored her to power.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
   },
   {
     "id": "golden-horn-chain",
@@ -672,7 +760,9 @@
     "shares": 234,
     "accuracy": "documented",
     "historicalContext": "A massive chain blocked the Golden Horn during sieges. In 1453, Mehmed II famously bypassed it by hauling his ships overland behind Galata, one of history's most audacious military engineering feats.",
-    "location": { "name": "Golden Horn, Constantinople" }
+    "location": {
+      "name": "Golden Horn, Constantinople"
+    }
   },
   {
     "id": "mehmed-ships-overland",
@@ -687,6 +777,260 @@
     "shares": 890,
     "accuracy": "documented",
     "historicalContext": "On April 22, 1453, Mehmed II had about 70 ships dragged overland on greased logs around Galata to bypass the chain. This stunning maneuver allowed the Ottomans to attack Constantinople from the Golden Horn.",
-    "location": { "name": "Constantinople" }
+    "location": {
+      "name": "Constantinople"
+    }
+  },
+  {
+    "id": "byz-047",
+    "authorId": "byzantine-merchant",
+    "type": "status",
+    "content": "Silk prices are insane. The Persians control the trade routes and they know it. Someone said monks smuggled silkworms in their walking sticks. Sounds too good to be true.",
+    "timestamp": "0552-06-15T14:00:00Z",
+    "displayDate": "June 15, 552",
+    "likes": 3400,
+    "comments": 560,
+    "shares": 230,
+    "accuracy": "documented",
+    "historicalContext": "According to legend, Byzantine monks smuggled silkworm eggs from China in hollow bamboo canes around 552, breaking China's silk monopoly.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-048",
+    "authorId": "greek-fire-technician",
+    "type": "status",
+    "content": "Another demonstration for foreign ambassadors. They always want to know the recipe. I always smile and say nothing. Some secrets keep empires alive.",
+    "timestamp": "0720-09-22T11:00:00Z",
+    "displayDate": "September 22, 720",
+    "likes": 12300,
+    "comments": 1800,
+    "shares": 2300,
+    "accuracy": "speculative",
+    "historicalContext": "The formula for Greek Fire was a closely guarded state secret. Even today, its exact composition is unknown. It could burn on water and saved Constantinople multiple times.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-049",
+    "authorId": "byzantine-icon-painter",
+    "type": "status",
+    "content": "The Emperor says no more icons. Soldiers are destroying the holy images. I hid my brushes. Maybe this madness will pass. Maybe I'll paint again.",
+    "timestamp": "0730-02-10T17:00:00Z",
+    "displayDate": "February 10, 730",
+    "likes": 8900,
+    "comments": 1200,
+    "shares": 1500,
+    "accuracy": "documented",
+    "historicalContext": "Iconoclasm (726-843) saw emperors ordering the destruction of religious images. Icon painters risked punishment. The controversy divided Byzantine society for over a century.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-050",
+    "authorId": "empress-irene",
+    "type": "status",
+    "content": "They blinded my son to put me on the throne. I didn't order that. But I'm not giving up power either. A woman can rule. I will prove it.",
+    "timestamp": "0797-08-19T20:00:00Z",
+    "displayDate": "August 19, 797",
+    "likes": 45600,
+    "comments": 6700,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Empress Irene became the first woman to rule the Roman Empire in her own right after her son Constantine VI was blinded. She ended Iconoclasm and negotiated with Charlemagne.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-051",
+    "authorId": "anna-comnena",
+    "type": "status",
+    "content": "Writing history is harder than making it. Father made history. I'm stuck trying to capture it in words. Some days the words don't come.",
+    "timestamp": "1140-05-20T15:00:00Z",
+    "displayDate": "May 20, 1140",
+    "likes": 12300,
+    "comments": 2100,
+    "shares": 3400,
+    "accuracy": "speculative",
+    "historicalContext": "Anna Comnena wrote the Alexiad, a history of her father Emperor Alexios I. She was one of the first female historians. Her work is a key source for the First Crusade.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-052",
+    "authorId": "varangian-guardsman",
+    "type": "status",
+    "content": "Some fool tried to assassinate the Emperor at Mass. We cut him down before he got close. That's why they pay us. That's why they trust us.",
+    "timestamp": "0988-04-05T10:00:00Z",
+    "displayDate": "April 5, 988",
+    "likes": 15600,
+    "comments": 2300,
+    "shares": 3400,
+    "accuracy": "speculative",
+    "historicalContext": "The Varangian Guard, mostly Norse and later Anglo-Saxon warriors, were famed for absolute loyalty to whoever paid them - meaning the reigning emperor, not any usurper.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-053",
+    "authorId": "basil-ii",
+    "type": "status",
+    "content": "Fifteen thousand Bulgarian prisoners. Blinded ninety-nine of every hundred. Left one with one eye to lead them home. Samuel will get my message.",
+    "timestamp": "1014-07-29T18:00:00Z",
+    "displayDate": "July 29, 1014",
+    "likes": 34500,
+    "comments": 8900,
+    "shares": 5600,
+    "accuracy": "documented",
+    "historicalContext": "After defeating Bulgaria at Kleidion, Basil II blinded 15,000 prisoners. Bulgarian Tsar Samuel reportedly died of shock when he saw them return. Basil earned the name 'Bulgar-Slayer.'",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Kleidion Pass",
+      "modern": "North Macedonia"
+    }
+  },
+  {
+    "id": "byz-054",
+    "authorId": "byzantine-scholar",
+    "type": "status",
+    "content": "Copying Aristotle again. My fingers ache. But these books kept Rome's knowledge alive. When we're gone, someone else will read them.",
+    "timestamp": "1050-11-12T22:00:00Z",
+    "displayDate": "November 12, 1050",
+    "likes": 8900,
+    "comments": 1200,
+    "shares": 2300,
+    "accuracy": "speculative",
+    "historicalContext": "Byzantine scholars preserved Greek and Roman texts that would otherwise have been lost. Their manuscripts later sparked the Renaissance in Western Europe.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-055",
+    "authorId": "byzantine-citizen",
+    "type": "status",
+    "content": "Crusaders are supposed to be allies. They're looting the churches. Breaking icons. Three days of this. Some Christianity.",
+    "timestamp": "1204-04-15T16:00:00Z",
+    "displayDate": "April 15, 1204",
+    "likes": 67800,
+    "comments": 12300,
+    "shares": 15600,
+    "accuracy": "documented",
+    "historicalContext": "The Fourth Crusade sacked Constantinople in 1204. Crusaders looted, murdered, and desecrated churches. The city never fully recovered from this Christian-on-Christian violence.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-056",
+    "authorId": "byzantine-priest",
+    "type": "status",
+    "content": "Rome wants us to accept their Pope. After 1054, after the excommunications, after everything. Some bridges don't get rebuilt.",
+    "timestamp": "1274-07-06T11:00:00Z",
+    "displayDate": "July 6, 1274",
+    "likes": 12300,
+    "comments": 3400,
+    "shares": 2300,
+    "accuracy": "documented",
+    "historicalContext": "Multiple attempts were made to reunify the Eastern and Western churches after the Great Schism of 1054. All failed. The division persists today.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-057",
+    "authorId": "constantine-xi",
+    "type": "status",
+    "content": "The Turks have a cannon that can breach any wall. Our walls have stood for a thousand years. Now I watch them crack. We need help that isn't coming.",
+    "timestamp": "1453-04-20T19:00:00Z",
+    "displayDate": "April 20, 1453",
+    "likes": 78900,
+    "comments": 12300,
+    "shares": 23400,
+    "accuracy": "documented",
+    "historicalContext": "The Ottoman bombard, cast by Hungarian engineer Urban, was the largest cannon ever made. It destroyed the legendary walls of Constantinople that had stood since Theodosius II.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-058",
+    "authorId": "byzantine-soldier",
+    "type": "status",
+    "content": "They broke through at the Kerkoporta. A small gate, left open by accident. A thousand years of empire, ended by one unlocked door.",
+    "timestamp": "1453-05-29T06:00:00Z",
+    "displayDate": "May 29, 1453",
+    "likes": 89000,
+    "comments": 15600,
+    "shares": 34500,
+    "accuracy": "documented",
+    "historicalContext": "Ottoman forces likely entered through the Kerkoporta, a small gate that was left open. The fall of Constantinople on May 29, 1453 ended the Byzantine Empire after 1,123 years.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-059",
+    "authorId": "procopius",
+    "type": "status",
+    "content": "The official history praises the Emperor. The secret history tells the truth. One will make me famous. The other will get me killed if found.",
+    "timestamp": "0558-08-30T23:00:00Z",
+    "displayDate": "August 30, 558",
+    "likes": 23400,
+    "comments": 4500,
+    "shares": 5600,
+    "accuracy": "documented",
+    "historicalContext": "Procopius wrote official histories praising Justinian, but also the 'Secret History' attacking him and Theodora with scandalous accusations. It was hidden until after his death.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "byz-060",
+    "authorId": "heraclius",
+    "type": "status",
+    "content": "Recovered the True Cross from the Persians. Carried it back to Jerusalem myself, barefoot. Twenty years of war for this moment.",
+    "timestamp": "0630-03-21T12:00:00Z",
+    "displayDate": "March 21, 630",
+    "likes": 67800,
+    "comments": 8900,
+    "shares": 15600,
+    "accuracy": "documented",
+    "historicalContext": "Emperor Heraclius recovered the True Cross after defeating Persia in a devastating war. He restored it to Jerusalem in 630, only for Arabs to conquer the city in 638.",
+    "era": "byzantine-empire",
+    "location": {
+      "name": "Jerusalem",
+      "modern": "Jerusalem, Israel"
+    }
   }
 ]

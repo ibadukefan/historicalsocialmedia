@@ -8,10 +8,14 @@
     "displayDate": "March 4, 1770",
     "accuracy": "speculative",
     "historicalContext": "The day before the Boston Massacre. Tensions between colonists and British soldiers had been escalating for months.",
-    "location": {"name": "Boston", "modern": "Boston, MA"},
+    "location": {
+      "name": "Boston",
+      "modern": "Boston, MA"
+    },
     "likes": 567,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-002",
@@ -22,10 +26,14 @@
     "displayDate": "June 17, 1775",
     "accuracy": "inferred",
     "historicalContext": "Peter Salem fought at the Battle of Bunker Hill. He is credited with shooting British Major Pitcairn.",
-    "location": {"name": "Bunker Hill", "modern": "Charlestown, MA"},
+    "location": {
+      "name": "Bunker Hill",
+      "modern": "Charlestown, MA"
+    },
     "likes": 890,
     "comments": 156,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-003",
@@ -38,7 +46,8 @@
     "historicalContext": "14 officers petitioned the Continental Congress to recognize Salem Poor's bravery at Bunker Hill. Congress never responded.",
     "likes": 678,
     "comments": 123,
-    "shares": 67
+    "shares": 67,
+    "era": "american-revolution"
   },
   {
     "id": "hist-004",
@@ -49,10 +58,14 @@
     "displayDate": "September 15, 1776",
     "accuracy": "inferred",
     "historicalContext": "Hercules Mulligan ran a tailor shop frequented by British officers. He passed intelligence to Washington throughout the war.",
-    "location": {"name": "New York City", "modern": "New York, NY"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, NY"
+    },
     "likes": 456,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-005",
@@ -63,10 +76,14 @@
     "displayDate": "October 12, 1778",
     "accuracy": "inferred",
     "historicalContext": "Abraham Woodhull (Culper Sr.) made regular trips to British-occupied New York to gather intelligence for the Culper Ring.",
-    "location": {"name": "Setauket", "modern": "Long Island, NY"},
+    "location": {
+      "name": "Setauket",
+      "modern": "Long Island, NY"
+    },
     "likes": 234,
     "comments": 45,
-    "shares": 23
+    "shares": 23,
+    "era": "american-revolution"
   },
   {
     "id": "hist-006",
@@ -79,7 +96,8 @@
     "historicalContext": "Anna Strong allegedly used her clothesline to signal which cove Caleb Brewster would use to pick up intelligence. Black petticoat = message ready.",
     "likes": 345,
     "comments": 67,
-    "shares": 34
+    "shares": 34,
+    "era": "american-revolution"
   },
   {
     "id": "hist-007",
@@ -90,10 +108,14 @@
     "displayDate": "April 27, 1777",
     "accuracy": "documented",
     "historicalContext": "Sybil Ludington rode through the night to warn militia that the British were burning Danbury, CT. She rode twice as far as Paul Revere.",
-    "location": {"name": "Putnam County", "modern": "New York"},
+    "location": {
+      "name": "Putnam County",
+      "modern": "New York"
+    },
     "likes": 890,
     "comments": 178,
-    "shares": 134
+    "shares": 134,
+    "era": "american-revolution"
   },
   {
     "id": "hist-008",
@@ -104,10 +126,14 @@
     "displayDate": "June 28, 1778",
     "accuracy": "attributed",
     "historicalContext": "At the Battle of Monmouth, Mary Hays ('Molly Pitcher') reportedly took over her husband's cannon when he fell from heat exhaustion.",
-    "location": {"name": "Monmouth", "modern": "Freehold, NJ"},
+    "location": {
+      "name": "Monmouth",
+      "modern": "Freehold, NJ"
+    },
     "likes": 1234,
     "comments": 234,
-    "shares": 167
+    "shares": 167,
+    "era": "american-revolution"
   },
   {
     "id": "hist-009",
@@ -118,10 +144,14 @@
     "displayDate": "November 16, 1776",
     "accuracy": "documented",
     "historicalContext": "At Fort Washington, Margaret Corbin took her husband's place at the cannon after he was killed. She was severely wounded but survived.",
-    "location": {"name": "Fort Washington", "modern": "New York, NY"},
+    "location": {
+      "name": "Fort Washington",
+      "modern": "New York, NY"
+    },
     "likes": 789,
     "comments": 156,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-010",
@@ -132,10 +162,14 @@
     "displayDate": "December 2, 1777",
     "accuracy": "documented",
     "historicalContext": "Lydia Darragh overheard British plans to attack Washington at Whitemarsh and walked through British lines to warn him.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 567,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-011",
@@ -146,10 +180,14 @@
     "displayDate": "September 15, 1778",
     "accuracy": "attributed",
     "historicalContext": "Nancy Hart legend says she captured or killed Loyalists who came to her Georgia cabin. A county in Georgia is named for her.",
-    "location": {"name": "Georgia frontier", "modern": "Hart County, GA"},
+    "location": {
+      "name": "Georgia frontier",
+      "modern": "Hart County, GA"
+    },
     "likes": 890,
     "comments": 234,
-    "shares": 145
+    "shares": 145,
+    "era": "american-revolution"
   },
   {
     "id": "hist-012",
@@ -160,10 +198,14 @@
     "displayDate": "August 3, 1777",
     "accuracy": "inferred",
     "historicalContext": "Joseph Brant led Mohawk forces allied with Britain. The Iroquois Confederacy split during the war, some nations joining each side.",
-    "location": {"name": "Mohawk Valley", "modern": "New York"},
+    "location": {
+      "name": "Mohawk Valley",
+      "modern": "New York"
+    },
     "likes": 456,
     "comments": 234,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-013",
@@ -174,10 +216,14 @@
     "displayDate": "February 20, 1778",
     "accuracy": "attributed",
     "historicalContext": "The Oneida nation, allied with the Americans, sent supplies to Valley Forge. Polly Cooper stayed to help prepare the food.",
-    "location": {"name": "Valley Forge", "modern": "Valley Forge, PA"},
+    "location": {
+      "name": "Valley Forge",
+      "modern": "Valley Forge, PA"
+    },
     "likes": 678,
     "comments": 123,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-014",
@@ -190,7 +236,8 @@
     "historicalContext": "Pulaski was appointed by Washington to create the first American cavalry. He formed and trained 'Pulaski's Legion.'",
     "likes": 567,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-015",
@@ -201,10 +248,14 @@
     "displayDate": "October 9, 1779",
     "accuracy": "inferred",
     "historicalContext": "Pulaski was mortally wounded at the Siege of Savannah. He died two days later. He's known as the 'Father of American Cavalry.'",
-    "location": {"name": "Savannah", "modern": "Savannah, GA"},
+    "location": {
+      "name": "Savannah",
+      "modern": "Savannah, GA"
+    },
     "likes": 1234,
     "comments": 345,
-    "shares": 234
+    "shares": 234,
+    "era": "american-revolution"
   },
   {
     "id": "hist-016",
@@ -215,10 +266,14 @@
     "displayDate": "June 15, 1778",
     "accuracy": "inferred",
     "historicalContext": "Kosciuszko designed the fortifications at West Point, considered one of the strongest positions in America. It never fell.",
-    "location": {"name": "West Point", "modern": "West Point, NY"},
+    "location": {
+      "name": "West Point",
+      "modern": "West Point, NY"
+    },
     "likes": 678,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-017",
@@ -229,10 +284,14 @@
     "displayDate": "March 10, 1778",
     "accuracy": "documented",
     "historicalContext": "Von Steuben arrived at Valley Forge and created a standardized training program. His 'Blue Book' became the army's training manual.",
-    "location": {"name": "Valley Forge", "modern": "Valley Forge, PA"},
+    "location": {
+      "name": "Valley Forge",
+      "modern": "Valley Forge, PA"
+    },
     "likes": 890,
     "comments": 234,
-    "shares": 156
+    "shares": 156,
+    "era": "american-revolution"
   },
   {
     "id": "hist-018",
@@ -243,10 +302,14 @@
     "displayDate": "August 16, 1780",
     "accuracy": "documented",
     "historicalContext": "Baron de Kalb was wounded eleven times at the Battle of Camden and died three days later. He refused to retreat.",
-    "location": {"name": "Camden", "modern": "Camden, SC"},
+    "location": {
+      "name": "Camden",
+      "modern": "Camden, SC"
+    },
     "likes": 789,
     "comments": 178,
-    "shares": 123
+    "shares": 123,
+    "era": "american-revolution"
   },
   {
     "id": "hist-019",
@@ -256,11 +319,15 @@
     "timestamp": "1781-05-08T14:00:00Z",
     "displayDate": "May 8, 1781",
     "accuracy": "documented",
-    "historicalContext": "Gálvez captured British Pensacola, opening supply lines and preventing British control of the Gulf. He was crucial to American victory.",
-    "location": {"name": "Pensacola", "modern": "Pensacola, FL"},
+    "historicalContext": "G\u00e1lvez captured British Pensacola, opening supply lines and preventing British control of the Gulf. He was crucial to American victory.",
+    "location": {
+      "name": "Pensacola",
+      "modern": "Pensacola, FL"
+    },
     "likes": 567,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-020",
@@ -273,7 +340,8 @@
     "historicalContext": "Joseph Plumb Martin kept a detailed journal of his service. His memoir is one of the best accounts of common soldiers' experiences.",
     "likes": 456,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-021",
@@ -284,10 +352,14 @@
     "displayDate": "January 17, 1781",
     "accuracy": "documented",
     "historicalContext": "Morgan's victory at Cowpens was a tactical masterpiece. He destroyed Tarleton's force using a double envelopment maneuver.",
-    "location": {"name": "Cowpens", "modern": "Cherokee County, SC"},
+    "location": {
+      "name": "Cowpens",
+      "modern": "Cherokee County, SC"
+    },
     "likes": 890,
     "comments": 178,
-    "shares": 123
+    "shares": 123,
+    "era": "american-revolution"
   },
   {
     "id": "hist-022",
@@ -298,10 +370,14 @@
     "displayDate": "July 16, 1779",
     "accuracy": "documented",
     "historicalContext": "Wayne's midnight bayonet assault on Stony Point was a model of tactical brilliance. No shots fired until the fort was taken.",
-    "location": {"name": "Stony Point", "modern": "Stony Point, NY"},
+    "location": {
+      "name": "Stony Point",
+      "modern": "Stony Point, NY"
+    },
     "likes": 678,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-023",
@@ -312,10 +388,14 @@
     "displayDate": "January 25, 1776",
     "accuracy": "documented",
     "historicalContext": "Knox's 'noble train of artillery' brought 60 tons of cannons from Fort Ticonderoga to Boston, forcing British evacuation.",
-    "location": {"name": "Dorchester Heights", "modern": "Boston, MA"},
+    "location": {
+      "name": "Dorchester Heights",
+      "modern": "Boston, MA"
+    },
     "likes": 1234,
     "comments": 234,
-    "shares": 178
+    "shares": 178,
+    "era": "american-revolution"
   },
   {
     "id": "hist-024",
@@ -326,10 +406,14 @@
     "displayDate": "March 16, 1781",
     "accuracy": "inferred",
     "historicalContext": "Greene's Southern Campaign traded land for British casualties. He 'lost' every major battle but won the campaign through attrition.",
-    "location": {"name": "Guilford Courthouse", "modern": "Greensboro, NC"},
+    "location": {
+      "name": "Guilford Courthouse",
+      "modern": "Greensboro, NC"
+    },
     "likes": 567,
     "comments": 123,
-    "shares": 67
+    "shares": 67,
+    "era": "american-revolution"
   },
   {
     "id": "hist-025",
@@ -340,10 +424,14 @@
     "displayDate": "July 20, 1781",
     "accuracy": "documented",
     "historicalContext": "James Armistead was a double agent who fed misinformation to Cornwallis while reporting British positions to Lafayette.",
-    "location": {"name": "Yorktown", "modern": "Yorktown, VA"},
+    "location": {
+      "name": "Yorktown",
+      "modern": "Yorktown, VA"
+    },
     "likes": 890,
     "comments": 178,
-    "shares": 134
+    "shares": 134,
+    "era": "american-revolution"
   },
   {
     "id": "hist-026",
@@ -354,10 +442,14 @@
     "displayDate": "July 2, 1776",
     "accuracy": "documented",
     "historicalContext": "Caesar Rodney's midnight ride through a thunderstorm to break Delaware's tie vote is one of the Revolution's great dramas.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 1234,
     "comments": 234,
-    "shares": 167
+    "shares": 167,
+    "era": "american-revolution"
   },
   {
     "id": "hist-027",
@@ -368,10 +460,14 @@
     "displayDate": "August 2, 1776",
     "accuracy": "attributed",
     "historicalContext": "Charles Carroll was the only Catholic signer and the wealthiest. He added 'of Carrollton' to distinguish himself from other Charles Carrolls.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 678,
     "comments": 134,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-028",
@@ -382,10 +478,14 @@
     "displayDate": "September 5, 1781",
     "accuracy": "inferred",
     "historicalContext": "Haym Salomon raised most of the money to finance the Revolution. He personally lent Congress over $600,000 (never repaid).",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 567,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-029",
@@ -396,10 +496,14 @@
     "displayDate": "December 25, 1776",
     "accuracy": "attributed",
     "historicalContext": "Prince Whipple is believed to be the Black man shown rowing in the famous painting of Washington crossing the Delaware.",
-    "location": {"name": "Delaware River", "modern": "NJ/PA border"},
+    "location": {
+      "name": "Delaware River",
+      "modern": "NJ/PA border"
+    },
     "likes": 890,
     "comments": 178,
-    "shares": 134
+    "shares": 134,
+    "era": "american-revolution"
   },
   {
     "id": "hist-030",
@@ -412,7 +516,8 @@
     "historicalContext": "James Forten was captured serving on the privateer Royal Louis. He refused British offers of freedom and was later released.",
     "likes": 789,
     "comments": 156,
-    "shares": 123
+    "shares": 123,
+    "era": "american-revolution"
   },
   {
     "id": "hist-031",
@@ -423,10 +528,14 @@
     "displayDate": "April 19, 1775",
     "accuracy": "documented",
     "historicalContext": "Wentworth Cheswell, a Black patriot, rode to warn of British movements the same night as Paul Revere.",
-    "location": {"name": "Newmarket", "modern": "New Hampshire"},
+    "location": {
+      "name": "Newmarket",
+      "modern": "New Hampshire"
+    },
     "likes": 567,
     "comments": 178,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-032",
@@ -437,10 +546,14 @@
     "displayDate": "February 14, 1779",
     "accuracy": "documented",
     "historicalContext": "Austin Dabney was severely wounded at Kettle Creek. Georgia later granted him land and freedom for his service.",
-    "location": {"name": "Kettle Creek", "modern": "Wilkes County, GA"},
+    "location": {
+      "name": "Kettle Creek",
+      "modern": "Wilkes County, GA"
+    },
     "likes": 567,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-033",
@@ -451,10 +564,14 @@
     "displayDate": "September 15, 1774",
     "accuracy": "inferred",
     "historicalContext": "Thomas Hutchinson fled to England in 1774. His house had been destroyed by mobs in 1765. He died in exile.",
-    "location": {"name": "London", "modern": "London, England"},
+    "location": {
+      "name": "London",
+      "modern": "London, England"
+    },
     "likes": 234,
     "comments": 345,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-034",
@@ -465,10 +582,14 @@
     "displayDate": "March 15, 1780",
     "accuracy": "inferred",
     "historicalContext": "Robert Townsend ran a coffee house and shop in New York as cover for his spy activities as 'Culper Junior.'",
-    "location": {"name": "New York City", "modern": "New York, NY"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, NY"
+    },
     "likes": 345,
     "comments": 67,
-    "shares": 34
+    "shares": 34,
+    "era": "american-revolution"
   },
   {
     "id": "hist-035",
@@ -481,7 +602,8 @@
     "historicalContext": "Deborah Champion rode from Connecticut to Boston carrying secret dispatches, passing through British territory.",
     "likes": 456,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-036",
@@ -494,7 +616,8 @@
     "historicalContext": "Cornplanter led Seneca warriors allied with Britain. After the war, he became a peace advocate.",
     "likes": 345,
     "comments": 123,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-037",
@@ -507,7 +630,8 @@
     "historicalContext": "Button Gwinnett died in a duel in 1777. His signature is now the rarest of all Declaration signers, worth over $1 million.",
     "likes": 234,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-038",
@@ -518,10 +642,14 @@
     "displayDate": "February 14, 1778",
     "accuracy": "inferred",
     "historicalContext": "Mulligan's tailor shop was a constant source of intelligence. British officers often discussed military matters while being fitted.",
-    "location": {"name": "New York City", "modern": "New York, NY"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, NY"
+    },
     "likes": 512,
     "comments": 78,
-    "shares": 42
+    "shares": 42,
+    "era": "american-revolution"
   },
   {
     "id": "hist-039",
@@ -532,10 +660,14 @@
     "displayDate": "December 22, 1777",
     "accuracy": "attributed",
     "historicalContext": "Martin's memoir describes the extreme deprivation at Valley Forge. Soldiers ate whatever they could find.",
-    "location": {"name": "Valley Forge", "modern": "Valley Forge, PA"},
+    "location": {
+      "name": "Valley Forge",
+      "modern": "Valley Forge, PA"
+    },
     "likes": 678,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-040",
@@ -548,7 +680,8 @@
     "historicalContext": "By 1781, many Continental soldiers had served for years without pay. Mutinies were common.",
     "likes": 456,
     "comments": 123,
-    "shares": 67
+    "shares": 67,
+    "era": "american-revolution"
   },
   {
     "id": "hist-041",
@@ -559,10 +692,14 @@
     "displayDate": "April 5, 1778",
     "accuracy": "documented",
     "historicalContext": "Steuben noted that American soldiers fought best when they understood the reasons for their orders, unlike European armies.",
-    "location": {"name": "Valley Forge", "modern": "Valley Forge, PA"},
+    "location": {
+      "name": "Valley Forge",
+      "modern": "Valley Forge, PA"
+    },
     "likes": 789,
     "comments": 167,
-    "shares": 112
+    "shares": 112,
+    "era": "american-revolution"
   },
   {
     "id": "hist-042",
@@ -573,10 +710,14 @@
     "displayDate": "June 10, 1781",
     "accuracy": "inferred",
     "historicalContext": "Armistead had access to British headquarters as a servant. They never suspected he could understand military documents.",
-    "location": {"name": "Yorktown", "modern": "Yorktown, VA"},
+    "location": {
+      "name": "Yorktown",
+      "modern": "Yorktown, VA"
+    },
     "likes": 890,
     "comments": 198,
-    "shares": 145
+    "shares": 145,
+    "era": "american-revolution"
   },
   {
     "id": "hist-043",
@@ -589,7 +730,8 @@
     "historicalContext": "The clothesline code was hidden in plain sight. The number of handkerchiefs indicated which cove to use for pickups.",
     "likes": 567,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-044",
@@ -600,10 +742,14 @@
     "displayDate": "March 18, 1779",
     "accuracy": "inferred",
     "historicalContext": "Woodhull lived in constant fear of discovery. He used the code name Samuel Culper to protect his identity.",
-    "location": {"name": "Setauket", "modern": "Long Island, NY"},
+    "location": {
+      "name": "Setauket",
+      "modern": "Long Island, NY"
+    },
     "likes": 345,
     "comments": 67,
-    "shares": 34
+    "shares": 34,
+    "era": "american-revolution"
   },
   {
     "id": "hist-045",
@@ -616,7 +762,8 @@
     "historicalContext": "Poland was being partitioned by its neighbors. Kosciuszko saw parallels with America's fight for independence.",
     "likes": 678,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-046",
@@ -629,7 +776,8 @@
     "historicalContext": "Knox lost two fingers before the war but became Washington's trusted artillery commander. He always wore a glove.",
     "likes": 456,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-047",
@@ -642,7 +790,8 @@
     "historicalContext": "Greene served as Quartermaster General before taking command of the Southern Army. He understood supply warfare.",
     "likes": 567,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-048",
@@ -655,7 +804,8 @@
     "historicalContext": "Morgan was brutally whipped during the French and Indian War. He joked he owed the British one more lash.",
     "likes": 890,
     "comments": 234,
-    "shares": 156
+    "shares": 156,
+    "era": "american-revolution"
   },
   {
     "id": "hist-049",
@@ -666,10 +816,14 @@
     "displayDate": "December 4, 1777",
     "accuracy": "documented",
     "historicalContext": "Darragh walked to the Rising Sun Tavern to meet an American contact. Washington moved his troops based on her warning.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 567,
     "comments": 112,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-050",
@@ -682,7 +836,8 @@
     "historicalContext": "The nickname 'Molly Pitcher' likely referred to multiple women who carried water at Monmouth. Mary Hays became the symbol.",
     "likes": 678,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-051",
@@ -693,10 +848,14 @@
     "displayDate": "June 15, 1777",
     "accuracy": "attributed",
     "historicalContext": "Nancy Hart was described as tall, cross-eyed, and unafraid. Her appearance made enemies underestimate her.",
-    "location": {"name": "Georgia frontier", "modern": "Hart County, GA"},
+    "location": {
+      "name": "Georgia frontier",
+      "modern": "Hart County, GA"
+    },
     "likes": 456,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-052",
@@ -709,7 +868,8 @@
     "historicalContext": "After early battles, debates arose about Black soldiers. Many continued serving despite attempts to exclude them.",
     "likes": 567,
     "comments": 178,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-053",
@@ -720,10 +880,14 @@
     "displayDate": "April 25, 1779",
     "accuracy": "documented",
     "historicalContext": "The Culper Ring used 'sympathetic stain' - invisible ink developed by American scientists. The reagent revealed hidden messages.",
-    "location": {"name": "New York City", "modern": "New York, NY"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, NY"
+    },
     "likes": 456,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-054",
@@ -734,10 +898,14 @@
     "displayDate": "October 20, 1781",
     "accuracy": "inferred",
     "historicalContext": "Salomon raised enormous sums for the Continental Army. He died broke; Congress never repaid his personal loans.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 678,
     "comments": 134,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-055",
@@ -748,10 +916,14 @@
     "displayDate": "March 15, 1778",
     "accuracy": "attributed",
     "historicalContext": "Polly Cooper refused payment but accepted a shawl from Martha Washington, which remains a cherished Oneida heirloom.",
-    "location": {"name": "Valley Forge", "modern": "Valley Forge, PA"},
+    "location": {
+      "name": "Valley Forge",
+      "modern": "Valley Forge, PA"
+    },
     "likes": 789,
     "comments": 156,
-    "shares": 112
+    "shares": 112,
+    "era": "american-revolution"
   },
   {
     "id": "hist-056",
@@ -762,10 +934,14 @@
     "displayDate": "February 20, 1776",
     "accuracy": "documented",
     "historicalContext": "Brant visited London in 1775-76 and was presented to King George III. His portrait by Romney became famous.",
-    "location": {"name": "London", "modern": "London, England"},
+    "location": {
+      "name": "London",
+      "modern": "London, England"
+    },
     "likes": 567,
     "comments": 234,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-057",
@@ -778,7 +954,8 @@
     "historicalContext": "After the Revolution, Native Americans lost territory regardless of which side they supported. Cornplanter negotiated for his people.",
     "likes": 456,
     "comments": 178,
-    "shares": 67
+    "shares": 67,
+    "era": "american-revolution"
   },
   {
     "id": "hist-058",
@@ -791,7 +968,8 @@
     "historicalContext": "Wayne's nickname came from a court case involving a deserter, but stuck because of his aggressive tactics.",
     "likes": 678,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-059",
@@ -802,10 +980,14 @@
     "displayDate": "June 10, 1779",
     "accuracy": "documented",
     "historicalContext": "After being wounded, Dabney was cared for by the Harris family. He later helped support them financially.",
-    "location": {"name": "Wilkes County", "modern": "Wilkes County, GA"},
+    "location": {
+      "name": "Wilkes County",
+      "modern": "Wilkes County, GA"
+    },
     "likes": 567,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-060",
@@ -816,10 +998,14 @@
     "displayDate": "April 10, 1783",
     "accuracy": "documented",
     "historicalContext": "Forten became a wealthy sail maker and abolitionist, using his fortune to fight slavery.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 678,
     "comments": 134,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-061",
@@ -830,10 +1016,14 @@
     "displayDate": "May 2, 1777",
     "accuracy": "inferred",
     "historicalContext": "Sybil was 16 when she volunteered for the ride. Her father was a militia colonel who needed to stay and organize.",
-    "location": {"name": "Putnam County", "modern": "New York"},
+    "location": {
+      "name": "Putnam County",
+      "modern": "New York"
+    },
     "likes": 567,
     "comments": 112,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-062",
@@ -844,10 +1034,14 @@
     "displayDate": "July 6, 1779",
     "accuracy": "documented",
     "historicalContext": "Margaret Corbin was the first woman to receive a military pension from the US government, awarded in 1779.",
-    "location": {"name": "Philadelphia", "modern": "Philadelphia, PA"},
+    "location": {
+      "name": "Philadelphia",
+      "modern": "Philadelphia, PA"
+    },
     "likes": 789,
     "comments": 167,
-    "shares": 123
+    "shares": 123,
+    "era": "american-revolution"
   },
   {
     "id": "hist-063",
@@ -858,10 +1052,14 @@
     "displayDate": "March 10, 1782",
     "accuracy": "documented",
     "historicalContext": "Cheswell served his town for decades as constable, selectman, and moderator. Public service defined his life.",
-    "location": {"name": "Newmarket", "modern": "New Hampshire"},
+    "location": {
+      "name": "Newmarket",
+      "modern": "New Hampshire"
+    },
     "likes": 345,
     "comments": 67,
-    "shares": 34
+    "shares": 34,
+    "era": "american-revolution"
   },
   {
     "id": "hist-064",
@@ -872,10 +1070,14 @@
     "displayDate": "November 20, 1778",
     "accuracy": "inferred",
     "historicalContext": "Hutchinson died in London in 1780, still hoping to return to Massachusetts. He never did.",
-    "location": {"name": "London", "modern": "London, England"},
+    "location": {
+      "name": "London",
+      "modern": "London, England"
+    },
     "likes": 234,
     "comments": 145,
-    "shares": 34
+    "shares": 34,
+    "era": "american-revolution"
   },
   {
     "id": "hist-065",
@@ -888,7 +1090,8 @@
     "historicalContext": "Champion made multiple rides carrying dispatches. She leveraged assumptions about women to move undetected.",
     "likes": 567,
     "comments": 123,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   },
   {
     "id": "hist-066",
@@ -898,11 +1101,15 @@
     "timestamp": "1780-08-20T10:00:00Z",
     "displayDate": "August 20, 1780",
     "accuracy": "documented",
-    "historicalContext": "Gálvez's fleet was scattered by a hurricane before his Mobile campaign. He reassembled and attacked successfully.",
-    "location": {"name": "Gulf of Mexico", "modern": "Gulf Coast"},
+    "historicalContext": "G\u00e1lvez's fleet was scattered by a hurricane before his Mobile campaign. He reassembled and attacked successfully.",
+    "location": {
+      "name": "Gulf of Mexico",
+      "modern": "Gulf Coast"
+    },
     "likes": 567,
     "comments": 89,
-    "shares": 56
+    "shares": 56,
+    "era": "american-revolution"
   },
   {
     "id": "hist-067",
@@ -915,7 +1122,8 @@
     "historicalContext": "De Kalb trained troops in the North before taking command in the South, where he would die at Camden.",
     "likes": 456,
     "comments": 89,
-    "shares": 45
+    "shares": 45,
+    "era": "american-revolution"
   },
   {
     "id": "hist-068",
@@ -928,7 +1136,8 @@
     "historicalContext": "William Whipple freed Prince Whipple in 1781. Prince petitioned for freedom alongside other enslaved people in 1779.",
     "likes": 567,
     "comments": 145,
-    "shares": 89
+    "shares": 89,
+    "era": "american-revolution"
   },
   {
     "id": "hist-069",
@@ -941,7 +1150,8 @@
     "historicalContext": "Salem Poor had bought his freedom before the war. He served throughout and returned to life as a free man.",
     "likes": 456,
     "comments": 112,
-    "shares": 67
+    "shares": 67,
+    "era": "american-revolution"
   },
   {
     "id": "hist-070",
@@ -952,9 +1162,13 @@
     "displayDate": "February 15, 1770",
     "accuracy": "inferred",
     "historicalContext": "Attucks escaped slavery around 1750 and worked on ships and docks in Boston for two decades before his death.",
-    "location": {"name": "Boston", "modern": "Boston, MA"},
+    "location": {
+      "name": "Boston",
+      "modern": "Boston, MA"
+    },
     "likes": 567,
     "comments": 134,
-    "shares": 78
+    "shares": 78,
+    "era": "american-revolution"
   }
 ]

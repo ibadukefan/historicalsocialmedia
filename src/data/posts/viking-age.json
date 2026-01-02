@@ -12,7 +12,10 @@
     "accuracy": "inferred",
     "historicalContext": "The Viking raid on Lindisfarne monastery on June 8, 793 is traditionally considered the beginning of the Viking Age. The wealthy, undefended monastery was an easy target for Norse raiders.",
     "era": "viking-age",
-    "location": { "name": "Lindisfarne, Northumbria", "modern": "Holy Island, England" }
+    "location": {
+      "name": "Lindisfarne, Northumbria",
+      "modern": "Holy Island, England"
+    }
   },
   {
     "id": "vik-002",
@@ -27,7 +30,10 @@
     "accuracy": "attributed",
     "historicalContext": "Ragnar Lothbrok, if he existed, was likely active in the mid-9th century. Norse raiders quickly learned that Christian monasteries held great wealth and minimal defenses.",
     "era": "viking-age",
-    "location": { "name": "Denmark", "modern": "Denmark" }
+    "location": {
+      "name": "Denmark",
+      "modern": "Denmark"
+    }
   },
   {
     "id": "vik-003",
@@ -42,7 +48,10 @@
     "accuracy": "attributed",
     "historicalContext": "Lagertha is described in Saxo Grammaticus as a legendary shield-maiden who fought alongside Ragnar. Archaeological evidence suggests some Norse women did fight as warriors.",
     "era": "viking-age",
-    "location": { "name": "Norway", "modern": "Norway" }
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
   },
   {
     "id": "vik-004",
@@ -57,7 +66,10 @@
     "accuracy": "speculative",
     "historicalContext": "Most Norse people were farmers, not raiders. The harsh Scandinavian climate made farming difficult. Many men raided only seasonally, returning home for harvest.",
     "era": "viking-age",
-    "location": { "name": "Trondheim, Norway", "modern": "Trondheim, Norway" }
+    "location": {
+      "name": "Trondheim, Norway",
+      "modern": "Trondheim, Norway"
+    }
   },
   {
     "id": "vik-005",
@@ -72,7 +84,10 @@
     "accuracy": "attributed",
     "historicalContext": "The Great Heathen Army invaded England in 865, supposedly to avenge Ragnar Lothbrok's death. Led by his sons including Ivar the Boneless, they conquered much of England over the next decade.",
     "era": "viking-age",
-    "location": { "name": "Denmark", "modern": "Denmark" }
+    "location": {
+      "name": "Denmark",
+      "modern": "Denmark"
+    }
   },
   {
     "id": "vik-006",
@@ -87,7 +102,10 @@
     "accuracy": "documented",
     "historicalContext": "After a surprise Danish attack at Chippenham in January 878, Alfred fled to the Somerset marshes. From this low point, he would rebuild his army and eventually defeat the Danes at the Battle of Edington.",
     "era": "viking-age",
-    "location": { "name": "Athelney, Somerset", "modern": "Somerset, England" }
+    "location": {
+      "name": "Athelney, Somerset",
+      "modern": "Somerset, England"
+    }
   },
   {
     "id": "vik-007",
@@ -102,7 +120,10 @@
     "accuracy": "attributed",
     "historicalContext": "The legend of Alfred burning the cakes appears in later medieval sources. While probably apocryphal, it symbolizes Alfred's low point during his time hiding in the marshes before his comeback.",
     "era": "viking-age",
-    "location": { "name": "Athelney, Somerset", "modern": "Somerset, England" }
+    "location": {
+      "name": "Athelney, Somerset",
+      "modern": "Somerset, England"
+    }
   },
   {
     "id": "vik-008",
@@ -117,7 +138,10 @@
     "accuracy": "documented",
     "historicalContext": "After defeat at the Battle of Edington in 878, Guthrum agreed to the Treaty of Wedmore. He was baptized as a Christian with Alfred as his godfather and became King of East Anglia.",
     "era": "viking-age",
-    "location": { "name": "Wedmore, Somerset", "modern": "Wedmore, England" }
+    "location": {
+      "name": "Wedmore, Somerset",
+      "modern": "Wedmore, England"
+    }
   },
   {
     "id": "vik-009",
@@ -132,7 +156,10 @@
     "accuracy": "documented",
     "historicalContext": "Bjorn Ironside led a famous expedition through the Strait of Gibraltar into the Mediterranean around 859-862. Vikings raided the coasts of Spain, Morocco, the Balearic Islands, and even Italy.",
     "era": "viking-age",
-    "location": { "name": "Strait of Gibraltar", "modern": "Strait of Gibraltar" }
+    "location": {
+      "name": "Strait of Gibraltar",
+      "modern": "Strait of Gibraltar"
+    }
   },
   {
     "id": "vik-010",
@@ -147,7 +174,10 @@
     "accuracy": "attributed",
     "historicalContext": "The Treaty of Saint-Clair-sur-Epte in 911 gave Rollo lands that would become Normandy. The story of the foot-kissing incident appears in Norman chronicles and may be propaganda.",
     "era": "viking-age",
-    "location": { "name": "Saint-Clair-sur-Epte, France", "modern": "Saint-Clair-sur-Epte, France" }
+    "location": {
+      "name": "Saint-Clair-sur-Epte, France",
+      "modern": "Saint-Clair-sur-Epte, France"
+    }
   },
   {
     "id": "vik-011",
@@ -162,7 +192,10 @@
     "accuracy": "inferred",
     "historicalContext": "Thralls (slaves) were an important part of Norse society. Many were captured during raids on Britain and Ireland. Some could eventually buy their freedom; most could not.",
     "era": "viking-age",
-    "location": { "name": "Jutland, Denmark", "modern": "Jutland, Denmark" }
+    "location": {
+      "name": "Jutland, Denmark",
+      "modern": "Jutland, Denmark"
+    }
   },
   {
     "id": "vik-012",
@@ -177,7 +210,10 @@
     "accuracy": "documented",
     "historicalContext": "Erik the Red was outlawed from Iceland around 982 for manslaughter. During his three-year exile, he explored and settled in Greenland, which he named to attract settlers.",
     "era": "viking-age",
-    "location": { "name": "Iceland", "modern": "Iceland" }
+    "location": {
+      "name": "Iceland",
+      "modern": "Iceland"
+    }
   },
   {
     "id": "vik-013",
@@ -192,7 +228,10 @@
     "accuracy": "documented",
     "historicalContext": "Erik named Greenland to make it sound attractive to potential settlers. The medieval settlement of Greenland lasted about 500 years before climate change and isolation led to its abandonment.",
     "era": "viking-age",
-    "location": { "name": "Greenland", "modern": "Greenland" }
+    "location": {
+      "name": "Greenland",
+      "modern": "Greenland"
+    }
   },
   {
     "id": "vik-014",
@@ -207,7 +246,10 @@
     "accuracy": "documented",
     "historicalContext": "Leif Erikson reached North America around 1000 CE, nearly 500 years before Columbus. The site of L'Anse aux Meadows in Newfoundland confirms Norse presence in the Americas.",
     "era": "viking-age",
-    "location": { "name": "Vinland", "modern": "Newfoundland, Canada" }
+    "location": {
+      "name": "Vinland",
+      "modern": "Newfoundland, Canada"
+    }
   },
   {
     "id": "vik-015",
@@ -222,7 +264,10 @@
     "accuracy": "attributed",
     "historicalContext": "The sagas describe Freydis as a fierce woman who drove off indigenous attackers in Vinland. The story may be exaggerated, but conflicts between Norse settlers and native peoples likely did occur.",
     "era": "viking-age",
-    "location": { "name": "Vinland", "modern": "Newfoundland, Canada" }
+    "location": {
+      "name": "Vinland",
+      "modern": "Newfoundland, Canada"
+    }
   },
   {
     "id": "vik-016",
@@ -237,7 +282,10 @@
     "accuracy": "attributed",
     "historicalContext": "Harald Fairhair unified Norway after the Battle of Hafrsfjord around 872. The legend says he vowed not to cut his hair until he was king of all Norway. His descendants would rule Norway for centuries.",
     "era": "viking-age",
-    "location": { "name": "Hafrsfjord, Norway", "modern": "Stavanger, Norway" }
+    "location": {
+      "name": "Hafrsfjord, Norway",
+      "modern": "Stavanger, Norway"
+    }
   },
   {
     "id": "vik-017",
@@ -252,7 +300,10 @@
     "accuracy": "speculative",
     "historicalContext": "Skalds were highly respected in Norse society. Their complex poetry preserved history, celebrated victories, and could make or break reputations. A skilled skald was a valuable member of any court.",
     "era": "viking-age",
-    "location": { "name": "Norway", "modern": "Norway" }
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
   },
   {
     "id": "vik-018",
@@ -267,7 +318,10 @@
     "accuracy": "speculative",
     "historicalContext": "Archaeological evidence, including warrior graves with female remains and weapons, suggests some Norse women did fight. The extent of female warriors remains debated among historians.",
     "era": "viking-age",
-    "location": { "name": "Uppsala, Sweden", "modern": "Uppsala, Sweden" }
+    "location": {
+      "name": "Uppsala, Sweden",
+      "modern": "Uppsala, Sweden"
+    }
   },
   {
     "id": "vik-019",
@@ -282,7 +336,10 @@
     "accuracy": "documented",
     "historicalContext": "Olaf Tryggvason forcibly converted Norway to Christianity during his reign (995-1000). His methods were often brutal - those who refused baptism faced execution or exile.",
     "era": "viking-age",
-    "location": { "name": "Trondheim, Norway", "modern": "Trondheim, Norway" }
+    "location": {
+      "name": "Trondheim, Norway",
+      "modern": "Trondheim, Norway"
+    }
   },
   {
     "id": "vik-020",
@@ -297,7 +354,10 @@
     "accuracy": "attributed",
     "historicalContext": "The story of Cnut and the tide is often misunderstood as hubris. The original story shows Cnut demonstrating humility - proving to his flattering courtiers that even kings have limits.",
     "era": "viking-age",
-    "location": { "name": "England", "modern": "England" }
+    "location": {
+      "name": "England",
+      "modern": "England"
+    }
   },
   {
     "id": "vik-021",
@@ -312,7 +372,10 @@
     "accuracy": "speculative",
     "historicalContext": "Life in Scandinavia was hard. Short growing seasons meant that a bad harvest could mean starvation. Raiding offered a way to supplement income, but it also took men away from essential farm work.",
     "era": "viking-age",
-    "location": { "name": "Trondheim, Norway", "modern": "Trondheim, Norway" }
+    "location": {
+      "name": "Trondheim, Norway",
+      "modern": "Trondheim, Norway"
+    }
   },
   {
     "id": "vik-022",
@@ -327,7 +390,10 @@
     "accuracy": "documented",
     "historicalContext": "Harald Hardrada served in the Byzantine Varangian Guard for years before becoming King of Norway. In 1066, he claimed the English throne and invaded, setting up the dramatic events of that year.",
     "era": "viking-age",
-    "location": { "name": "Trondheim, Norway", "modern": "Trondheim, Norway" }
+    "location": {
+      "name": "Trondheim, Norway",
+      "modern": "Trondheim, Norway"
+    }
   },
   {
     "id": "vik-023",
@@ -342,7 +408,10 @@
     "accuracy": "documented",
     "historicalContext": "Harald Hardrada won the Battle of Fulford on September 20, 1066. Five days later, Harold Godwinson's army surprised him at Stamford Bridge while many Vikings were without armor.",
     "era": "viking-age",
-    "location": { "name": "York, England", "modern": "York, England" }
+    "location": {
+      "name": "York, England",
+      "modern": "York, England"
+    }
   },
   {
     "id": "vik-024",
@@ -357,7 +426,10 @@
     "accuracy": "inferred",
     "historicalContext": "William landed at Pevensey on September 28, 1066, just three days after Harold's victory at Stamford Bridge. Harold rushed south with his weary army to face this new threat.",
     "era": "viking-age",
-    "location": { "name": "Pevensey, England", "modern": "Pevensey, East Sussex, England" }
+    "location": {
+      "name": "Pevensey, England",
+      "modern": "Pevensey, East Sussex, England"
+    }
   },
   {
     "id": "vik-025",
@@ -372,7 +444,10 @@
     "accuracy": "documented",
     "historicalContext": "The Battle of Hastings on October 14, 1066 ended Anglo-Saxon England. William's victory brought Norman (Viking-descended) rule to England and is traditionally seen as the end of the Viking Age.",
     "era": "viking-age",
-    "location": { "name": "Hastings, England", "modern": "Battle, East Sussex, England" }
+    "location": {
+      "name": "Hastings, England",
+      "modern": "Battle, East Sussex, England"
+    }
   },
   {
     "id": "vik-026",
@@ -387,7 +462,10 @@
     "accuracy": "attributed",
     "historicalContext": "Vikings besieged Paris in 845. King Charles the Bald paid them 7,000 pounds of silver to leave - the first of many 'Danegeld' payments. The city would be besieged again in 885-886.",
     "era": "viking-age",
-    "location": { "name": "Paris, Francia", "modern": "Paris, France" }
+    "location": {
+      "name": "Paris, Francia",
+      "modern": "Paris, France"
+    }
   },
   {
     "id": "vik-027",
@@ -402,7 +480,10 @@
     "accuracy": "attributed",
     "historicalContext": "Some Norse women held significant power as landowners, traders, and even rulers. While Lagertha is legendary, women like Aud the Deep-Minded commanded respect and led their own expeditions.",
     "era": "viking-age",
-    "location": { "name": "Hedeby, Denmark", "modern": "Schleswig-Holstein, Germany" }
+    "location": {
+      "name": "Hedeby, Denmark",
+      "modern": "Schleswig-Holstein, Germany"
+    }
   },
   {
     "id": "vik-028",
@@ -417,7 +498,10 @@
     "accuracy": "attributed",
     "historicalContext": "The nature of Ivar's condition is unknown - theories range from brittle bone disease to a metaphorical name. The blood eagle was a legendary (possibly mythical) ritual execution reserved for enemies.",
     "era": "viking-age",
-    "location": { "name": "York, England", "modern": "York, England" }
+    "location": {
+      "name": "York, England",
+      "modern": "York, England"
+    }
   },
   {
     "id": "vik-029",
@@ -432,7 +516,10 @@
     "accuracy": "speculative",
     "historicalContext": "Captured monks and scholars were sometimes valued for their education. Some thralls learned Norse and integrated into society; others eventually earned or were granted freedom.",
     "era": "viking-age",
-    "location": { "name": "Jutland, Denmark", "modern": "Jutland, Denmark" }
+    "location": {
+      "name": "Jutland, Denmark",
+      "modern": "Jutland, Denmark"
+    }
   },
   {
     "id": "vik-030",
@@ -447,7 +534,10 @@
     "accuracy": "documented",
     "historicalContext": "Alfred's system of burhs (fortified towns) revolutionized defense against Viking raids. No place in Wessex was more than 20 miles from a burh. This system helped his descendants reconquer the Danelaw.",
     "era": "viking-age",
-    "location": { "name": "Winchester, Wessex", "modern": "Winchester, England" }
+    "location": {
+      "name": "Winchester, Wessex",
+      "modern": "Winchester, England"
+    }
   },
   {
     "id": "vik-031",
@@ -462,7 +552,10 @@
     "accuracy": "speculative",
     "historicalContext": "Skalds walked a fine line between historical record and propaganda. Their poems preserved genealogies and deeds, but were also commissioned works meant to glorify their patrons.",
     "era": "viking-age",
-    "location": { "name": "Uppsala, Sweden", "modern": "Uppsala, Sweden" }
+    "location": {
+      "name": "Uppsala, Sweden",
+      "modern": "Uppsala, Sweden"
+    }
   },
   {
     "id": "vik-032",
@@ -477,7 +570,10 @@
     "accuracy": "documented",
     "historicalContext": "Bjorn's Mediterranean expedition raided both Christian and Muslim territories. Vikings attacked Algeciras, Nekor in Morocco, the Balearic Islands, Roussillon, and even reached Italy.",
     "era": "viking-age",
-    "location": { "name": "Mediterranean Sea", "modern": "Mediterranean Sea" }
+    "location": {
+      "name": "Mediterranean Sea",
+      "modern": "Mediterranean Sea"
+    }
   },
   {
     "id": "vik-033",
@@ -492,7 +588,10 @@
     "accuracy": "inferred",
     "historicalContext": "Rollo's settlement in Normandy was controversial among Vikings. Yet his descendants - the Normans - would conquer England, Sicily, and parts of the Middle East, spreading Viking influence further than any raid.",
     "era": "viking-age",
-    "location": { "name": "Rouen, Normandy", "modern": "Rouen, France" }
+    "location": {
+      "name": "Rouen, Normandy",
+      "modern": "Rouen, France"
+    }
   },
   {
     "id": "vik-034",
@@ -507,7 +606,10 @@
     "accuracy": "speculative",
     "historicalContext": "Norse warriors feared 'straw-death' - dying of old age in bed. Only those who died in battle could enter Valhalla. This belief drove Viking courage and explains their willingness to risk death.",
     "era": "viking-age",
-    "location": { "name": "Uppsala, Sweden", "modern": "Uppsala, Sweden" }
+    "location": {
+      "name": "Uppsala, Sweden",
+      "modern": "Uppsala, Sweden"
+    }
   },
   {
     "id": "vik-035",
@@ -522,7 +624,10 @@
     "accuracy": "documented",
     "historicalContext": "Norse attempts to settle Vinland failed due to conflicts with indigenous peoples (called 'Skraelings' by the Norse) and the difficulty of maintaining contact with Greenland. The settlement was abandoned after a few years.",
     "era": "viking-age",
-    "location": { "name": "Vinland", "modern": "Newfoundland, Canada" }
+    "location": {
+      "name": "Vinland",
+      "modern": "Newfoundland, Canada"
+    }
   },
   {
     "id": "vik-036",
@@ -537,7 +642,10 @@
     "accuracy": "documented",
     "historicalContext": "Cnut's North Sea Empire united England, Denmark, and Norway under one ruler. It was the height of Danish power but didn't survive his death - his sons fought and his empire fragmented.",
     "era": "viking-age",
-    "location": { "name": "London, England", "modern": "London, England" }
+    "location": {
+      "name": "London, England",
+      "modern": "London, England"
+    }
   },
   {
     "id": "vik-037",
@@ -552,7 +660,10 @@
     "accuracy": "speculative",
     "historicalContext": "Not every Viking was a successful warrior. Many farmers who joined raids found the experience disappointing or traumatic. The sagas focus on heroes; ordinary failures went unrecorded.",
     "era": "viking-age",
-    "location": { "name": "Trondheim, Norway", "modern": "Trondheim, Norway" }
+    "location": {
+      "name": "Trondheim, Norway",
+      "modern": "Trondheim, Norway"
+    }
   },
   {
     "id": "vik-038",
@@ -567,7 +678,10 @@
     "accuracy": "documented",
     "historicalContext": "Olaf Tryggvason died at the Battle of Svolder in 1000 CE, ambushed by an alliance of the Danish King, Swedish King, and a Norwegian rival. He supposedly leaped overboard rather than surrender.",
     "era": "viking-age",
-    "location": { "name": "Baltic Sea", "modern": "Baltic Sea" }
+    "location": {
+      "name": "Baltic Sea",
+      "modern": "Baltic Sea"
+    }
   },
   {
     "id": "vik-039",
@@ -582,7 +696,10 @@
     "accuracy": "speculative",
     "historicalContext": "Many Vikings who converted to Christianity maintained syncretic beliefs, blending Norse and Christian traditions. Some hedged their bets by worshipping both. Full Christianization took centuries.",
     "era": "viking-age",
-    "location": { "name": "East Anglia, England", "modern": "East Anglia, England" }
+    "location": {
+      "name": "East Anglia, England",
+      "modern": "East Anglia, England"
+    }
   },
   {
     "id": "vik-040",
@@ -597,7 +714,10 @@
     "accuracy": "attributed",
     "historicalContext": "Freydis was Erik the Red's daughter, described in the sagas as fierce and ruthless. She made at least one expedition to Vinland, where she allegedly killed her business partners in a dispute.",
     "era": "viking-age",
-    "location": { "name": "Greenland", "modern": "Greenland" }
+    "location": {
+      "name": "Greenland",
+      "modern": "Greenland"
+    }
   },
   {
     "id": "vik-041",
@@ -612,7 +732,10 @@
     "accuracy": "attributed",
     "historicalContext": "According to legend, Ragnar was captured by King Aella of Northumbria and executed in a pit of snakes. His supposed death-song prophesied his sons' revenge - which came with the Great Heathen Army.",
     "era": "viking-age",
-    "location": { "name": "Northumbria, England", "modern": "Northern England" }
+    "location": {
+      "name": "Northumbria, England",
+      "modern": "Northern England"
+    }
   },
   {
     "id": "vik-042",
@@ -627,7 +750,10 @@
     "accuracy": "documented",
     "historicalContext": "Alfred was unusual among medieval kings for his scholarship. He learned Latin in his 30s and sponsored translations of important works into English, helping preserve learning after Viking devastation.",
     "era": "viking-age",
-    "location": { "name": "Winchester, Wessex", "modern": "Winchester, England" }
+    "location": {
+      "name": "Winchester, Wessex",
+      "modern": "Winchester, England"
+    }
   },
   {
     "id": "vik-043",
@@ -642,7 +768,10 @@
     "accuracy": "documented",
     "historicalContext": "Leif Erikson converted to Christianity and brought the faith to Greenland. His mother Thjodhild built Greenland's first church. Erik remained pagan, creating family tension recorded in the sagas.",
     "era": "viking-age",
-    "location": { "name": "Brattahlíð, Greenland", "modern": "Qassiarsuk, Greenland" }
+    "location": {
+      "name": "Brattahl\u00ed\u00f0, Greenland",
+      "modern": "Qassiarsuk, Greenland"
+    }
   },
   {
     "id": "vik-044",
@@ -657,7 +786,10 @@
     "accuracy": "speculative",
     "historicalContext": "Freed thralls often remained in Norse society, sometimes becoming successful traders or farmers. Returning home after years of slavery was often impossible - communities had changed or been destroyed.",
     "era": "viking-age",
-    "location": { "name": "Jutland, Denmark", "modern": "Jutland, Denmark" }
+    "location": {
+      "name": "Jutland, Denmark",
+      "modern": "Jutland, Denmark"
+    }
   },
   {
     "id": "vik-045",
@@ -672,6 +804,279 @@
     "accuracy": "documented",
     "historicalContext": "Harald Hardrada was killed at the Battle of Stamford Bridge on September 25, 1066, ending the Norwegian invasion of England. His death is often seen as marking the end of the Viking Age.",
     "era": "viking-age",
-    "location": { "name": "Stamford Bridge, Yorkshire", "modern": "Stamford Bridge, England" }
+    "location": {
+      "name": "Stamford Bridge, Yorkshire",
+      "modern": "Stamford Bridge, England"
+    }
+  },
+  {
+    "id": "vik-046",
+    "authorId": "bjorn-ironside",
+    "type": "status",
+    "content": "Mediterranean water is warm. Blue like nothing I've seen. The locals called us demons. My men are getting sunburned. Never thought I'd miss Norse fog.",
+    "timestamp": "0860-07-15T14:00:00Z",
+    "displayDate": "July 15, 860",
+    "likes": 45600,
+    "comments": 3200,
+    "shares": 5600,
+    "accuracy": "attributed",
+    "historicalContext": "Bjorn Ironside led a Viking expedition into the Mediterranean around 859-862, raiding as far as Italy and North Africa. It was one of the most ambitious Viking voyages.",
+    "era": "viking-age",
+    "location": {
+      "name": "Mediterranean Sea",
+      "modern": "Mediterranean Sea"
+    }
+  },
+  {
+    "id": "vik-047",
+    "authorId": "norse-thrall",
+    "type": "status",
+    "content": "Hauled water from the well seventeen times today. My hands are raw. The jarl's wife gave me extra porridge though. Small things.",
+    "timestamp": "0920-09-05T19:00:00Z",
+    "displayDate": "September 5, 920",
+    "likes": 1200,
+    "comments": 340,
+    "shares": 89,
+    "accuracy": "speculative",
+    "historicalContext": "Thralls (slaves) were common in Norse society. Many were captured in raids. Their lives were hard but some could eventually buy or earn their freedom.",
+    "era": "viking-age",
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
+  },
+  {
+    "id": "vik-048",
+    "authorId": "leif-erikson",
+    "type": "status",
+    "content": "Found grapes growing wild. Actual grapes. Father discovered Greenland and it's all ice. I found a land with wild grapes and he still won't admit mine is better.",
+    "timestamp": "1001-10-12T11:00:00Z",
+    "displayDate": "October 12, 1001",
+    "likes": 78900,
+    "comments": 5600,
+    "shares": 12000,
+    "accuracy": "documented",
+    "historicalContext": "Leif Erikson called the new land Vinland (Wine Land) due to the wild grapes. This was likely in modern-day Newfoundland or Nova Scotia, about 500 years before Columbus.",
+    "era": "viking-age",
+    "location": {
+      "name": "Vinland",
+      "modern": "Newfoundland, Canada"
+    }
+  },
+  {
+    "id": "vik-049",
+    "authorId": "shield-maiden",
+    "type": "status",
+    "content": "Men still look surprised when I beat them at training. After all these years. The young ones are the worst. I just smile and hit them again.",
+    "timestamp": "0875-05-20T16:00:00Z",
+    "displayDate": "May 20, 875",
+    "likes": 34500,
+    "comments": 4500,
+    "shares": 6700,
+    "accuracy": "speculative",
+    "historicalContext": "Archaeological evidence suggests some Norse women did fight as warriors. Graves with weapons have been found containing female remains.",
+    "era": "viking-age",
+    "location": {
+      "name": "Denmark",
+      "modern": "Denmark"
+    }
+  },
+  {
+    "id": "vik-050",
+    "authorId": "skald",
+    "type": "status",
+    "content": "Composed a verse about the jarl's bravery in battle. He liked it so much he gave me a silver arm ring. Worth more than I make in a year. Poetry pays, sometimes.",
+    "timestamp": "0910-12-21T20:00:00Z",
+    "displayDate": "December 21, 910",
+    "likes": 8900,
+    "comments": 1200,
+    "shares": 2300,
+    "accuracy": "speculative",
+    "historicalContext": "Skalds were Norse poets who held important positions in Viking society. Their verses preserved history and could make or break a leader's reputation.",
+    "era": "viking-age",
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
+  },
+  {
+    "id": "vik-051",
+    "authorId": "freydis-eriksdottir",
+    "type": "status",
+    "content": "The skraelings attacked at dawn. Men running everywhere, panicking. I grabbed an axe and charged. Sometimes you just have to show them how it's done.",
+    "timestamp": "1010-08-05T07:00:00Z",
+    "displayDate": "August 5, 1010",
+    "likes": 67800,
+    "comments": 5400,
+    "shares": 9800,
+    "accuracy": "documented",
+    "historicalContext": "According to the sagas, Freydis Eriksdottir scared off a Skraeling (indigenous) attack in Vinland by baring her breast and slapping a sword against it, terrifying the attackers.",
+    "era": "viking-age",
+    "location": {
+      "name": "Vinland",
+      "modern": "North America"
+    }
+  },
+  {
+    "id": "vik-052",
+    "authorId": "norse-farmer",
+    "type": "status",
+    "content": "Chickens got into the grain storage again. Wife says it's my fault for not fixing the door. She's right but I'm not admitting it.",
+    "timestamp": "0885-03-10T08:00:00Z",
+    "displayDate": "March 10, 885",
+    "likes": 2100,
+    "comments": 450,
+    "shares": 120,
+    "accuracy": "speculative",
+    "historicalContext": "Farming was the primary occupation for most Norse people. Chickens, pigs, cattle, and sheep were common livestock.",
+    "era": "viking-age",
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
+  },
+  {
+    "id": "vik-053",
+    "authorId": "cnut-great",
+    "type": "status",
+    "content": "My advisors think I can command the tides. Took them to the beach to prove I can't. They got wet. I got my point across. Kings aren't gods.",
+    "timestamp": "1027-04-15T12:00:00Z",
+    "displayDate": "April 15, 1027",
+    "likes": 89000,
+    "comments": 7800,
+    "shares": 15600,
+    "accuracy": "attributed",
+    "historicalContext": "The legend of Cnut and the tide is often misunderstood. The story is that Cnut demonstrated he couldn't control the waves to humble his overly flattering courtiers.",
+    "era": "viking-age",
+    "location": {
+      "name": "England",
+      "modern": "England"
+    }
+  },
+  {
+    "id": "vik-054",
+    "authorId": "harald-hardrada",
+    "type": "status",
+    "content": "Served the Byzantine emperor. Fought in Sicily, Bulgaria, everywhere. Now I'm back to claim Norway. Time to use everything I learned.",
+    "timestamp": "1046-09-20T15:00:00Z",
+    "displayDate": "September 20, 1046",
+    "likes": 45600,
+    "comments": 3800,
+    "shares": 7200,
+    "accuracy": "documented",
+    "historicalContext": "Harald Hardrada spent years in the Varangian Guard protecting Byzantine emperors before returning to claim the Norwegian throne. He would later die at Stamford Bridge in 1066.",
+    "era": "viking-age",
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
+  },
+  {
+    "id": "vik-055",
+    "authorId": "guthrum",
+    "type": "status",
+    "content": "Alfred made me a Christian. Got a new name - Aethelstan. Had to learn their prayers. Strange religion but the land is good. We'll stay.",
+    "timestamp": "0878-06-01T10:00:00Z",
+    "displayDate": "June 1, 878",
+    "likes": 34500,
+    "comments": 4200,
+    "shares": 5600,
+    "accuracy": "documented",
+    "historicalContext": "After defeat at Edington, Guthrum agreed to be baptized with Alfred as godfather. He ruled the Danelaw as a Christian king, keeping peace with Wessex.",
+    "era": "viking-age",
+    "location": {
+      "name": "East Anglia",
+      "modern": "East Anglia, England"
+    }
+  },
+  {
+    "id": "vik-056",
+    "authorId": "olaf-tryggvason",
+    "type": "status",
+    "content": "Converting Norway to Christianity. Some chiefs object. I gave them a choice: baptism or blood eagle. Conversions are up.",
+    "timestamp": "0997-07-15T14:00:00Z",
+    "displayDate": "July 15, 997",
+    "likes": 23400,
+    "comments": 5600,
+    "shares": 4500,
+    "accuracy": "documented",
+    "historicalContext": "Olaf Tryggvason aggressively converted Norway to Christianity, often through threats and violence. His methods were controversial but effective.",
+    "era": "viking-age",
+    "location": {
+      "name": "Norway",
+      "modern": "Norway"
+    }
+  },
+  {
+    "id": "vik-057",
+    "authorId": "rollo-normandy",
+    "type": "status",
+    "content": "The French king gave me land to stop raiding France. My own duchy. Now I'm supposed to stop other Vikings. The irony is not lost on me.",
+    "timestamp": "0911-09-28T11:00:00Z",
+    "displayDate": "September 28, 911",
+    "likes": 56700,
+    "comments": 4800,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Rollo was granted Normandy by French King Charles the Simple in the Treaty of Saint-Clair-sur-Epte. His descendants would include William the Conqueror.",
+    "era": "viking-age",
+    "location": {
+      "name": "Normandy",
+      "modern": "Normandy, France"
+    }
+  },
+  {
+    "id": "vik-058",
+    "authorId": "erik-red",
+    "type": "status",
+    "content": "Named it Greenland to attract settlers. Is it green? In some places, in summer. Mostly ice. But try getting people to move to 'Iceland 2.'",
+    "timestamp": "0985-06-10T09:00:00Z",
+    "displayDate": "June 10, 985",
+    "likes": 67800,
+    "comments": 8900,
+    "shares": 12300,
+    "accuracy": "documented",
+    "historicalContext": "Erik the Red named Greenland to attract settlers. Though mostly ice-covered, the southwestern coast had areas suitable for the Norse farming lifestyle.",
+    "era": "viking-age",
+    "location": {
+      "name": "Greenland",
+      "modern": "Greenland"
+    }
+  },
+  {
+    "id": "vik-059",
+    "authorId": "varangian-guardsman",
+    "type": "status",
+    "content": "Guard duty at the palace. Byzantine gold is good but the food is strange. Too much olive oil. Miss proper butter.",
+    "timestamp": "1020-04-22T18:00:00Z",
+    "displayDate": "April 22, 1020",
+    "likes": 4500,
+    "comments": 890,
+    "shares": 560,
+    "accuracy": "speculative",
+    "historicalContext": "The Varangian Guard was an elite Byzantine unit composed mainly of Scandinavians. They were famous for their loyalty and their love of Greek wine.",
+    "era": "viking-age",
+    "location": {
+      "name": "Constantinople",
+      "modern": "Istanbul, Turkey"
+    }
+  },
+  {
+    "id": "vik-060",
+    "authorId": "william-conqueror",
+    "type": "status",
+    "content": "Harold took an arrow to the eye. England is mine. Great-great-grandfather Rollo was a Viking. We've come full circle.",
+    "timestamp": "1066-10-14T17:00:00Z",
+    "displayDate": "October 14, 1066",
+    "likes": 156000,
+    "comments": 23400,
+    "shares": 45600,
+    "accuracy": "documented",
+    "historicalContext": "The Battle of Hastings on October 14, 1066 ended the Viking Age in England. William, descended from Rollo, conquered the land his Norse ancestors once raided.",
+    "era": "viking-age",
+    "location": {
+      "name": "Hastings",
+      "modern": "Hastings, England"
+    }
   }
 ]

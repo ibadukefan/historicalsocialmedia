@@ -9,7 +9,10 @@
     "accuracy": "documented",
     "historicalContext": "Rosa Parks refused to give up her bus seat to a white passenger in Montgomery, Alabama. Her arrest sparked the Montgomery Bus Boycott.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 567000,
     "comments": 89000,
     "shares": 234000
@@ -24,7 +27,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK gave his first major speech at Holt Street Baptist Church, launching the Montgomery Bus Boycott. He was 26 years old.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 456000,
     "comments": 67000,
     "shares": 189000
@@ -39,7 +45,10 @@
     "accuracy": "speculative",
     "historicalContext": "The Montgomery Bus Boycott lasted 381 days. Black residents organized carpools and walked miles rather than ride segregated buses.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 23000,
     "comments": 4500,
     "shares": 8900
@@ -54,7 +63,10 @@
     "accuracy": "documented",
     "historicalContext": "Thurgood Marshall argued Brown v. Board before the Supreme Court. The unanimous decision overturned 'separate but equal' but implementation would face massive resistance.",
     "era": "civil-rights",
-    "location": {"name": "Washington, D.C.", "modern": "Washington, D.C."},
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C."
+    },
     "likes": 678000,
     "comments": 89000,
     "shares": 234000
@@ -69,7 +81,10 @@
     "accuracy": "documented",
     "historicalContext": "Four Black college students in Greensboro, NC began sit-ins at a segregated Woolworth's lunch counter, sparking a movement across the South.",
     "era": "civil-rights",
-    "location": {"name": "Greensboro, North Carolina", "modern": "Greensboro, North Carolina"},
+    "location": {
+      "name": "Greensboro, North Carolina",
+      "modern": "Greensboro, North Carolina"
+    },
     "likes": 123000,
     "comments": 23000,
     "shares": 56000
@@ -84,7 +99,10 @@
     "accuracy": "documented",
     "historicalContext": "Diane Nash confronted Nashville's mayor after a bombing at an attorney's home. His agreement to desegregate lunch counters was a major victory.",
     "era": "civil-rights",
-    "location": {"name": "Nashville, Tennessee", "modern": "Nashville, Tennessee"},
+    "location": {
+      "name": "Nashville, Tennessee",
+      "modern": "Nashville, Tennessee"
+    },
     "likes": 178000,
     "comments": 34000,
     "shares": 67000
@@ -99,7 +117,10 @@
     "accuracy": "documented",
     "historicalContext": "A mob firebombed a Freedom Riders bus in Anniston, Alabama. The riders barely escaped with their lives but continued their journey.",
     "era": "civil-rights",
-    "location": {"name": "Anniston, Alabama", "modern": "Anniston, Alabama"},
+    "location": {
+      "name": "Anniston, Alabama",
+      "modern": "Anniston, Alabama"
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
@@ -114,7 +135,10 @@
     "accuracy": "documented",
     "historicalContext": "John Lewis and other Freedom Riders were brutally beaten in Birmingham while police commissioner Bull Connor allowed the violence.",
     "era": "civil-rights",
-    "location": {"name": "Birmingham, Alabama", "modern": "Birmingham, Alabama"},
+    "location": {
+      "name": "Birmingham, Alabama",
+      "modern": "Birmingham, Alabama"
+    },
     "likes": 289000,
     "comments": 56000,
     "shares": 112000
@@ -129,7 +153,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK wrote 'Letter from Birmingham Jail' on newspaper margins and scraps of paper, responding to white clergymen who criticized the protests.",
     "era": "civil-rights",
-    "location": {"name": "Birmingham Jail", "modern": "Birmingham, Alabama"},
+    "location": {
+      "name": "Birmingham Jail",
+      "modern": "Birmingham, Alabama"
+    },
     "likes": 567000,
     "comments": 89000,
     "shares": 234000
@@ -144,7 +171,10 @@
     "accuracy": "documented",
     "historicalContext": "Baldwin published 'The Fire Next Time' in 1963, a searing examination of race in America that shocked and challenged white readers.",
     "era": "civil-rights",
-    "location": {"name": "New York City", "modern": "New York, New York"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, New York"
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -159,7 +189,10 @@
     "accuracy": "attributed",
     "historicalContext": "Medgar Evers was assassinated in his driveway on June 12, 1963, hours after President Kennedy's civil rights address. His killer wasn't convicted until 1994.",
     "era": "civil-rights",
-    "location": {"name": "Jackson, Mississippi", "modern": "Jackson, Mississippi"},
+    "location": {
+      "name": "Jackson, Mississippi",
+      "modern": "Jackson, Mississippi"
+    },
     "likes": 234000,
     "comments": 56000,
     "shares": 89000
@@ -174,7 +207,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK's 'I Have a Dream' speech at the March on Washington was delivered to 250,000 people. It became the defining moment of the Civil Rights Movement.",
     "era": "civil-rights",
-    "location": {"name": "Lincoln Memorial", "modern": "Washington, D.C."},
+    "location": {
+      "name": "Lincoln Memorial",
+      "modern": "Washington, D.C."
+    },
     "likes": 890000,
     "comments": 145000,
     "shares": 456000
@@ -189,7 +225,10 @@
     "accuracy": "documented",
     "historicalContext": "Bayard Rustin was the chief organizer of the March on Washington, though his homosexuality kept him from public leadership roles.",
     "era": "civil-rights",
-    "location": {"name": "Washington, D.C.", "modern": "Washington, D.C."},
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C."
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
@@ -204,7 +243,10 @@
     "accuracy": "documented",
     "historicalContext": "Malcolm X criticized the March on Washington as too moderate and controlled. He advocated for Black self-determination rather than integration.",
     "era": "civil-rights",
-    "location": {"name": "Harlem, New York", "modern": "New York, New York"},
+    "location": {
+      "name": "Harlem, New York",
+      "modern": "New York, New York"
+    },
     "likes": 189000,
     "comments": 56000,
     "shares": 78000
@@ -219,7 +261,10 @@
     "accuracy": "interpretive",
     "historicalContext": "The 16th Street Baptist Church bombing in Birmingham killed four girls. It shocked the nation and strengthened support for civil rights legislation.",
     "era": "civil-rights",
-    "location": {"name": "Birmingham, Alabama", "modern": "Birmingham, Alabama"},
+    "location": {
+      "name": "Birmingham, Alabama",
+      "modern": "Birmingham, Alabama"
+    },
     "likes": 345000,
     "comments": 78000,
     "shares": 134000
@@ -234,7 +279,10 @@
     "accuracy": "documented",
     "historicalContext": "Fannie Lou Hamer's testimony at the Democratic National Convention about being beaten for registering to vote moved the nation. President Johnson tried to cut off the broadcast.",
     "era": "civil-rights",
-    "location": {"name": "Atlantic City, New Jersey", "modern": "Atlantic City, New Jersey"},
+    "location": {
+      "name": "Atlantic City, New Jersey",
+      "modern": "Atlantic City, New Jersey"
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -249,7 +297,10 @@
     "accuracy": "documented",
     "historicalContext": "Hamer was brutally beaten in a Mississippi jail for helping organize voter registration. The injuries left her permanently scarred.",
     "era": "civil-rights",
-    "location": {"name": "Winona, Mississippi", "modern": "Winona, Mississippi"},
+    "location": {
+      "name": "Winona, Mississippi",
+      "modern": "Winona, Mississippi"
+    },
     "likes": 289000,
     "comments": 56000,
     "shares": 112000
@@ -264,7 +315,10 @@
     "accuracy": "documented",
     "historicalContext": "Bloody Sunday: Alabama state troopers attacked peaceful marchers at the Edmund Pettus Bridge. John Lewis suffered a fractured skull. The images galvanized national support.",
     "era": "civil-rights",
-    "location": {"name": "Selma, Alabama", "modern": "Selma, Alabama"},
+    "location": {
+      "name": "Selma, Alabama",
+      "modern": "Selma, Alabama"
+    },
     "likes": 456000,
     "comments": 89000,
     "shares": 178000
@@ -279,7 +333,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK's speech at the end of the Selma to Montgomery march, after 25,000 marchers reached the Alabama state capitol.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 567000,
     "comments": 89000,
     "shares": 234000
@@ -294,7 +351,10 @@
     "accuracy": "documented",
     "historicalContext": "Malcolm X's pilgrimage to Mecca led him to reconsider his views on race. He returned with a more inclusive vision but was assassinated a year later.",
     "era": "civil-rights",
-    "location": {"name": "Mecca, Saudi Arabia", "modern": "Mecca, Saudi Arabia"},
+    "location": {
+      "name": "Mecca, Saudi Arabia",
+      "modern": "Mecca, Saudi Arabia"
+    },
     "likes": 345000,
     "comments": 78000,
     "shares": 134000
@@ -309,7 +369,10 @@
     "accuracy": "documented",
     "historicalContext": "Malcolm X's home was firebombed on February 14, 1965. He was assassinated a week later at the Audubon Ballroom in New York.",
     "era": "civil-rights",
-    "location": {"name": "New York City", "modern": "New York, New York"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, New York"
+    },
     "likes": 234000,
     "comments": 56000,
     "shares": 89000
@@ -324,7 +387,10 @@
     "accuracy": "documented",
     "historicalContext": "Ella Baker helped found SNCC (Student Nonviolent Coordinating Committee) and guided it toward a grassroots, democratic model rather than top-down leadership.",
     "era": "civil-rights",
-    "location": {"name": "Raleigh, North Carolina", "modern": "Raleigh, North Carolina"},
+    "location": {
+      "name": "Raleigh, North Carolina",
+      "modern": "Raleigh, North Carolina"
+    },
     "likes": 178000,
     "comments": 34000,
     "shares": 67000
@@ -339,7 +405,10 @@
     "accuracy": "documented",
     "historicalContext": "Baldwin expressed this sentiment in many writings and speeches. His eloquent fury forced white Americans to confront racism.",
     "era": "civil-rights",
-    "location": {"name": "Paris, France", "modern": "Paris, France"},
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -354,7 +423,10 @@
     "accuracy": "documented",
     "historicalContext": "Fred Hampton built the Rainbow Coalition, uniting Black Panthers with young Puerto Ricans and poor whites. The FBI considered him a major threat.",
     "era": "civil-rights",
-    "location": {"name": "Chicago, Illinois", "modern": "Chicago, Illinois"},
+    "location": {
+      "name": "Chicago, Illinois",
+      "modern": "Chicago, Illinois"
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
@@ -369,7 +441,10 @@
     "accuracy": "documented",
     "historicalContext": "Fred Hampton was killed in his bed by Chicago police and FBI on December 4, 1969. He was 21 years old. Evidence later showed he was drugged beforehand.",
     "era": "civil-rights",
-    "location": {"name": "Chicago, Illinois", "modern": "Chicago, Illinois"},
+    "location": {
+      "name": "Chicago, Illinois",
+      "modern": "Chicago, Illinois"
+    },
     "likes": 289000,
     "comments": 67000,
     "shares": 134000
@@ -384,7 +459,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK's final speech in Memphis, given the night before his assassination. Many have wondered if he sensed his death was near.",
     "era": "civil-rights",
-    "location": {"name": "Memphis, Tennessee", "modern": "Memphis, Tennessee"},
+    "location": {
+      "name": "Memphis, Tennessee",
+      "modern": "Memphis, Tennessee"
+    },
     "likes": 890000,
     "comments": 156000,
     "shares": 456000
@@ -399,7 +477,10 @@
     "accuracy": "interpreted",
     "historicalContext": "MLK was assassinated on April 4, 1968, in Memphis. Coretta Scott King continued his work for decades, advocating for the MLK holiday and gay rights.",
     "era": "civil-rights",
-    "location": {"name": "Memphis, Tennessee", "modern": "Memphis, Tennessee"},
+    "location": {
+      "name": "Memphis, Tennessee",
+      "modern": "Memphis, Tennessee"
+    },
     "likes": 567000,
     "comments": 112000,
     "shares": 234000
@@ -414,7 +495,10 @@
     "accuracy": "interpretive",
     "historicalContext": "Diane Nash insisted the Freedom Rides continue after the violence in Birmingham. She was pregnant at the time and willing to die.",
     "era": "civil-rights",
-    "location": {"name": "Nashville, Tennessee", "modern": "Nashville, Tennessee"},
+    "location": {
+      "name": "Nashville, Tennessee",
+      "modern": "Nashville, Tennessee"
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
@@ -429,7 +513,10 @@
     "accuracy": "documented",
     "historicalContext": "Rosa Parks corrected the myth that she was simply physically tired. Her refusal was a conscious act of resistance. The boycott succeeded in December 1956.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 456000,
     "comments": 78000,
     "shares": 167000
@@ -444,7 +531,10 @@
     "accuracy": "documented",
     "historicalContext": "Thurgood Marshall became the first Black Supreme Court justice in 1967. He served until 1991, championing civil rights and criminal justice reform.",
     "era": "civil-rights",
-    "location": {"name": "Washington, D.C.", "modern": "Washington, D.C."},
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C."
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -459,7 +549,10 @@
     "accuracy": "speculative",
     "historicalContext": "Sit-in protesters faced violent harassment while maintaining strict nonviolent discipline. Training included being verbally and physically abused without responding.",
     "era": "civil-rights",
-    "location": {"name": "Nashville, Tennessee", "modern": "Nashville, Tennessee"},
+    "location": {
+      "name": "Nashville, Tennessee",
+      "modern": "Nashville, Tennessee"
+    },
     "likes": 145000,
     "comments": 34000,
     "shares": 56000
@@ -474,7 +567,10 @@
     "accuracy": "documented",
     "historicalContext": "John Lewis's original March on Washington speech was toned down at the request of other leaders, but remained fiery. He was 23 years old.",
     "era": "civil-rights",
-    "location": {"name": "Lincoln Memorial", "modern": "Washington, D.C."},
+    "location": {
+      "name": "Lincoln Memorial",
+      "modern": "Washington, D.C."
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -489,7 +585,10 @@
     "accuracy": "documented",
     "historicalContext": "Freedom Riders were sent to Mississippi's notorious Parchman Prison. The harsh conditions were meant to break them. Instead, they organized.",
     "era": "civil-rights",
-    "location": {"name": "Parchman, Mississippi", "modern": "Parchman, Mississippi"},
+    "location": {
+      "name": "Parchman, Mississippi",
+      "modern": "Parchman, Mississippi"
+    },
     "likes": 178000,
     "comments": 34000,
     "shares": 67000
@@ -504,7 +603,10 @@
     "accuracy": "documented",
     "historicalContext": "From MLK's book 'Strength to Love.' He constantly challenged people to live out their principles in difficult times.",
     "era": "civil-rights",
-    "location": {"name": "Atlanta, Georgia", "modern": "Atlanta, Georgia"},
+    "location": {
+      "name": "Atlanta, Georgia",
+      "modern": "Atlanta, Georgia"
+    },
     "likes": 456000,
     "comments": 78000,
     "shares": 189000
@@ -519,7 +621,10 @@
     "accuracy": "documented",
     "historicalContext": "Baldwin's essays forced America to confront its racial reality. His writing combined personal narrative with devastating political analysis.",
     "era": "civil-rights",
-    "location": {"name": "New York City", "modern": "New York, New York"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, New York"
+    },
     "likes": 289000,
     "comments": 56000,
     "shares": 112000
@@ -534,7 +639,10 @@
     "accuracy": "speculative",
     "historicalContext": "The Montgomery Bus Boycott ended in victory when the Supreme Court ruled bus segregation unconstitutional. The city's Black community had held out for over a year.",
     "era": "civil-rights",
-    "location": {"name": "Montgomery, Alabama", "modern": "Montgomery, Alabama"},
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, Alabama"
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
@@ -549,7 +657,10 @@
     "accuracy": "documented",
     "historicalContext": "Diane Nash continued civil rights work while pregnant, risking her life. She was sentenced to two years in jail for teaching nonviolent tactics to minors.",
     "era": "civil-rights",
-    "location": {"name": "Jackson, Mississippi", "modern": "Jackson, Mississippi"},
+    "location": {
+      "name": "Jackson, Mississippi",
+      "modern": "Jackson, Mississippi"
+    },
     "likes": 178000,
     "comments": 45000,
     "shares": 78000
@@ -564,7 +675,10 @@
     "accuracy": "documented",
     "historicalContext": "MLK spoke these words after riots in multiple cities. He condemned violence but insisted America understand its root causes.",
     "era": "civil-rights",
-    "location": {"name": "Stanford University", "modern": "Stanford, California"},
+    "location": {
+      "name": "Stanford University",
+      "modern": "Stanford, California"
+    },
     "likes": 567000,
     "comments": 112000,
     "shares": 234000
@@ -579,7 +693,10 @@
     "accuracy": "attributed",
     "historicalContext": "Ella Baker was known as the 'godmother of SNCC.' She mentored young activists while insisting they lead themselves.",
     "era": "civil-rights",
-    "location": {"name": "Greenwood, Mississippi", "modern": "Greenwood, Mississippi"},
+    "location": {
+      "name": "Greenwood, Mississippi",
+      "modern": "Greenwood, Mississippi"
+    },
     "likes": 145000,
     "comments": 34000,
     "shares": 56000
@@ -594,7 +711,10 @@
     "accuracy": "interpreted",
     "historicalContext": "Bayard Rustin was the organizing genius behind the March on Washington. His homosexuality and past Communist ties kept him from public credit.",
     "era": "civil-rights",
-    "location": {"name": "New York City", "modern": "New York, New York"},
+    "location": {
+      "name": "New York City",
+      "modern": "New York, New York"
+    },
     "likes": 234000,
     "comments": 56000,
     "shares": 89000
@@ -609,7 +729,10 @@
     "accuracy": "documented",
     "historicalContext": "John Lewis coined 'good trouble' to describe purposeful civil disobedience. The phrase became his life's motto.",
     "era": "civil-rights",
-    "location": {"name": "Selma, Alabama", "modern": "Selma, Alabama"},
+    "location": {
+      "name": "Selma, Alabama",
+      "modern": "Selma, Alabama"
+    },
     "likes": 567000,
     "comments": 89000,
     "shares": 234000
@@ -624,7 +747,10 @@
     "accuracy": "documented",
     "historicalContext": "Fannie Lou Hamer consistently connected Black liberation to broader struggles for economic justice and women's rights.",
     "era": "civil-rights",
-    "location": {"name": "Ruleville, Mississippi", "modern": "Ruleville, Mississippi"},
+    "location": {
+      "name": "Ruleville, Mississippi",
+      "modern": "Ruleville, Mississippi"
+    },
     "likes": 345000,
     "comments": 67000,
     "shares": 123000
@@ -639,7 +765,10 @@
     "accuracy": "documented",
     "historicalContext": "Rosa Parks remained an activist her entire life, working on issues from voting rights to opposition to apartheid.",
     "era": "civil-rights",
-    "location": {"name": "Detroit, Michigan", "modern": "Detroit, Michigan"},
+    "location": {
+      "name": "Detroit, Michigan",
+      "modern": "Detroit, Michigan"
+    },
     "likes": 289000,
     "comments": 56000,
     "shares": 112000
@@ -654,7 +783,10 @@
     "accuracy": "interpreted",
     "historicalContext": "In his final years, MLK faced depression and exhaustion. The FBI's COINTELPRO sent him letters urging suicide. He continued despite it all.",
     "era": "civil-rights",
-    "location": {"name": "Atlanta, Georgia", "modern": "Atlanta, Georgia"},
+    "location": {
+      "name": "Atlanta, Georgia",
+      "modern": "Atlanta, Georgia"
+    },
     "likes": 456000,
     "comments": 89000,
     "shares": 178000
@@ -669,9 +801,282 @@
     "accuracy": "documented",
     "historicalContext": "Baldwin's critique of America came from a place of love and belonging. He spent years in Paris but could never truly leave.",
     "era": "civil-rights",
-    "location": {"name": "Paris, France", "modern": "Paris, France"},
+    "location": {
+      "name": "Paris, France",
+      "modern": "Paris, France"
+    },
     "likes": 234000,
     "comments": 45000,
     "shares": 89000
+  },
+  {
+    "id": "cr-046",
+    "authorId": "sit-in-student",
+    "type": "status",
+    "content": "They poured coffee on me. Hot coffee. Smiled and kept sitting. Hands shaking under the counter but my face was stone. That's the training.",
+    "timestamp": "1960-02-05T13:00:00Z",
+    "displayDate": "February 5, 1960",
+    "likes": 45600,
+    "comments": 5600,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Sit-in protesters were trained in nonviolent resistance. They endured physical and verbal abuse while remaining calm, demonstrating moral superiority to segregation.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Greensboro, North Carolina",
+      "modern": "Greensboro, NC"
+    }
+  },
+  {
+    "id": "cr-047",
+    "authorId": "freedom-rider",
+    "type": "status",
+    "content": "Bus is on fire. We barely got out. The mob is waiting outside with bats. Local police are just watching. Where is America?",
+    "timestamp": "1961-05-14T15:00:00Z",
+    "displayDate": "May 14, 1961",
+    "likes": 78900,
+    "comments": 8900,
+    "shares": 15600,
+    "accuracy": "documented",
+    "historicalContext": "A Greyhound bus carrying Freedom Riders was firebombed in Anniston, Alabama. The mob beat riders as they escaped. Police stood by.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Anniston, Alabama",
+      "modern": "Anniston, AL"
+    }
+  },
+  {
+    "id": "cr-048",
+    "authorId": "diane-nash",
+    "type": "status",
+    "content": "They asked why we keep coming. Because you keep stopping us. We'll fill every jail in the South if we have to.",
+    "timestamp": "1961-05-20T10:00:00Z",
+    "displayDate": "May 20, 1961",
+    "likes": 67800,
+    "comments": 7800,
+    "shares": 12300,
+    "accuracy": "attributed",
+    "historicalContext": "Diane Nash coordinated the continuation of Freedom Rides after the initial riders were beaten. She refused to let violence stop the movement.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Nashville, Tennessee",
+      "modern": "Nashville, TN"
+    }
+  },
+  {
+    "id": "cr-049",
+    "authorId": "ella-baker",
+    "type": "status",
+    "content": "The young people are ready. SNCC is their organization, not mine. They don't need a leader. They need each other.",
+    "timestamp": "1960-04-17T14:00:00Z",
+    "displayDate": "April 17, 1960",
+    "likes": 34500,
+    "comments": 4500,
+    "shares": 6700,
+    "accuracy": "documented",
+    "historicalContext": "Ella Baker helped found SNCC (Student Nonviolent Coordinating Committee) but insisted students lead themselves. Her philosophy emphasized grassroots organizing over charismatic leadership.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Raleigh, North Carolina",
+      "modern": "Raleigh, NC"
+    }
+  },
+  {
+    "id": "cr-050",
+    "authorId": "james-baldwin",
+    "type": "status",
+    "content": "Not everything that is faced can be changed. But nothing can be changed until it is faced. America hasn't looked in the mirror yet.",
+    "timestamp": "1963-06-15T21:00:00Z",
+    "displayDate": "June 15, 1963",
+    "likes": 89000,
+    "comments": 9800,
+    "shares": 23400,
+    "accuracy": "documented",
+    "historicalContext": "James Baldwin's essays and speeches confronted white America with the reality of racism. His work 'The Fire Next Time' warned of consequences if change didn't come.",
+    "era": "civil-rights",
+    "location": {
+      "name": "New York City",
+      "modern": "New York, NY"
+    }
+  },
+  {
+    "id": "cr-051",
+    "authorId": "bayard-rustin",
+    "type": "status",
+    "content": "Two hundred fifty thousand people. Logistics for two hundred fifty thousand people. Buses, water, bathrooms, first aid. And it has to look effortless.",
+    "timestamp": "1963-08-27T23:00:00Z",
+    "displayDate": "August 27, 1963",
+    "likes": 56700,
+    "comments": 5600,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Bayard Rustin organized the March on Washington's logistics in just two months. His homosexuality was used to discredit him, so he worked behind the scenes.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C."
+    }
+  },
+  {
+    "id": "cr-052",
+    "authorId": "montgomery-bus-rider",
+    "type": "status",
+    "content": "Walking to work again. Feet hurt but spirits high. The white folks keep driving by, staring. Let them stare. We're not getting on those buses.",
+    "timestamp": "1956-03-10T07:00:00Z",
+    "displayDate": "March 10, 1956",
+    "likes": 23400,
+    "comments": 3400,
+    "shares": 4500,
+    "accuracy": "speculative",
+    "historicalContext": "The Montgomery Bus Boycott lasted 381 days. Black workers walked miles daily or organized carpools. The economic impact eventually forced the city to desegregate buses.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, AL"
+    }
+  },
+  {
+    "id": "cr-053",
+    "authorId": "fannie-lou-hamer",
+    "type": "status",
+    "content": "I'm sick and tired of being sick and tired. Told that to the credentials committee. They didn't want to hear it. Too bad. I'm not stopping.",
+    "timestamp": "1964-08-22T16:00:00Z",
+    "displayDate": "August 22, 1964",
+    "likes": 78900,
+    "comments": 8900,
+    "shares": 12300,
+    "accuracy": "documented",
+    "historicalContext": "Fannie Lou Hamer's testimony at the 1964 Democratic National Convention exposed voter suppression in Mississippi. LBJ scheduled a press conference to cut off her broadcast.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Atlantic City, New Jersey",
+      "modern": "Atlantic City, NJ"
+    }
+  },
+  {
+    "id": "cr-054",
+    "authorId": "thurgood-marshall",
+    "type": "status",
+    "content": "Won the case. Separate is not equal. The Supreme Court agreed. Now comes the hard part - making them actually do it.",
+    "timestamp": "1954-05-17T15:00:00Z",
+    "displayDate": "May 17, 1954",
+    "likes": 156000,
+    "comments": 23400,
+    "shares": 45600,
+    "accuracy": "documented",
+    "historicalContext": "Thurgood Marshall argued Brown v. Board of Education before the Supreme Court. The ruling declared school segregation unconstitutional, though enforcement took decades.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Washington, D.C.",
+      "modern": "Washington, D.C."
+    }
+  },
+  {
+    "id": "cr-055",
+    "authorId": "fred-hampton",
+    "type": "status",
+    "content": "Free breakfast for kids. Free health clinic. Rainbow coalition. We're showing what community power looks like. That's what scares them.",
+    "timestamp": "1969-06-15T09:00:00Z",
+    "displayDate": "June 15, 1969",
+    "likes": 45600,
+    "comments": 5600,
+    "shares": 8900,
+    "accuracy": "documented",
+    "historicalContext": "Fred Hampton led the Chicago Black Panthers' community programs. His Rainbow Coalition united Black, Latino, and poor white groups. He was killed in a police raid at age 21.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Chicago, Illinois",
+      "modern": "Chicago, IL"
+    }
+  },
+  {
+    "id": "cr-056",
+    "authorId": "coretta-scott-king",
+    "type": "status",
+    "content": "He's in jail again. Birmingham this time. The children are asking when daddy's coming home. I tell them he's doing important work. They're too young to understand.",
+    "timestamp": "1963-04-16T20:00:00Z",
+    "displayDate": "April 16, 1963",
+    "likes": 45600,
+    "comments": 6700,
+    "shares": 7800,
+    "accuracy": "speculative",
+    "historicalContext": "Martin Luther King Jr. was frequently jailed. Coretta held the family together and continued civil rights work. His 'Letter from Birmingham Jail' was written during this arrest.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Atlanta, Georgia",
+      "modern": "Atlanta, GA"
+    }
+  },
+  {
+    "id": "cr-057",
+    "authorId": "medgar-evers",
+    "type": "status",
+    "content": "Another threatening phone call. Bomb threat at the office. Kids practice getting under beds at night. This is what they don't show on TV.",
+    "timestamp": "1963-05-28T22:00:00Z",
+    "displayDate": "May 28, 1963",
+    "likes": 34500,
+    "comments": 5600,
+    "shares": 6700,
+    "accuracy": "documented",
+    "historicalContext": "Medgar Evers faced constant death threats as NAACP Field Secretary in Mississippi. He was assassinated in his driveway on June 12, 1963.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Jackson, Mississippi",
+      "modern": "Jackson, MS"
+    }
+  },
+  {
+    "id": "cr-058",
+    "authorId": "john-lewis",
+    "type": "status",
+    "content": "Police charged on horseback. Tear gas, clubs. My skull is fractured. 600 of us started across the bridge. They beat us back. We'll try again.",
+    "timestamp": "1965-03-07T18:00:00Z",
+    "displayDate": "March 7, 1965",
+    "likes": 123000,
+    "comments": 15600,
+    "shares": 34500,
+    "accuracy": "documented",
+    "historicalContext": "Bloody Sunday on the Edmund Pettus Bridge. John Lewis was beaten unconscious. The televised brutality shocked the nation and led to the Voting Rights Act.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Selma, Alabama",
+      "modern": "Selma, AL"
+    }
+  },
+  {
+    "id": "cr-059",
+    "authorId": "malcolm-x",
+    "type": "status",
+    "content": "Just returned from Mecca. Prayed alongside white Muslims, ate with them, slept in the same quarters. Maybe I was wrong about some things. Still thinking.",
+    "timestamp": "1964-04-30T21:00:00Z",
+    "displayDate": "April 30, 1964",
+    "likes": 89000,
+    "comments": 12300,
+    "shares": 23400,
+    "accuracy": "documented",
+    "historicalContext": "Malcolm X's pilgrimage to Mecca changed his views on race. He met white Muslims who treated him as a brother. He moved away from Black separatism before his assassination.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Mecca, Saudi Arabia",
+      "modern": "Mecca, Saudi Arabia"
+    }
+  },
+  {
+    "id": "cr-060",
+    "authorId": "rosa-parks",
+    "type": "status",
+    "content": "People ask if I was tired that day on the bus. I was tired. Tired of giving in. Forty-two years of giving in. That's enough tiredness for anyone.",
+    "timestamp": "1956-02-01T19:00:00Z",
+    "displayDate": "February 1, 1956",
+    "likes": 145000,
+    "comments": 23400,
+    "shares": 45600,
+    "accuracy": "documented",
+    "historicalContext": "Rosa Parks' refusal to give up her seat was not spontaneous - she was a trained activist. But her tiredness was real. The boycott was two months old when she reflected on it.",
+    "era": "civil-rights",
+    "location": {
+      "name": "Montgomery, Alabama",
+      "modern": "Montgomery, AL"
+    }
   }
 ]
