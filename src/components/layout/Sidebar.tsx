@@ -122,13 +122,13 @@ export function Sidebar() {
           href="/era/ancient-rome"
           icon={Scroll}
           label="Ancient Rome"
-          badge="Coming"
+          badge="509 BCE"
         />
         <SidebarItem
           href="/era/world-war-2"
           icon={Scroll}
           label="World War II"
-          badge="Coming"
+          badge="1939-1945"
         />
       </SidebarSection>
 
